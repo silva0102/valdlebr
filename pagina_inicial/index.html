@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valdle - br</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="logo.webp" type="image/webp">
+    <link rel="icon" type="image/png" href="../Valorant-Brasil-2.png">
+
+    <style>
+        /* Fonte personalizada */
+        @font-face {
+            font-family: 'valorant';
+            src: url('../Valorant Font.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'valorant2';
+            src: url('..//valorant\ font2.otf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'valorant', sans-serif;
+            background: url("../imagem_fundo.webp") no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        footer {
+            font-family: 'valorant2', sans-serif;
+            z-index: 49;
+        }
+
+        /* Overlay escuro */
+        .overlay {
+            position: absolute;
+            inset: 0;
+            background-color: linear-gradient('90deg, rgba(0, 0, 0, 0), rgb(0, 0, 0)');
+            z-index: 1;
+        }
+
+        /* Conteúdo principal */
+        .container {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            padding: 0 20px;
+            max-width: 500px;
+            width: 100%;
+        }
+
+        .title {
+            font-size: 4rem;
+            color: #fa4454;
+            margin-bottom: 0.25rem;
+            transition: .3s;
+        }
+
+        .title:hover {
+            transform: scale(1.1);
+            transition: .3s;
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            /* 18px */
+            font-weight: 600;
+            margin-top: -0.5em;
+            margin-bottom: 2.5rem;
+        }
+
+        /* Botões */
+
+        .button {
+            width: 28rem;
+            background: #000;
+            /* cor inicial */
+            border: 2px solid #fa4454;
+            padding: 1rem;
+            padding-right: 5rem;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            transition: color 0.3s ease;
+        }
+
+        /* Pseudo-elemento para o efeito da esquerda para direita */
+        .button::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to right, #fa4454, #fa4454);
+            transform: translateX(-100%);
+            transition: transform 0.2s ease;
+            z-index: 0;
+        }
+
+        /* Texto acima do pseudo-elemento */
+        .button>span,
+        .button>div {
+            position: relative;
+            z-index: 1;
+            color: white;
+        }
+
+        /* Hover */
+        .button:hover::before {
+            transform: translateX(0);
+        }
+
+        /* Opcional: mudar cor do texto no hover se quiser */
+        .button:hover span,
+        .button:hover h2,
+        .button:hover p {
+            color: white;
+            transform: .2s;
+        }
+
+        .button:hover .c-ag {
+            background-image: url(./img/iconeagente_b.webp);
+            transition: .2s;
+        }
+
+        .button:hover .c-mp {
+            background-image: url(./img/iconemapa_b.webp);
+            transition: .2s;
+        }
+
+        .button:hover .c-rk {
+            background-image: url(./img/iconerank_b.webp);
+            transition: .2s;
+        }
+
+        .button:hover .c-hb {
+            background-image: url(./img/iconehabilidade_b.png);
+            transition: .2s;
+        }
+
+        .button:hover .c-ar {
+            background-image: url(./img/iconearma_b.webp);
+            transition: .2s;
+        }
+
+        .button:hover .c-fl {
+            background-image: url(./img/iconefala_b.webp);
+            transition: .2s;
+        }
+
+        .button span {
+            font-size: 1.5rem;
+            /* ícone */
+            color: #fa4454;
+        }
+
+        .button h2 {
+            margin: 0;
+            color: #fa4454;
+            font-size: 2rem;
+        }
+
+        .button p {
+            margin: 0;
+            font-size: 0.875rem;
+            /* 14px */
+            color: white;
+            font-family: 'valorant2', sans-serif;
+            letter-spacing: 0.05em;
+        }
+
+        /* Responsividade */
+        @media (max-width: 600px) {
+            .title {
+                font-size: 2.5rem;
+            }
+
+            .subtitle {
+                font-size: 1rem;
+            }
+
+            .button p {
+                font-size: 0.75rem;
+            }
+        }
+    </style>
+</head>
+
+<body class="pt-4 flex flex-col gap-8">
+
+    <!-- Overlay -->
+    <div class="overlay bg-gradient-to-b from-transparent to-zinc-950 w-full h-full"></div>
+
+    <!-- Conteúdo -->
+    <div class="container flex items-center flex-col w-full h-full">
+        <a href="index.html">
+            <h1 class="title">vAldle <span class="text-green-600 tracking-tighter font-bold z-1000">b</span><span
+                    class="text-yellow-400 tracking-tighter font-bold z-1000">r</span></h1>
+        </a>
+        <p class="subtitle">E AI, SERA QUE VOCE MANJA MESMO DE vALORaNT?</p>
+
+        <div class="buttons flex flex-col justify-center min-height-lg gap-6">
+            <div class="border border-white-800 p-1 max-w-lg h-lg ">
+                <div class="button relative border-2 border-red-450 py-6 px-6"
+                    onclick="window.location.href='./agente.html'">
+                    <div class="c-ag w-20 h-20 bg-[url('./img/iconeagente_v.png')] bg-cover"></div>
+                    <div class="m-3">
+                        <h2 class="text-lg">AGENTE</h2>
+                        <p>QUEM É ESSE OTÁRIO?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border border-white-800 p-1 max-w-lg h-lg">
+                <div class="button relative border-2 border-red-450 py-6 px-6"
+                    onclick="window.location.href='./mapa.html'">
+                    <div class="c-mp w-20 h-20 bg-[url('./img/iconemapa_v.webp')] bg-cover"></div>
+                    <div class="m-3">
+                        <h2 class="text-lg">MAPA</h2>
+                        <p>ONDE É QUE EU TÔ?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border border-white-800 p-1 max-w-lg h-lg">
+                <div class="button relative border-2 border-red-450 py-6 px-6"
+                    onclick="window.location.href='./rank.html'">
+                    <div class="c-rk w-16 h-20 mx-2 bg-[url('./img/iconerank_v.webp')] bg-cover"></div>
+                    <div class="m-3">
+                        <h2 class="text-lg">RANK</h2>
+                        <p>QUAL O ELO DESSE ANIMAL?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border border-white-800 p-1 max-w-lg h-lg">
+                <div class="button relative border-2 border-red-450 py-6 px-6"
+                    onclick="window.location.href='./habilidade.html'">
+                    <div class="c-hb w-20 h-20 bg-[url('./img/iconehabilidade_v.webp')] bg-cover"></div>
+                    <div class="m-3">
+                        <h2 class="text-lg">HABILIDADE</h2>
+                        <p>UMA HABILIDADE, UM AGENTE</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border border-white-800 p-1 max-w-lg h-lg">
+                <div class="button relative border-2 border-red-450 py-6 px-6"
+                    onclick="window.location.href='./arma.html'">
+                    <div class="c-ar w-20 h-20 bg-[url('./img/iconearma_v.webp')] bg-cover"></div>
+                    <div class="m-3">
+                        <h2 class="text-lg">ARSENaL</h2>
+                        <p>QUAL O NOME DESSA MERD@ MESMO?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border border-white-800 p-1 max-w-lg h-lg">
+                <div class="button relative border-2 border-red-450 py-6 px-6"
+                    onclick="window.location.href='./fala.html'">
+                    <div
+                        class="c-fl w-16 h-20 mx-2 bg-[url('./img/iconefala_v.webp')] bg-contain bg-no-repeat bg-center">
+                    </div>
+                    <div class="m-3">
+                        <h2 class="text-lg">FALa</h2>
+                        <p>QUEM FALOU ESSA PO#@?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="relative">
+        <!-- Botão flutuante -->
+        <button
+            class="fixed bottom-5 right-5 w-8 h-8 z-50 bg-red-500 rounded-full shadow-lg flex items-center justify-center cursor-pointer"
+            onclick="document.getElementById('about-us').classList.toggle('visible'),document.getElementById('about-us').classList.toggle('invisible')">
+            <img class="w-4 h-4 transition durantion-700 delay-700"
+                src="https://www.eracleaferie.it/wp-content/uploads/signs.png" alt="">
+
+            <!-- Tooltip flutuante -->
+            <div id="about-us"
+                class="border border-red-700 absolute m-2 bottom-7 right-7 w-64 bg-gray-900 text-white p-4 rounded-lg shadow-lg invisible transition durantion-100 none transition-opacity duration-300">
+                <h3 class="font-bold text-red-500 mb-2">SOBRE vALDLE BR:</h3>
+                <p class="font-['valorant2']">Desafios diários em vários modos de jogo para testar toda a sua habilidade
+                    no Valorant!</p>
+                <p class="mt-2 font-['valorant2']">Construa sua sequência de vitórias jogando todos os dias!</p>
+                <p class="mt-2 font-['valorant2']">Criado por um fã, inspirado no: <a href="https://www.valdle.gg/"
+                        class="text-blue-400 underline font-['valorant2']">Valdle</a></p>
+            </div>
+        </button>
+    </div>
+
+
+
+    <footer class="w-full pb-4 bg-transparent text-white text-center flex flex-col items-center gap-4">
+        <p class="text-sm max-w-xl">
+            Valdle br foi criado sob a política de "Legal Jibber Jabber" da Riot Games, utilizando ativos pertencentes à
+            Riot Games. A Riot Games não endossa nem patrocina este projeto.
+        </p>
+
+        <div class="flex gap-6">
+            <!-- Discord -->
+            <div class="relative group">
+                <a href="#"
+                    class="flex items-center gap-2 hover:text-gray-300 transition-colors p-[5px] justify-center rounded-[5px] hover:bg-red-900/20 hover:text-red-700">
+                    <img src="../rodape/img/discord_v.webp" alt="Discord" class="w-5 h-5">
+                    Discord
+                </a>
+                <!-- Tooltip -->
+                <span
+                    class="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 hidden group-hover:flex flex-col items-center">
+                    <span
+                        class="bg-black border border-gray-500 text-white text-xs px-2 py-1 rounded shadow-lg whitespace-nowrap">
+                        Entre na nossa comunidade
+                    </span>
+                </span>
+            </div>
+
+            <!-- About -->
+            <div class="relative group">
+                <a href="#"
+                    class="flex items-center gap-2 hover:text-gray-300 transition-colors p-[5px] justify-center rounded-[5px] hover:bg-red-900/20 hover:text-red-700">
+                    <img src="../rodape/img/iconesobre_v.webp" alt="About" class="w-4 h-4">
+                    Sobre
+                </a>
+                <span
+                    class="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 hidden group-hover:flex flex-col items-center">
+                    <span
+                        class="bg-black border border-gray-500 text-white text-xs px-2 py-1 rounded shadow-lg whitespace-nowrap">
+                        Saiba mais sobre nós
+                    </span>
+                </span>
+            </div>
+
+            <!-- Privacy Policy -->
+            <div class="relative group">
+                <a href="#"
+                    class="flex items-center gap-2 hover:text-gray-300 transition-colors p-[5px] justify-center rounded-[5px] hover:bg-red-900/20 hover:text-red-700">
+                    <img src="../rodape/img/iconetermos.webp" alt="Privacy Policy" class="w-5 h-5">
+                    Politica de privacidade
+                </a>
+                <span
+                    class="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 hidden group-hover:flex flex-col items-center">
+                    <span
+                        class="bg-black border border-gray-500 text-white text-xs px-2 py-1 rounded shadow-lg whitespace-nowrap">
+                        Leia nossa politica de privacidade
+                    </span>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

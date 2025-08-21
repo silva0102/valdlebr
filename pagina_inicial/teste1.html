@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valdle - br</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="logo.webp" type="image/webp">
+  <link rel="icon" type="image/png" href="../Valorant-Brasil-2.png">
+
+  <style>
+    /* Fonte personalizada */
+    @font-face {
+      font-family: 'valorant';
+      src: url('../Valorant Font.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'valorant2';
+      src: url('../valorant font2.otf') format('opentype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'valorant', sans-serif;
+      background: url("../imagem_fundo.webp") no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    footer {
+      font-family: 'valorant2', sans-serif;
+      z-index: 49;
+    }
+
+    /* Overlay */
+    .overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgb(0, 0, 0));
+      z-index: 1;
+    }
+
+    /* Conteúdo principal */
+    .container {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      padding: 0 20px;
+      max-width: 600px;
+      width: 100%;
+    }
+
+    .title {
+      font-size: 4rem;
+      color: #fa4454;
+      margin-bottom: 0.25rem;
+    }
+
+    .subtitle {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-top: -0.5em;
+      margin-bottom: 2.5rem;
+    }
+
+    /* Botões */
+    .button {
+      width: 28rem;
+      /* mantém tamanho fixo no desktop */
+      background: #000;
+      border: 2px solid #fa4454;
+      padding: 1rem;
+      text-align: left;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      transition: color 0.3s ease;
+      border-radius: 0.5rem;
+    }
+
+    .button::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right, #fa4454, #fa4454);
+      transform: translateX(-100%);
+      transition: transform 0.2s ease;
+      z-index: 0;
+    }
+
+    .button>div {
+      position: relative;
+      z-index: 1;
+      color: white;
+    }
+
+    .button:hover::before {
+      transform: translateX(0);
+    }
+
+    .button h2 {
+      margin: 0;
+      color: #fa4454;
+      font-size: 2rem;
+    }
+
+    .button p {
+      margin: 0;
+      font-size: 0.875rem;
+      color: white;
+      font-family: 'valorant2', sans-serif;
+      letter-spacing: 0.05em;
+    }
+
+    /* Responsividade só para telas pequenas */
+    @media (max-width: 768px) {
+      .title {
+        font-size: 2.5rem;
+      }
+
+      .subtitle {
+        font-size: 1rem;
+      }
+
+      .button {
+        width: 100%;
+        /* ocupa toda a largura no celular */
+        max-width: 20rem;
+        /* limita um pouco para não ficar gigante */
+      }
+
+      .button h2 {
+        font-size: 1.25rem;
+      }
+
+      .button p {
+        font-size: 0.75rem;
+      }
+
+      .button div:first-child {
+        width: 3.5rem;
+        height: 3.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body class="pt-4 flex flex-col gap-8">
+
+  <div class="flex gap-8 items-center justify-center min-h-screen bg-neutral-950">
+
+    <!-- 🔴 Exemplo 1 – Borda Dupla com Glow Suave -->
+    <button class="relative flex flex-col items-center justify-center w-32 h-32 
+                   border-2 border-red-600 bg-neutral-900
+                   before:absolute before:inset-1 before:border before:border-red-400
+                   hover:shadow-[0_0_12px_rgba(255,50,50,0.6)] 
+                   transition-all duration-300">
+      <img src="https://via.placeholder.com/40" alt="Ícone" class="w-12 h-12 mb-2">
+      <span class="text-xs font-bold tracking-wide text-red-400">JOGAR</span>
+    </button>
+
+    <!-- 🔵 Exemplo 2 – Borda Animada (slide nas laterais) -->
+    <button class="relative flex flex-col items-center justify-center w-32 h-32 
+                   border-2 border-cyan-400 bg-neutral-900 overflow-hidden group">
+      <span class="absolute top-0 left-0 w-0 h-[2px] bg-cyan-400 group-hover:w-full transition-all duration-300"></span>
+      <span
+        class="absolute bottom-0 right-0 w-0 h-[2px] bg-cyan-400 group-hover:w-full transition-all duration-300"></span>
+      <img src="https://via.placeholder.com/40" alt="Ícone" class="w-12 h-12 mb-2">
+      <span class="text-xs font-bold tracking-wide text-cyan-400">AGENTES</span>
+    </button>
+
+    <!-- ⚪ Exemplo 3 – Canto Cortado (estilo cartão futurista) -->
+    <button class="flex flex-col items-center justify-center w-32 h-32 
+                   bg-neutral-800 text-red-200 relative overflow-hidden 
+                   [clip-path:polygon(15%_0,100%_0,100%_85%,85%_100%,0_100%,0_15%)]
+                   border-2 border-white hover:border-red-400 
+                   transition-all duration-300 group">
+      <span class="shadow-[-1_-1_12px_rgba(255,50,50,0.6)] absolute top-[2px] left-0 w-0 h-[1px] bg-red-400 group-hover:w-full transition-all duration-300"></span>
+      <span
+        class="shadow-[1_1_12px_rgba(255,50,50,0.6)] absolute bottom-[2px] right-0 w-0 h-[1px] bg-red-400 group-hover:w-full transition-all duration-300"></span>
+      <img src="https://via.placeholder.com/40" alt="Ícone" class="w-12 h-12 mb-2">
+      <span class="text-xs font-bold tracking-wide">CONFIG</span>
+    </button>
+
+    <!-- 🟢 Exemplo 4 – Borda com Gradiente Animado -->
+    <button class="flex flex-col items-center justify-center w-32 h-32 
+                   relative bg-neutral-900 text-green-400 
+                   border-2 border-transparent rounded-md 
+                   bg-clip-padding transition-all duration-300
+                   hover:text-white">
+      <span
+        class="absolute inset-0 rounded-md p-[2px] bg-gradient-to-r from-green-500 to-cyan-400 animate-pulse -z-10"></span>
+      <img src="https://via.placeholder.com/40" alt="Ícone" class="w-12 h-12 mb-2">
+      <span class="text-xs font-bold tracking-wide">LOJA</span>
+    </button>
+
+  </div>
+
+</body>
+
+</html>
