@@ -24,13 +24,10 @@
   </style>
 </head>
 
-<body class="m-0 p-0 text-white flex justify-center items-center min-h-screen relative pt-4 flex-col gap-8 font-[valorant] bg-[url('../imagem_fundo.webp')] bg-cover bg-[url('../imagem_fundo.webp')] bg-fixed">
+<body class="m-0 p-0 text-white flex justify-center items-center min-h-screen relative pt-4 flex-col gap-2 font-[valorant] bg-[url('../imagem_fundo.webp')] bg-cover bg-[url('../imagem_fundo.webp')] bg-fixed">
 
   <!-- Overlay -->
-  <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black z-10"></div>
-
-  <!-- Conteúdo -->
-  <div class="relative z-20 text-center px-5 w-xl w-full flex items-center flex-col justify-center h-full">
+  <div class="absolute inset-0 bg-gradient-to-b from-transparent to-stone-950 -z-10"></div>
 
   <a href="../pagina_inicial/index.html">
     <h1 class="
@@ -59,9 +56,10 @@
   </a>
 
 
-    <p class="font-bold -mt-2 mb-10 text-sm
+    <p class="font-bold -mt-2 mb-4 text-sm px-8 text-center
     md:text-base
     lg:text-[18px] lg:w-auto
+    xl:text-[]
     ">
     E AI, SERA QUE VOCE MANJA MESMO DE vALORaNT?
 </p>
@@ -72,8 +70,11 @@
       <!-- AGENTE -->
       <div class="border p-1 w-auto">
         <div
-          class="relative group bg-black border-2 border-[#fa4454] flex items-center  text-left cursor-pointer overflow-hidden
-          lg:w-[28rem] lg:py-6 lg:px-6 lg:gap-3
+          class="relative group bg-black border-2 border-[#fa4454] flex items-center text-left cursor-pointer overflow-hidden
+          w-[16rem] py-4 px-1 gap-3
+          lg:w-[28rem] lg:py-4 lg:px-6 lg:gap-3
+          md:w-[] md:py-4 md:px-2 md:gap-4 md:w-[20rem]
+          sm:w-[] 
           "
           onclick="window.location.href='../agent/agente.html'">
 
@@ -82,7 +83,9 @@
           </div>
 
           <div class="bg-[url('./img/iconeagente_v.png')] bg-cover relative z-10  transition-all duration-200
-          lg:w-20 lg:h-20  
+          w-14 h-14
+          lg:w-20 lg:h-20
+          md:w-20 md:h-20
           group-hover:bg-[url('./img/iconeagente_b.webp')]">
           </div>
 
@@ -90,10 +93,14 @@
           lg:m-3 
           ">
             <h2 class="text-[#fa4454] transition-colors duration-200
+            text-lg
+            md:text-2xl
             lg:text-2xl  
             group-hover:text-white
             ">AGENTE</h2>
             <p class="font-['valorant2'] tracking-wide transition-colors duration-200
+            text-xs
+            md:text-[1rem]
             lg:text-sm  
             group-hover:text-white
             x">
@@ -103,35 +110,42 @@
       </div>
 
       <!-- MAPA -->
-      <div class="border p-1 max-w-lg">
+      <div class="border p-1 w-auto">
         <div
-          class="relative group bg-black border-2 border-[#fa4454] flex items-center  text-left cursor-pointer overflow-hidden
-          lg:w-[28rem] lg:py-6 lg:px-6 lg:gap-3
+          class="relative group bg-black border-2 border-[#fa4454] flex items-center text-left cursor-pointer overflow-hidden
+          w-[16rem] py-4 px-1 gap-3
+          lg:w-[28rem] lg:py-4 lg:px-6 lg:gap-3
+          md:w-[] md:py-4 md:px-2 md:gap-4 md:w-[20rem]
+          sm:w-[] 
           "
-          onclick="window.location.href='../mapa/mapa.html'">
+          onclick="window.location.href='../agent/agente.html'">
 
           <div
             class="absolute inset-0 -translate-x-full bg-[#fa4454] transition-transform duration-200 group-hover:translate-x-0">
           </div>
 
-          <div
-            class="c-mp w-20 h-20 bg-[url('./img/iconemapa_v.webp')] bg-cover relative z-10 transition-all duration-200
-            lg:w-20 lg:h-20
-            group-hover:bg-[url('./img/iconemapa_b.webp')]">
+          <div class="bg-[url('./img/iconemapa_v.webp')] bg-cover relative z-10  transition-all duration-200
+          w-14 h-14
+          lg:w-20 lg:h-20
+          md:w-20 md:h-20
+          group-hover:bg-[url('./img/iconemapa_b.webp')]">
           </div>
 
-          <div class="m-3 relative text-left z-10
-          lg:m-3
+          <div class="relative text-left z-10
+          lg:m-3 
           ">
-          
             <h2 class="text-[#fa4454] transition-colors duration-200
+            text-lg
+            md:text-2xl
             lg:text-2xl  
             group-hover:text-white
             ">MAPA</h2>
             <p class="font-['valorant2'] tracking-wide transition-colors duration-200
+            text-xs
+            md:text-[1rem]
             lg:text-sm  
             group-hover:text-white
-            ">
+            x">
               ONDE É QUE EU TÔ?</p>
           </div>
         </div>
@@ -140,156 +154,256 @@
       <!-- RANK -->
       <div class="border p-1 w-auto">
         <div
-          class="relative group bg-black border-2 border-[#fa4454] flex items-center  text-left cursor-pointer overflow-hidden
-          lg:w-[28rem] lg:py-6 lg:px-6 lg:gap-3
+          class="relative group bg-black border-2 border-[#fa4454] flex items-center text-left cursor-pointer overflow-hidden
+          w-[16rem] py-4 px-1 gap-3
+          lg:w-[28rem] lg:py-4 lg:px-6 lg:gap-3
+          md:w-[] md:py-4 md:px-2 md:gap-4 md:w-[20rem]
+          sm:w-[] 
           "
-          onclick="window.location.href='../rank/rank.html'">
+          onclick="window.location.href='../agent/agente.html'">
 
           <div
             class="absolute inset-0 -translate-x-full bg-[#fa4454] transition-transform duration-200 group-hover:translate-x-0">
           </div>
 
-          <div class="bg-[url('./img/iconerank_v.webp')] bg-contain bg-no-repeat bg-center relative z-10  transition-all duration-200
-          lg:w-20 lg:h-20  
+          <div class="bg-[url('./img/iconerank_v.webp')] bg-contain bg-center bg-no-repeat relative z-10  transition-all duration-200
+          w-14 h-14
+          lg:w-20 lg:h-20
+          md:w-20 md:h-20
           group-hover:bg-[url('./img/iconerank_b.webp')]">
           </div>
 
           <div class="relative text-left z-10
           lg:m-3 
           ">
-
-          <h2 class="text-[#fa4454] transition-colors duration-200
-          lg:text-2xl  
-          group-hover:text-white
-          ">RANK</h2>
+            <h2 class="text-[#fa4454] transition-colors duration-200
+            text-lg
+            md:text-2xl
+            lg:text-2xl  
+            group-hover:text-white
+            ">RANK</h2>
             <p class="font-['valorant2'] tracking-wide transition-colors duration-200
+            text-xs
+            md:text-[1rem]
             lg:text-sm  
             group-hover:text-white
-            x">QUAL O ELO DESSE ANIMAL?</p>
+            x">
+              QUAL O ELO DESSE ANIMAL?</p>
           </div>
         </div>
       </div>
 
       <!-- HABILIDADE -->
-      <div class="border p-1 max-w-lg">
+      <div class="border p-1 w-auto">
         <div
-          class="relative group bg-black border-2 border-[#fa4454] flex items-center  text-left cursor-pointer overflow-hidden
-          lg:w-[28rem] lg:py-6 lg:px-6 lg:gap-3
+          class="relative group bg-black border-2 border-[#fa4454] flex items-center text-left cursor-pointer overflow-hidden
+          w-[16rem] py-4 px-1 gap-3
+          lg:w-[28rem] lg:py-4 lg:px-6 lg:gap-3
+          md:w-[] md:py-4 md:px-2 md:gap-4 md:w-[20rem]
+          sm:w-[] 
           "
-          onclick="window.location.href='../habilidade/habilidade.html'">
+          onclick="window.location.href='../agent/agente.html'">
 
           <div
             class="absolute inset-0 -translate-x-full bg-[#fa4454] transition-transform duration-200 group-hover:translate-x-0">
           </div>
 
-          <div
-            class="c-mp w-20 h-20 bg-[url('./img/iconehabilidade_v.webp')] bg-cover relative z-10 transition-all duration-200
-            lg:w-20 lg:h-20
-            group-hover:bg-[url('./img/iconehabilidade_b.webp')]">
+          <div class="bg-[url('./img/iconehabilidade_v.webp')] bg-cover relative z-10  transition-all duration-200
+          w-14 h-14
+          lg:w-20 lg:h-20
+          md:w-20 md:h-20
+          group-hover:bg-[url('./img/iconehabilidade_b.webp')]">
           </div>
 
-          <div class="m-3 relative text-left z-10
-          lg:m-3
+          <div class="relative text-left z-10
+          lg:m-3 
           ">
-
             <h2 class="text-[#fa4454] transition-colors duration-200
+            text-lg
+            md:text-2xl
             lg:text-2xl  
             group-hover:text-white
             ">HABILIDADE</h2>
             <p class="font-['valorant2'] tracking-wide transition-colors duration-200
+            text-xs
+            md:text-[1rem]
             lg:text-sm  
             group-hover:text-white
-            ">
-              UM AGENTE, UMA HABILIDADE?</p>
+            x">
+              UM AGENTE, UMA HABILIDADE</p>
           </div>
         </div>
       </div>
 
       <!-- ARMA -->
-      <div class="border p-1 max-w-lg">
+      <div class="border p-1 w-auto">
         <div
-          class="relative group bg-black border-2 border-[#fa4454] flex items-center  text-left cursor-pointer overflow-hidden
-          lg:w-[28rem] lg:py-6 lg:px-6 lg:gap-3
+          class="relative group bg-black border-2 border-[#fa4454] flex items-center text-left cursor-pointer overflow-hidden
+          w-[16rem] py-4 px-1 gap-3
+          lg:w-[28rem] lg:py-4 lg:px-6 lg:gap-3
+          md:w-[] md:py-4 md:px-2 md:gap-4 md:w-[20rem]
+          sm:w-[] 
           "
-          onclick="window.location.href='../arma/arma.html'">
+          onclick="window.location.href='../agent/agente.html'">
 
           <div
             class="absolute inset-0 -translate-x-full bg-[#fa4454] transition-transform duration-200 group-hover:translate-x-0">
           </div>
 
-          <div
-            class="c-mp w-20 h-20 bg-[url('./img/iconearma_v.webp')] bg-cover relative z-10 transition-all duration-200
-            lg:w-20 lg:h-20
-            group-hover:bg-[url('./img/iconearma_b.webp')]">
+          <div class="bg-[url('./img/iconearma_v.webp')] bg-cover relative z-10  transition-all duration-200
+          w-14 h-14
+          lg:w-20 lg:h-20
+          md:w-20 md:h-20
+          group-hover:bg-[url('./img/iconearma_b.webp')]">
           </div>
 
-          <div class="m-3 relative text-left z-10
-          lg:m-3
+          <div class="relative text-left z-10
+          lg:m-3 
           ">
             <h2 class="text-[#fa4454] transition-colors duration-200
+            text-lg
+            md:text-2xl
             lg:text-2xl  
             group-hover:text-white
             ">ARSENAL</h2>
             <p class="font-['valorant2'] tracking-wide transition-colors duration-200
+            text-xs
+            md:text-[1rem]
             lg:text-sm  
             group-hover:text-white
-            ">
+            x">
               QUAL O NOME DESSA MERD@ MESMO?</p>
           </div>
         </div>
       </div>
 
       <!-- FALA -->
-      <div class="border p-1 max-w-lg">
+      <div class="border p-1 w-auto">
         <div
-          class="relative group bg-black border-2 border-[#fa4454] flex items-center  text-left cursor-pointer overflow-hidden
-          lg:w-[28rem] lg:py-6 lg:px-6 lg:gap-3
+          class="relative group bg-black border-2 border-[#fa4454] flex items-center text-left cursor-pointer overflow-hidden
+          w-[16rem] py-4 px-1 gap-3
+          lg:w-[28rem] lg:py-4 lg:px-6 lg:gap-3
+          md:w-[] md:py-4 md:px-2 md:gap-4 md:w-[20rem]
+          sm:w-[] 
           "
-          onclick="window.location.href='../habilidade/habilidade.html'">
+          onclick="window.location.href='../agent/agente.html'">
 
           <div
             class="absolute inset-0 -translate-x-full bg-[#fa4454] transition-transform duration-200 group-hover:translate-x-0">
           </div>
 
-          <div
-            class="bg-[url('./img/iconefala_v.webp')] bg-contain bg-no-repeat bg-center relative z-10 transition-all duration-200
-            lg:w-20 lg:h-20
-            group-hover:bg-[url('./img/iconefala_b.webp')]">
+          <div class="bg-[url('./img/iconefala_v.webp')] bg-contain bg-center bg-no-repeat relative z-10  transition-all duration-200
+          w-14 h-14
+          lg:w-20 lg:h-20
+          md:w-20 md:h-20
+          group-hover:bg-[url('./img/iconefala_b.webp')]">
           </div>
 
-          <div class="m-3 relative text-left z-10
-          lg:m-3
+          <div class="relative text-left z-10
+          lg:m-3 
           ">
-
             <h2 class="text-[#fa4454] transition-colors duration-200
+            text-lg
+            md:text-2xl
             lg:text-2xl  
             group-hover:text-white
-            ">FALa</h2>
+            ">FALA</h2>
             <p class="font-['valorant2'] tracking-wide transition-colors duration-200
+            text-xs
+            md:text-[1rem]
             lg:text-sm  
             group-hover:text-white
-            ">QUEM FALOU ESSA PO#@?</p>
+            x">
+              QUEM FALOU ESSA PO#@?</p>
           </div>
         </div>
       </div>
-    </div>
-  </div>
 
-    <!-- Botão flutuante -->
   <div class="relative">
+    <!-- Botão flutuante -->
     <button
-      class="fixed bottom-5 right-5 w-8 h-8 z-50 bg-red-500 rounded-full shadow-lg flex items-center justify-center cursor-pointer"
-      onclick="document.getElementById('about-us').classList.toggle('visible');document.getElementById('about-us').classList.toggle('invisible')">
-      <img class="w-4 h-4 transition duration-700 delay-700"
-        src="https://www.eracleaferie.it/wp-content/uploads/signs.png" alt="">
+      onclick="document.getElementById('about-us').classList.toggle('visible'); document.getElementById('about-us').classList.toggle('invisible')"
+      class="
+        relative
+        bottom-[-.5rem]
+        right-auto
+        left-auto
+
+        lg:fixed
+
+        z-50
+  
+        flex 
+        items-center 
+        justify-center 
+  
+        w-6 h-6 
+        sm:w-10 sm:h-10 
+        md:w-8 md:h-8 
+        md:left-auto md:right-5 md:bottom-5
+        lg:left-auto lg:right-5 lg:bottom-5
+        bg-red-500 
+        rounded-full 
+        shadow-lg 
+        cursor-pointer
+      "
+    >
+      <img 
+        src="https://www.eracleaferie.it/wp-content/uploads/signs.png" 
+        alt="ícone" 
+        class="
+          w-3 h-3 
+          sm:w-5 sm:h-5 
+          md:w-4 md:h-4 
+          transition 
+          duration-700
+        "
+      >
+  
+      <!-- Tooltip flutuante -->
       <div id="about-us"
-        class="border border-red-700 absolute m-2 bottom-7 right-7 w-64 bg-gray-900 text-white p-4 rounded-lg shadow-lg invisible transition-opacity duration-300">
-        <h3 class="font-bold text-red-500 mb-2">SOBRE vALDLE BR:</h3>
-        <p class="font-['valorant2']">Desafios diários em vários modos de jogo para testar toda a sua habilidade no
-          Valorant!</p>
-        <p class="mt-2 font-['valorant2']">Construa sua sequência de vitórias jogando todos os dias!</p>
-        <p class="mt-2 font-['valorant2']">Criado por um fã, inspirado no: <a href="https://www.valdle.gg/"
-            class="text-blue-400 underline font-['valorant2']">Valdle</a></p>
+        class="
+          absolute 
+          bottom-7 
+          right-auto
+          left-[-7px] 
+          m-2 
+          w-64 
+          sm:w-72 
+          md:w-50
+          md:left-auto md:right-[-7px] md:bottom-10
+
+  
+          bg-gray-900 
+          text-white 
+          border 
+          border-red-700 
+          rounded-lg 
+          shadow-lg 
+  
+          p-4 
+  
+          invisible 
+          transition-opacity 
+          duration-300
+        "
+      >
+              <h3 class="font-bold text-red-500 mb-2 text-sm sm:text-base md:text-lg">
+          SOBRE vALDLE BR:
+        </h3>
+  
+        <p class="font-['valorant2'] text-xs sm:text-sm md:text-base">
+          Desafios diários em vários modos de jogo para testar toda a sua habilidade no Valorant!
+        </p>
+  
+        <p class="mt-2 font-['valorant2'] text-xs sm:text-sm md:text-base">
+          Construa sua sequência de vitórias jogando todos os dias!
+        </p>
+  
+        <p class="mt-2 font-['valorant2'] text-xs sm:text-sm md:text-base">
+          Criado por um fã, inspirado no: 
+          <a href="https://www.valdle.gg/" class="text-blue-400 underline">Valdle</a>
+        </p>
       </div>
     </button>
   </div>
@@ -300,7 +414,9 @@
   md:gap-4
   lg:gap-4
 ">
-<p class="text-sm max-w-xl"> Valdle br foi criado sob a política de "Legal Jibber Jabber" da Riot Games, utilizando ativos pertencentes à Riot Games. A Riot Games não endossa nem patrocina este projeto. </p>
+<p class="text-[.6rem] text-justify pl-8 pr-8 max-w-xl
+lg:text-[.9rem] lg:text-center 
+"> Valdle br foi criado sob a política de "Legal Jibber Jabber" da Riot Games, utilizando ativos pertencentes à Riot Games. A Riot Games não endossa nem patrocina este projeto. </p>
     <div class="flex flex-row justify-center gap-4 sm:gap-6">
       <!-- Discord -->
       <div class="relative group">
