@@ -256,10 +256,10 @@
 
       <!-- 100% Tailwind no toggle: alterna bg vermelha no botão e move o indicador -->
       <button id="mapToggle"
-        onclick="document.getElementById('mapToggle').classList.toggle('bg-red-500');document.getElementById('mapToggle').classList.toggle('bg-white');document.getElementById('indi').classList.toggle('lg:translate-x-[175%]');document.getElementById('indi').classList.toggle('translate-x-[100%]');document.getElementById('indi').classList.toggle('md:translate-x-[175%]')"
-        class="relative bg-white flex items-center transition duration-300
-      w-24 h-10 rounded-md p-1 ">
-        <div id="indi" class="absolute left-1 top-1 bg-black rounded-md transition duration-300
+        onclick="document.getElementById('mapToggle').classList.toggle('bg-red-500');document.getElementById('mapToggle').classList.toggle('bg-white');document.getElementById('indi').classList.toggle('right-1')"
+        class="relative bg-white p-1 flex items-center transition-all duration-300
+      w-24 h-10 rounded-md ">
+        <div id="indi" class="absolute bg-black rounded-md transition-all ease-in-out duration-300
       w-8 h-8 "></div>
       </button>
 
@@ -282,7 +282,7 @@
 
     <!-- Categorias -->
   <div class="
-      flex flex-row gap-6 mt-6
+      flex flex-row gap-6 mt-6 mb-10
       md:gap-16 md:mt-8
       lg:gap-16 lg:mt-10
       text-center 
@@ -311,16 +311,17 @@
   ">BOMB</span>
   </div>
 
-    <div class="relative">
-    </div>
     <!-- Botão flutuante -->
     <button
       onclick="document.getElementById('about-us').classList.toggle('visible'); document.getElementById('about-us').classList.toggle('invisible')"
       class="
-        absolute
-        bottom-[-320px] 
-        left-5 
-        z-50 
+        relative
+        bottom-2  
+        right-auto
+        left-[-40%]
+        lg:fixed
+
+        z-50
   
         flex 
         items-center 
@@ -328,12 +329,13 @@
   
         w-6 h-6 
         sm:w-10 sm:h-10 
-        md:w-8 md:h-8 md:fixed
+        md:w-8 md:h-8 md md:fixed
         md:left-auto md:right-5 md:bottom-5
+        lg:left-auto lg:right-5 lg:bottom-5
         bg-red-500 
         rounded-full 
         shadow-lg 
-        cursor-pointer
+        cursor-pointerx
       ">
       <img src="https://www.eracleaferie.it/wp-content/uploads/signs.png" alt="ícone" class="
           w-3 h-3 
@@ -388,8 +390,6 @@
       </div>
     </button>
   </div>
-
-  <div class="p-16"></div>
 
   <!-- Rodapé -->
   <footer class="w-full pb-4 bg-transparent text-white text-center flex flex-col items-center justify-center gap-3 font-[valorant2] bottom-0 z-[49]
