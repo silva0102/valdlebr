@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Adivinhe o mapa</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="logo.webp" type="image/webp">
+  <link rel="icon" type="image/png" href="../Valorant-Brasil-2.png">
+
+  <!-- Mantemos SOMENTE as fontes aqui -->
+  <style>
+    @font-face {
+      font-family: 'valorant';
+      src: url('../Valorant Font.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'valorant2';
+      src: url('../valorant font2.otf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+  </style>
+</head>
+
+<body class="h-screen flex flex-col items-center justify-start text-white pt-4 bg-[url('../imagem_fundo.webp')] bg-no-repeat bg-center bg-fixed bg-cover font-[valorant]">
+
+  <!-- Logo -->
+  <a href="../pagina_inicial/index.html">
+    <h1 class="text-[4rem] max-[600px]:text-[2.5rem] text-[#fa4454] mb-1 transform transition-transform duration-300 hover:scale-110">
+      vAldle <span class="text-green-600 tracking-tighter font-bold">b</span><span class="text-yellow-400 tracking-tighter font-bold">r</span>
+    </h1>
+  </a>
+
+  <h2 class="text-2xl font-bold pb-1">ADIvINHE O MAPA #</h2>
+  <p class="mt-2 text-gray-300 font-bold pb-3 font-[valorant2] max-[600px]:text-[1rem]">
+    Selecione um mapa e arrisque um palpite para começar!
+  </p>
+
+  <!-- Botões dos mapas (28rem, preto, borda #fa4454, pr-20, alinhado à esquerda, overlay deslizante no hover) -->
+  <div class="flex flex-wrap justify-center w-[700px] gap-2 transition duration-200">
+    <!-- ABYSS -->
+    <div class="group relative w-[8rem] bg-black border-2 border-[#fa4454] p-4 text-left flex items-center justify-center gap-3 cursor-pointer overflow-hidden font-[valorant2] text-[26px] font-extrabold transition-colors duration-300">
+      <div class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0"></div>
+      <h2 class="relative text-center z-10 h-full w-full text-[#fa4454] text-[1.5rem] font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white">ABYSS</h2>
+    </div>
+
+    <!-- ASCENT -->
+    <div class="group relative w-[8rem] bg-black border-2 border-[#fa4454] p-4 text-left flex items-center justify-center gap-3 cursor-pointer overflow-hidden font-[valorant2] text-[26px] font-extrabold transition-colors duration-300">
+      <div class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0"></div>
+      <h2 class="relative text-center z-10 h-full w-full text-[#fa4454] text-[1.5rem] font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white">ASCENT</h2>
+    </div>
+
+    <!-- BIND -->
+    <div class="group relative w-[8rem] bg-black border-2 border-[#fa4454] p-4 text-left flex items-center justify-center gap-3 cursor-pointer overflow-hidden font-[valorant2] text-[26px] font-extrabold transition-colors duration-300">
+      <div class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0"></div>
+      <h2 class="relative text-center z-10 h-full w-full text-[#fa4454] text-[1.5rem] font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white">BIND</h2>
+    </div>
+
+    <!-- BREEZE -->
+    <div class="group relative w-[8rem] bg-black border-2 border-[#fa4454] p-4 text-left flex items-center justify-center gap-3 cursor-pointer overflow-hidden font-[valorant2] text-[26px] font-extrabold transition-colors duration-300">
+      <div class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0"></div>
+      <h2 class="relative text-center z-10 h-full w-full text-[#fa4454] text-[1.5rem] font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white">BREEZE</h2>
+    </div>
+
+    <!-- CORRODE -->
+    <div class="group relative w-[8rem] bg-black border-2 border-[#fa4454] p-4 text-left flex items-center justify-center gap-3 cursor-pointer overflow-hidden font-[valorant2] text-[26px] font-extrabold transition-colors duration-300">
+      <div class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0"></div>
+      <h2 class="relative text-center z-10 h-full w-full text-[#fa4454] text-[1.5rem] font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white">CORRODE</h2>
+    </div>
+
+    <!-- FRACTURE -->
+    <div class="group relative w-[8rem] bg-black border-2 border-[#fa4454] text-left flex items-center justify-center gap-3 cursor-pointer overflow-hidden font-[valorant2] text-[26px] font-extrabold transition-colors duration-300">
+      <div class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0"></div>
+      <h2 class="relative text-center z-10 h-auto w-full text-[#fa4454] text-[1.5rem] font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white">FRACTURE</h2>
+    </div>
+
+    <!-- HAVEN -->
+    <div class="group relative w-[8rem] bg-black border-2 border-[#fa4454] p-4 text-left flex items-center justify-center gap-3 cursor-pointer overflow-hidden font-[valorant2] text-[26px] font-extrabold transition-colors duration-300">
+      <div class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0"></div>
+      <h2 class="relative text-center z-10 h-full w-full text-[#fa4454] text-[1.5rem] font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white">HAVEN</h2>
+    </div>
+
+    <!-- ICEBOX -->
+    <div class="group relative w-[8rem] bg-black border-2 border-[#fa4454] p-4 text-left flex items-center justify-center gap-3 cursor-pointer overflow-hidden font-[valorant2] text-[26px] font-extrabold transition-colors duration-300">
+      <div class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0"></div>
+      <h2 class="relative text-center z-10 h-full w-full text-[#fa4454] text-[1.5rem] font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white">ICEBOX</h2>
+    </div>
+
+    <!-- LOTUS -->
+    <div class="group relative w-[8rem] bg-black border-2 border-[#fa4454] p-4 text-left flex items-center justify-center gap-3 cursor-pointer overflow-hidden font-[valorant2] text-[26px] font-extrabold transition-colors duration-300">
+      <div class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0"></div>
+      <h2 class="relative text-center z-10 h-full w-full text-[#fa4454] text-[1.5rem] font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white">LOTUS</h2>
+    </div>
+
+    <!-- PEARL -->
+    <div class="group relative w-[8rem] bg-black border-2 border-[#fa4454] p-4 text-left flex items-center justify-center gap-3 cursor-pointer overflow-hidden font-[valorant2] text-[26px] font-extrabold transition-colors duration-300">
+      <div class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0"></div>
+      <h2 class="relative text-center z-10 h-full w-full text-[#fa4454] text-[1.5rem] font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white">PEARL</h2>
+    </div>
+
+    <!-- SPLIT -->
+    <div class="group relative w-[8rem] bg-black border-2 border-[#fa4454] p-4 text-left flex items-center justify-center gap-3 cursor-pointer overflow-hidden font-[valorant2] text-[26px] font-extrabold transition-colors duration-300">
+      <div class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0"></div>
+      <h2 class="relative text-center z-10 h-full w-full text-[#fa4454] text-[1.5rem] font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white">SPLIT</h2>
+    </div>
+
+    <!-- SUNSET -->
+    <div class="group relative w-[8rem] bg-black border-2 border-[#fa4454] p-4 text-left flex items-center justify-center gap-3 cursor-pointer overflow-hidden font-[valorant2] text-[26px] font-extrabold transition-colors duration-300">
+      <div class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0"></div>
+      <h2 class="relative text-center z-10 h-full w-full text-[#fa4454] text-[1.5rem] font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white">SUNSET</h2>
+    </div>
+    </div>
+
+  <!-- Switch -->
+  <div class="flex items-center gap-2 my-4">
+    <span class="bg-neutral-900 text-white px-4 py-2 rounded-md text-lg tracking-wide font-[valorant2]">HIDE MAP</span>
+
+    <!-- 100% Tailwind no toggle: alterna bg vermelha no botão e move o indicador -->
+    <button id="mapToggle"
+      onclick="this.classList.toggle('bg-[#fa4454]');document.getElementById('indi').classList.toggle('translate-x-[170%]')"
+      class="relative w-24 h-10 bg-white rounded-md flex items-center p-1 transition duration-300">
+      <div id="indi" class="absolute left-1 top-1 w-8 h-8 bg-black rounded-md transition duration-300"></div>
+    </button>
+
+    <span class="bg-neutral-900 text-white px-3 py-2 rounded-md text-lg tracking-wide font-[valorant2]">SHOW MAP</span>
+  </div>
+
+  <!-- Imagem -->
+  <div class="bg-white w-[510px] h-[510px]">
+    <img class="w-full h-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpzhejbFWhxCCuBz22xf_2m6aO7q1ZbsmHsw&s" alt="">
+  </div>
+
+  <!-- Categorias -->
+  <div class="flex gap-16 mt-8 text-center text-lg font-[valorant2]">
+    <span class="border-b-[3px] border-red-500 pb-1">MAPA</span>
+    <span class="border-b-[3px] border-red-500 pb-1">CALL</span>
+    <span class="border-b-[3px] border-red-500 pb-1">BOMB</span>
+  </div>
+
+  <!-- Botão flutuante -->
+  <div class="relative">
+    <div class="fixed bottom-5 right-5 w-8 h-8 z-50 bg-[#ff4655] rounded-full shadow-lg flex items-center justify-center cursor-pointer group">
+      <img class="w-4 h-4" src="https://www.eracleaferie.it/wp-content/uploads/signs.png" alt="">
+      <div class="border border-red-700 absolute bottom-full mb-1 right-8 w-64 bg-gray-900 text-white p-4 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-300">
+        <h3 class="font-bold text-red-500 mb-2">ABOUT VALDLE:</h3>
+        <p class="font-[valorant2]">Daily challenges across multiple different game modes to test your Valorant expertise!</p>
+        <p class="mt-2 font-[valorant2]">Build your win streak by playing daily!</p>
+        <p class="mt-2 font-[valorant2]">Built by a fan, inspired by <a href="#" class="text-blue-400 underline">Lodle</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-16"></div>
+
+  <!-- Rodapé -->
+  <footer class="w-full pb-4 bg-transparent text-white text-center flex flex-col items-center gap-4 font-[valorant2] z-[49]">
+    <div class="flex gap-6">
+      <!-- Discord -->
+      <div class="relative group">
+        <a href="#" class="flex items-center gap-2 p-[5px] rounded-[5px] transition-colors hover:bg-red-900/20 hover:text-red-700">
+          <img src="../rodape/img/discord_v.webp" alt="Discord" class="w-5 h-5"> Discord
+        </a>
+        <span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 hidden group-hover:flex flex-col items-center">
+          <span class="bg-black border border-gray-500 text-white text-xs px-2 py-1 rounded shadow-lg whitespace-nowrap">
+            Entre na nossa comunidade
+          </span>
+        </span>
+      </div>
+
+      <!-- Sobre -->
+      <div class="relative group">
+        <a href="#" class="flex items-center gap-2 p-[5px] rounded-[5px] transition-colors hover:bg-red-900/20 hover:text-red-700">
+          <img src="../rodape/img/iconesobre_v.webp" alt="About" class="w-4 h-4"> Sobre
+        </a>
+        <span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 hidden group-hover:flex flex-col items-center">
+          <span class="bg-black border border-gray-500 text-white text-xs px-2 py-1 rounded shadow-lg whitespace-nowrap">
+            Saiba mais sobre nós
+          </span>
+        </span>
+      </div>
+
+      <!-- Política de privacidade -->
+      <div class="relative group">
+        <a href="#" class="flex items-center gap-2 p-[5px] rounded-[5px] transition-colors hover:bg-red-900/20 hover:text-red-700">
+          <img src="../rodape/img/iconetermos.webp" alt="Privacy Policy" class="w-5 h-5"> Politica de privacidade
+        </a>
+        <span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 hidden group-hover:flex flex-col items-center">
+          <span class="bg-black border border-gray-500 text-white text-xs px-2 py-1 rounded shadow-lg whitespace-nowrap">
+            Leia nossa politica de privacidade
+          </span>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

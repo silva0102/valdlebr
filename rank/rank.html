@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adivinhe o agente</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="logo.webp" type="image/webp">
+  <link rel="icon" type="image/png" href="../Valorant-Brasil-2.png">
+
+  <style>
+    @font-face {
+      font-family: 'valorant';
+      src: url('../Valorant Font.ttf') format('truetype');
+    }
+
+    @font-face {
+      font-family: 'valorant2';
+      src: url('../valorant font2.otf') format('truetype');
+    }
+  </style>
+</head>
+
+<body class="h-screen flex flex-col items-center justify-start text-white pt-4 font-[valorant] bg-[url('../imagem_fundo.webp')] bg-cover bg-center bg-fixed">
+
+  <!-- Logo -->
+  <a href="../pagina_inicial/index.html">
+    <h1 class="text-[4rem] text-[#fa4454] mb-1 transition-transform duration-300 hover:scale-110">
+      vAldle 
+      <span class="text-green-600 tracking-tighter font-bold">b</span><span class="text-yellow-400 tracking-tighter font-bold">r</span>
+    </h1>
+  </a>
+
+  <!-- Caixa principal -->
+  <div class="bg-[rgba(71,82,95,0.37)] mb-[100px] px-8 py-2 shadow-lg text-center w-[350px] md:w-[500px] border-t-2 h-full">
+    <p class="mt-[-21px] text-lg">◆</p>
+    <h2 class="text-2xl font-bold pb-2">ADIvINHE O RANK #</h2>
+    <hr class="max-w-[200px] mx-auto border-t-2 mb-10">
+
+    <!-- Imagem -->
+    <div>
+      <img class="w-full h-full" src="https://pbs.twimg.com/media/F0r5yyiWwAMTrI-.jpg" alt="">
+    </div>
+    <p class="mt-2 text-white font-bold pt-3 font-[valorant2]">Arrisque um palpite para começar!</p>
+
+    <!-- Grid de ranks -->
+    <div class="flex flex-wrap justify-center items-center gap-2 py-4 w-full">
+      
+      <!-- Botão Rank -->
+      <button class="flex flex-col items-center justify-center w-20 h-20 bg-neutral-800 text-white relative overflow-hidden 
+      [clip-path:polygon(15%_0,100%_0,100%_85%,85%_100%,0_100%,0_15%)] border-2 border-white hover:border-red-500 
+      transition-all duration-300 group">
+        <span class="absolute top-[2px] left-0 w-0 h-[1px] bg-red-500 group-hover:w-full transition-all duration-300"></span>
+        <span class="absolute bottom-[2px] right-0 w-0 h-[1px] bg-red-500 group-hover:w-full transition-all duration-300"></span>
+        <img src="../rank/img/ferro_p.png" alt="Ícone" class="w-10 h-10 mb-2">
+        <span class="text-xs font-bold tracking-wide font-[valorant2]">FERRO</span>
+      </button>
+
+      <!-- Bronze -->
+      <button class="flex flex-col items-center justify-center w-20 h-20 bg-neutral-800 text-white relative overflow-hidden 
+      [clip-path:polygon(15%_0,100%_0,100%_85%,85%_100%,0_100%,0_15%)] border-2 border-white hover:border-red-500 
+      transition-all duration-300 group">
+        <span class="absolute top-[2px] left-0 w-0 h-[1px] bg-red-500 group-hover:w-full transition-all duration-300"></span>
+        <span class="absolute bottom-[2px] right-0 w-0 h-[1px] bg-red-500 group-hover:w-full transition-all duration-300"></span>
+        <img src="../rank/img/bronze_p.png" alt="Ícone" class="w-10 h-10 mb-2">
+        <span class="text-xs font-bold tracking-wide font-[valorant2]">BRONZE</span>
+      </button>
+
+    </div>
+  </div>
+
+  <!-- Botão flutuante -->
+  <div class="fixed bottom-5 right-5 w-8 h-8 z-50 bg-red-500 rounded-full shadow-lg flex items-center justify-center cursor-pointer group">
+    <img class="w-4 h-4" src="https://www.eracleaferie.it/wp-content/uploads/signs.png" alt="">
+
+    <div class="border border-red-700 absolute bottom-full mb-5 right-8 w-64 bg-gray-900 text-white p-4 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-300">
+      <h3 class="font-bold text-red-500 mb-2">SOBRE VALDLE:</h3>
+      <p class="font-[valorant2]">Desafios diários em vários modos de jogo para testar sua habilidade no Valorant!</p>
+      <p class="mt-2 font-[valorant2]">Construa sua sequência de vitórias jogando todos os dias!</p>
+      <p class="mt-2 font-[valorant2]">Criado por um fã, inspirado no <a href="#" class="text-blue-400 underline">Lodle</a></p>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="w-full pb-4 bg-transparent text-white text-center flex flex-col items-center gap-4 font-[valorant2] z-[49]">
+    <div class="flex gap-6">
+      
+      <!-- Discord -->
+      <div class="relative group">
+        <a href="#" class="flex items-center gap-2 p-[5px] justify-center rounded-[5px] hover:bg-red-900/20 hover:text-red-700 transition-colors">
+          <img src="../rodape/img/discord_v.webp" alt="Discord" class="w-5 h-5"> Discord
+        </a>
+        <span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 hidden group-hover:flex">
+          <span class="bg-black border border-gray-500 text-white text-xs px-2 py-1 rounded shadow-lg">Entre na nossa comunidade</span>
+        </span>
+      </div>
+
+      <!-- Sobre -->
+      <div class="relative group">
+        <a href="#" class="flex items-center gap-2 p-[5px] justify-center rounded-[5px] hover:bg-red-900/20 hover:text-red-700 transition-colors">
+          <img src="../rodape/img/iconesobre_v.webp" alt="Sobre" class="w-4 h-4"> Sobre
+        </a>
+        <span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 hidden group-hover:flex">
+          <span class="bg-black border border-gray-500 text-white text-xs px-2 py-1 rounded shadow-lg">Saiba mais sobre nós</span>
+        </span>
+      </div>
+
+      <!-- Política -->
+      <div class="relative group">
+        <a href="#" class="flex items-center gap-2 p-[5px] justify-center rounded-[5px] hover:bg-red-900/20 hover:text-red-700 transition-colors">
+          <img src="../rodape/img/iconetermos.webp" alt="Política" class="w-5 h-5"> Política de privacidade
+        </a>
+        <span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 hidden group-hover:flex">
+          <span class="bg-black border border-gray-500 text-white text-xs px-2 py-1 rounded shadow-lg">Leia nossa política de privacidade</span>
+        </span>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>

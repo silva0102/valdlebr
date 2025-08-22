@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adivinhe o personagem pela fala</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="logo.webp" type="image/webp">
+  <link rel="icon" type="image/png" href="../Valorant-Brasil-2.png">
+  <style>
+    @font-face {
+      font-family: 'valorant';
+      src: url('../Valorant Font.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'valorant2';
+      src: url('../valorant font2.otf') format('truetype');
+    }
+  </style>
+</head>
+
+<body class="h-screen w-screen flex flex-col items-center justify-start text-white pt-4 font-['valorant'] bg-[url('../imagem_fundo.webp')] bg-cover bg-center bg-fixed">
+
+  <!-- Logo -->
+  <a href="../pagina_inicial/index.html">
+    <h1 class="text-[4rem] text-[#fa4454] mb-1 hover:scale-110 transition-transform duration-300">
+      vAldle 
+      <span class="text-green-600 tracking-tighter font-bold">b</span><span class="text-yellow-400 tracking-tighter font-bold">r</span>
+    </h1>
+  </a>
+
+  <!-- Caixa principal -->
+  <div class="bg-[rgba(71,82,95,0.37)] p-8 shadow-lg text-center w-[350px] md:w-[500px] border-t-2">
+    <p class="mt-[-44px] text-lg">◆</p>
+    <h2 class="text-2xl font-bold pb-2">ADIvINHE O AGENTE #</h2>
+    <hr class="max-w-[200px] mx-auto border-t-2 mb-6">
+
+    <h2 class="text-xl font-bold pb-2 text-red-500">"Fala do agente escrita, bla bla bla"</h2>
+    <h2 class="text-md font-bold pb-2">"Tentativas ate a dica em audio: 5"</h2>
+
+    <p class="mt-2 text-gray-300 font-bold font-['valorant2']">Leia a fala e tente adivinhar quem disse isso!</p>
+
+    <!-- Barra de busca -->
+    <div class="flex mt-4">
+      <input type="text" placeholder="PROCURAR AGENTE..."
+        class="bg-[#0c0c0c] border border-[#3a3a3a] text-white px-3 py-2 uppercase flex-grow focus:outline-none focus:border-[#ff4655]">
+      <button class="bg-gray-200 text-black px-4">➔</button>
+    </div>
+  </div>
+
+  <!-- Botão flutuante -->
+  <div class="relative">
+    <div class="fixed bottom-5 right-5 w-8 h-8 z-50 bg-red-500 rounded-full shadow-lg flex items-center justify-center cursor-pointer group">
+      <img class="w-4 h-4" src="https://www.eracleaferie.it/wp-content/uploads/signs.png" alt="">
+      <div class="border border-red-700 absolute bottom-full m-5 right-8 w-64 bg-gray-900 text-white p-4 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-300">
+        <h3 class="font-bold text-red-500 mb-2">ABOUT VALDLE:</h3>
+        <p>Daily challenges across multiple different game modes to test your Valorant expertise!</p>
+        <p class="mt-2">Build your win streak by playing daily!</p>
+        <p class="mt-2">Built by a fan, inspired by <a href="#" class="text-blue-400 underline">Lodle</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="fixed bottom-0 w-full pb-4 bg-transparent text-white text-center flex flex-col items-center gap-4 font-['valorant2'] z-[49]">
+    <div class="flex gap-6">
+      <!-- Discord -->
+      <div class="relative group">
+        <a href="#" class="flex items-center gap-2 transition-colors p-[5px] justify-center rounded-[5px] hover:bg-red-900/20 hover:text-red-700">
+          <img src="../rodape/img/discord_v.webp" alt="Discord" class="w-5 h-5"> Discord
+        </a>
+        <span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 hidden group-hover:flex flex-col items-center">
+          <span class="bg-black border border-gray-500 text-white text-xs px-2 py-1 rounded shadow-lg whitespace-nowrap">
+            Entre na nossa comunidade
+          </span>
+        </span>
+      </div>
+
+      <!-- Sobre -->
+      <div class="relative group">
+        <a href="#" class="flex items-center gap-2 transition-colors p-[5px] justify-center rounded-[5px] hover:bg-red-900/20 hover:text-red-700">
+          <img src="../rodape/img/iconesobre_v.webp" alt="About" class="w-4 h-4"> Sobre
+        </a>
+        <span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 hidden group-hover:flex flex-col items-center">
+          <span class="bg-black border border-gray-500 text-white text-xs px-2 py-1 rounded shadow-lg whitespace-nowrap">
+            Saiba mais sobre nós
+          </span>
+        </span>
+      </div>
+
+      <!-- Politica de Privacidade -->
+      <div class="relative group">
+        <a href="#" class="flex items-center gap-2 transition-colors p-[5px] justify-center rounded-[5px] hover:bg-red-900/20 hover:text-red-700">
+          <img src="../rodape/img/iconetermos.webp" alt="Privacy Policy" class="w-5 h-5"> Politica de privacidade
+        </a>
+        <span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 hidden group-hover:flex flex-col items-center">
+          <span class="bg-black border border-gray-500 text-white text-xs px-2 py-1 rounded shadow-lg whitespace-nowrap">
+            Leia nossa politica de privacidade
+          </span>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
