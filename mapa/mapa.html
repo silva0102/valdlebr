@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Adivinhe o mapa</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="icon" href="logo.webp" type="image/webp">
@@ -17,6 +17,7 @@
       font-weight: normal;
       font-style: normal;
     }
+
     @font-face {
       font-family: 'valorant2';
       src: url('../valorant font2.otf') format('truetype');
@@ -26,170 +27,446 @@
   </style>
 </head>
 
-<body class="h-screen flex flex-col items-center justify-start text-white pt-4 bg-[url('../imagem_fundo.webp')] bg-no-repeat bg-center bg-fixed bg-cover font-[valorant]">
+<body
+  class="h-full flex flex-col items-center justify-start text-white pt-4 bg-[url('../imagem_fundo.webp')] bg-no-repeat bg-center bg-fixed bg-cover font-[valorant]">
 
   <!-- Logo -->
   <a href="../pagina_inicial/index.html">
-    <h1 class="text-[4rem] max-[600px]:text-[2.5rem] text-[#fa4454] mb-1 transform transition-transform duration-300 hover:scale-110">
-      vAldle <span class="text-green-600 tracking-tighter font-bold">b</span><span class="text-yellow-400 tracking-tighter font-bold">r</span>
+    <h1 class="
+      text-[3rem] text-[#fa4454] mb-1 transition-transform duration-300
+      sm:text-[6rem]
+      md:text-[4rem]
+      lg:text-[4rem]
+      xl:text-[4rem]
+      hover:scale-110
+    ">
+      vAldle
+      <!-- Letras coloridas (também responsivas) -->
+      <span class="
+        text-green-600 tracking-tighter font-bold z-[1000] text-[3rem] 
+        sm:text-[6rem] 
+        md:text-[4rem] 
+        lg:text-[4rem] 
+        xl:text-[4rem]
+      ">b</span><span class="text-yellow-400 tracking-tighter font-bold z-[1000] text-[3rem] 
+        sm:text-[6rem] 
+        md:text-[4rem] 
+        lg:text-[4rem] 
+        xl:text-[4rem]
+      ">r</span>
     </h1>
   </a>
 
-  <h2 class="text-2xl font-bold pb-1">ADIvINHE O MAPA #</h2>
-  <p class="mt-2 text-gray-300 font-bold pb-3 font-[valorant2] max-[600px]:text-[1rem]">
-    Selecione um mapa e arrisque um palpite para começar!
+  <!-- Título -->
+  <h2 class="
+      text-xl 
+      sm:text-2xl 
+      lg:text-3xl 
+      font-bold 
+      pb-2
+    ">
+    ADIvINHE O MAPA #
+  </h2>
+
+  <p class="
+      mt-2 
+      mb-4
+      text-gray-300 
+      font-bold 
+      font-[valorant2] 
+      text-center
+      text-sm sm:text-base md:text-lg
+    ">
+    Selecione um mapa e arrisque um palpite pra começar!
   </p>
 
-  <!-- Botões dos mapas (28rem, preto, borda #fa4454, pr-20, alinhado à esquerda, overlay deslizante no hover) -->
-  <div class="flex flex-wrap justify-center w-[700px] gap-2 transition duration-200">
+  <div class="flex flex-wrap justify-center transition duration-200
+  w-full px-6 gap-2 
+  md:w-[90%] md:px-8 md:gap-2
+  lg:w-[60%] md:gap-4
+
+  ">
     <!-- ABYSS -->
-    <div class="group relative w-[8rem] bg-black border-2 border-[#fa4454] p-4 text-left flex items-center justify-center gap-3 cursor-pointer overflow-hidden font-[valorant2] text-[26px] font-extrabold transition-colors duration-300">
-      <div class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0"></div>
-      <h2 class="relative text-center z-10 h-full w-full text-[#fa4454] text-[1.5rem] font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white">ABYSS</h2>
+    <div class="group relative bg-black border-2 border-[#fa4454] flex items-center justify-center cursor-pointer overflow-hidden font-[valorant2] font-extrabold transition-colors duration-300
+    lg:w-[8rem] lg:p-4 lg:gap-3 lg:text-[26px]
+    w-[5rem] h-[3rem] px-2 gap-3 text-[18px]
+
+    ">
+      <div
+        class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0">
+      </div>
+      <h2 class="relative text-center z-10 h-auto w-auto text-red-500 font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white
+      text-[1.2rem] 
+      ">ABYSS</h2>
     </div>
 
     <!-- ASCENT -->
-    <div class="group relative w-[8rem] bg-black border-2 border-[#fa4454] p-4 text-left flex items-center justify-center gap-3 cursor-pointer overflow-hidden font-[valorant2] text-[26px] font-extrabold transition-colors duration-300">
-      <div class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0"></div>
-      <h2 class="relative text-center z-10 h-full w-full text-[#fa4454] text-[1.5rem] font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white">ASCENT</h2>
+    <div class="group relative bg-black border-2 border-[#fa4454] flex items-center justify-center cursor-pointer overflow-hidden font-[valorant2] font-extrabold transition-colors duration-300
+    lg:w-[8rem] lg:p-4 lg:gap-3 lg:text-[26px]
+    w-[5rem] h-[3rem] px-2 gap-3 text-[18px]
+    ">
+      <div
+        class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0">
+      </div>
+      <h2 class="relative text-center z-10 h-auto w-auto text-red-500 font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white
+      text-[1.2rem] 
+      ">ASCENT</h2>
     </div>
 
     <!-- BIND -->
-    <div class="group relative w-[8rem] bg-black border-2 border-[#fa4454] p-4 text-left flex items-center justify-center gap-3 cursor-pointer overflow-hidden font-[valorant2] text-[26px] font-extrabold transition-colors duration-300">
-      <div class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0"></div>
-      <h2 class="relative text-center z-10 h-full w-full text-[#fa4454] text-[1.5rem] font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white">BIND</h2>
+    <div class="group relative bg-black border-2 border-[#fa4454] flex items-center justify-center cursor-pointer overflow-hidden font-[valorant2] font-extrabold transition-colors duration-300
+    lg:w-[8rem] lg:p-4 lg:gap-3 lg:text-[26px]
+    w-[5rem] h-[3rem] px-2 gap-3 text-[18px]
+    ">
+      <div
+        class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0">
+      </div>
+      <h2 class="relative text-center z-10 h-auto w-auto text-red-500 font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white
+      text-[1.2rem] 
+      ">BIND</h2>
     </div>
 
     <!-- BREEZE -->
-    <div class="group relative w-[8rem] bg-black border-2 border-[#fa4454] p-4 text-left flex items-center justify-center gap-3 cursor-pointer overflow-hidden font-[valorant2] text-[26px] font-extrabold transition-colors duration-300">
-      <div class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0"></div>
-      <h2 class="relative text-center z-10 h-full w-full text-[#fa4454] text-[1.5rem] font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white">BREEZE</h2>
+    <div class="group relative bg-black border-2 border-[#fa4454] flex items-center justify-center cursor-pointer overflow-hidden font-[valorant2] font-extrabold transition-colors duration-300
+    lg:w-[8rem] lg:p-4 lg:gap-3 lg:text-[26px]
+    w-[5rem] h-[3rem] px-2 gap-3 text-[18px]
+    ">
+      <div
+        class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0">
+      </div>
+      <h2 class="relative text-center z-10 h-auto w-auto text-red-500 font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white
+      text-[1.2rem] 
+      ">BREEZE</h2>
     </div>
 
     <!-- CORRODE -->
-    <div class="group relative w-[8rem] bg-black border-2 border-[#fa4454] p-4 text-left flex items-center justify-center gap-3 cursor-pointer overflow-hidden font-[valorant2] text-[26px] font-extrabold transition-colors duration-300">
-      <div class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0"></div>
-      <h2 class="relative text-center z-10 h-full w-full text-[#fa4454] text-[1.5rem] font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white">CORRODE</h2>
+    <div class="group relative bg-black border-2 border-[#fa4454] flex items-center justify-center cursor-pointer overflow-hidden font-[valorant2] font-extrabold transition-colors duration-300
+    lg:w-[8rem] lg:p-4 lg:gap-3 lg:text-[26px]
+    w-[5rem] h-[3rem] px-2 gap-3 text-[18px]
+    ">
+      <div
+        class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0">
+      </div>
+      <h2 class="relative text-center z-10 h-auto w-auto text-red-500 font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white
+      text-[1.2rem] 
+      ">CORRODE</h2>
     </div>
 
     <!-- FRACTURE -->
-    <div class="group relative w-[8rem] bg-black border-2 border-[#fa4454] text-left flex items-center justify-center gap-3 cursor-pointer overflow-hidden font-[valorant2] text-[26px] font-extrabold transition-colors duration-300">
-      <div class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0"></div>
-      <h2 class="relative text-center z-10 h-auto w-full text-[#fa4454] text-[1.5rem] font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white">FRACTURE</h2>
+    <div class="group relative bg-black border-2 border-[#fa4454] flex items-center justify-center cursor-pointer overflow-hidden font-[valorant2] font-extrabold transition-colors duration-300
+    lg:w-[8rem] lg:p-4 lg:gap-3 lg:text-[26px]
+    w-[5rem] h-[3rem] px-2 gap-3 text-[18px]
+    ">
+      <div
+        class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0">
+      </div>
+      <h2 class="relative text-center z-10 h-auto w-auto text-red-500 font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white
+      text-[1.2rem] 
+      ">FRACTURE</h2>
     </div>
 
     <!-- HAVEN -->
-    <div class="group relative w-[8rem] bg-black border-2 border-[#fa4454] p-4 text-left flex items-center justify-center gap-3 cursor-pointer overflow-hidden font-[valorant2] text-[26px] font-extrabold transition-colors duration-300">
-      <div class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0"></div>
-      <h2 class="relative text-center z-10 h-full w-full text-[#fa4454] text-[1.5rem] font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white">HAVEN</h2>
+    <div class="group relative bg-black border-2 border-[#fa4454] flex items-center justify-center cursor-pointer overflow-hidden font-[valorant2] font-extrabold transition-colors duration-300
+    lg:w-[8rem] lg:p-4 lg:gap-3 lg:text-[26px]
+    w-[5rem] h-[3rem] px-2 gap-3 text-[18px]
+    ">
+      <div
+        class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0">
+      </div>
+      <h2 class="relative text-center z-10 h-auto w-auto text-red-500 font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white
+      text-[1.2rem] 
+      ">HEAVEN</h2>
     </div>
 
     <!-- ICEBOX -->
-    <div class="group relative w-[8rem] bg-black border-2 border-[#fa4454] p-4 text-left flex items-center justify-center gap-3 cursor-pointer overflow-hidden font-[valorant2] text-[26px] font-extrabold transition-colors duration-300">
-      <div class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0"></div>
-      <h2 class="relative text-center z-10 h-full w-full text-[#fa4454] text-[1.5rem] font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white">ICEBOX</h2>
+    <div class="group relative bg-black border-2 border-[#fa4454] flex items-center justify-center cursor-pointer overflow-hidden font-[valorant2] font-extrabold transition-colors duration-300
+    lg:w-[8rem] lg:p-4 lg:gap-3 lg:text-[26px]
+    w-[5rem] h-[3rem] px-2 gap-3 text-[18px]
+    ">
+      <div
+        class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0">
+      </div>
+      <h2 class="relative text-center z-10 h-auto w-auto text-red-500 font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white
+      text-[1.2rem] 
+      ">ICEBOX</h2>
     </div>
 
     <!-- LOTUS -->
-    <div class="group relative w-[8rem] bg-black border-2 border-[#fa4454] p-4 text-left flex items-center justify-center gap-3 cursor-pointer overflow-hidden font-[valorant2] text-[26px] font-extrabold transition-colors duration-300">
-      <div class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0"></div>
-      <h2 class="relative text-center z-10 h-full w-full text-[#fa4454] text-[1.5rem] font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white">LOTUS</h2>
+    <div class="group relative bg-black border-2 border-[#fa4454] flex items-center justify-center cursor-pointer overflow-hidden font-[valorant2] font-extrabold transition-colors duration-300
+    lg:w-[8rem] lg:p-4 lg:gap-3 lg:text-[26px]
+    w-[5rem] h-[3rem] px-2 gap-3 text-[18px]
+    ">
+      <div
+        class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0">
+      </div>
+      <h2 class="relative text-center z-10 h-auto w-auto text-red-500 font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white
+      text-[1.2rem] 
+      ">LOTUS</h2>
     </div>
 
     <!-- PEARL -->
-    <div class="group relative w-[8rem] bg-black border-2 border-[#fa4454] p-4 text-left flex items-center justify-center gap-3 cursor-pointer overflow-hidden font-[valorant2] text-[26px] font-extrabold transition-colors duration-300">
-      <div class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0"></div>
-      <h2 class="relative text-center z-10 h-full w-full text-[#fa4454] text-[1.5rem] font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white">PEARL</h2>
+    <div class="group relative bg-black border-2 border-[#fa4454] flex items-center justify-center cursor-pointer overflow-hidden font-[valorant2] font-extrabold transition-colors duration-300
+    lg:w-[8rem] lg:p-4 lg:gap-3 lg:text-[26px]
+    w-[5rem] h-[3rem] px-2 gap-3 text-[18px]
+    ">
+      <div
+        class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0">
+      </div>
+      <h2 class="relative text-center z-10 h-auto w-auto text-red-500 font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white
+      text-[1.2rem] 
+      ">PEARL</h2>
     </div>
 
     <!-- SPLIT -->
-    <div class="group relative w-[8rem] bg-black border-2 border-[#fa4454] p-4 text-left flex items-center justify-center gap-3 cursor-pointer overflow-hidden font-[valorant2] text-[26px] font-extrabold transition-colors duration-300">
-      <div class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0"></div>
-      <h2 class="relative text-center z-10 h-full w-full text-[#fa4454] text-[1.5rem] font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white">SPLIT</h2>
+    <div class="group relative bg-black border-2 border-[#fa4454] flex items-center justify-center cursor-pointer overflow-hidden font-[valorant2] font-extrabold transition-colors duration-300
+    lg:w-[8rem] lg:p-4 lg:gap-3 lg:text-[26px]
+    w-[5rem] h-[3rem] px-2 gap-3 text-[18px]
+    ">
+      <div
+        class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0">
+      </div>
+      <h2 class="relative text-center z-10 h-auto w-auto text-red-500 font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white
+      text-[1.2rem] 
+      ">SPLIT</h2>
     </div>
 
     <!-- SUNSET -->
-    <div class="group relative w-[8rem] bg-black border-2 border-[#fa4454] p-4 text-left flex items-center justify-center gap-3 cursor-pointer overflow-hidden font-[valorant2] text-[26px] font-extrabold transition-colors duration-300">
-      <div class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0"></div>
-      <h2 class="relative text-center z-10 h-full w-full text-[#fa4454] text-[1.5rem] font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white">SUNSET</h2>
-    </div>
-    </div>
-
-  <!-- Switch -->
-  <div class="flex items-center gap-2 my-4">
-    <span class="bg-neutral-900 text-white px-4 py-2 rounded-md text-lg tracking-wide font-[valorant2]">HIDE MAP</span>
-
-    <!-- 100% Tailwind no toggle: alterna bg vermelha no botão e move o indicador -->
-    <button id="mapToggle"
-      onclick="this.classList.toggle('bg-[#fa4454]');document.getElementById('indi').classList.toggle('translate-x-[170%]')"
-      class="relative w-24 h-10 bg-white rounded-md flex items-center p-1 transition duration-300">
-      <div id="indi" class="absolute left-1 top-1 w-8 h-8 bg-black rounded-md transition duration-300"></div>
-    </button>
-
-    <span class="bg-neutral-900 text-white px-3 py-2 rounded-md text-lg tracking-wide font-[valorant2]">SHOW MAP</span>
-  </div>
-
-  <!-- Imagem -->
-  <div class="bg-white w-[510px] h-[510px]">
-    <img class="w-full h-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpzhejbFWhxCCuBz22xf_2m6aO7q1ZbsmHsw&s" alt="">
-  </div>
-
-  <!-- Categorias -->
-  <div class="flex gap-16 mt-8 text-center text-lg font-[valorant]">
-    <span class="border-b-[3px] border-red-500 pb-1">MAPA</span>
-    <span class="border-b-[3px] border-red-500 pb-1">CALL</span>
-    <span class="border-b-[3px] border-red-500 pb-1">BOMB</span>
-  </div>
-
-  <!-- Botão flutuante -->
-  <div class="relative">
-    <div class="fixed bottom-5 right-5 w-8 h-8 z-50 bg-[#ff4655] rounded-full shadow-lg flex items-center justify-center cursor-pointer group">
-      <img class="w-4 h-4" src="https://www.eracleaferie.it/wp-content/uploads/signs.png" alt="">
-      <div class="border border-red-700 absolute bottom-full mb-1 right-8 w-64 bg-gray-900 text-white p-4 rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-300">
-        <h3 class="font-bold text-red-500 mb-2">ABOUT VALDLE:</h3>
-        <p class="font-[valorant2]">Daily challenges across multiple different game modes to test your Valorant expertise!</p>
-        <p class="mt-2 font-[valorant2]">Build your win streak by playing daily!</p>
-        <p class="mt-2 font-[valorant2]">Built by a fan, inspired by <a href="#" class="text-blue-400 underline">Lodle</a></p>
+    <div class="group relative bg-black border-2 border-[#fa4454] flex items-center justify-center cursor-pointer overflow-hidden font-[valorant2] font-extrabold transition-colors duration-300
+    lg:w-[8rem] lg:p-4 lg:gap-3 lg:text-[26px]
+    w-[5rem] h-[3rem] px-2 gap-3 text-[18px]
+    ">
+      <div
+        class="absolute inset-0 bg-[#fa4454] -translate-x-full transition-transform duration-200 group-hover:translate-x-0">
       </div>
+      <h2 class="relative text-center z-10 h-auto w-auto text-red-500 font-extrabold scale-[.8] transition-colors duration-200 group-hover:text-white
+      text-[1.2rem] 
+      ">SUNSET</h2>
     </div>
+  </div>
+    <!-- Switch -->
+    <div class="flex items-center 
+  gap-2 my-4
+  md:gap-3 md:my-4
+  ">
+      <span class="bg-neutral-900 text-white tracking-wide font-[valorant] text-center
+    px-2 py-1 rounded-md text-sm 
+    md:px-4 md:py-3 md:text-md
+    ">ESCONDER MAPA</span>
+
+
+      <!-- 100% Tailwind no toggle: alterna bg vermelha no botão e move o indicador -->
+      <button id="mapToggle"
+        onclick="document.getElementById('mapToggle').classList.toggle('bg-red-500');document.getElementById('mapToggle').classList.toggle('bg-white');document.getElementById('indi').classList.toggle('lg:translate-x-[175%]');document.getElementById('indi').classList.toggle('translate-x-[100%]');document.getElementById('indi').classList.toggle('md:translate-x-[175%]')"
+        class="relative bg-white flex items-center transition duration-300
+      w-24 h-10 rounded-md p-1 ">
+        <div id="indi" class="absolute left-1 top-1 bg-black rounded-md transition duration-300
+      w-8 h-8 "></div>
+      </button>
+
+      <span class="bg-neutral-900 text-white tracking-wide font-[valorant] text-center
+    px-2 py-1 rounded-md text-sm 
+    md:px-4 md:py-3 md:text-md
+    ">MOSTRAR MAPA</span>
+    </div>
+
+    <!-- Imagem -->
+    <div class="bg-white 
+  w-full 
+  md:w-[60%]
+  lg:w-[35%]
+  h-auto
+  ">
+      <img class="w-full h-full"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpzhejbFWhxCCuBz22xf_2m6aO7q1ZbsmHsw&s" alt="">
+    </div>
+
+    <!-- Categorias -->
+  <div class="
+      flex flex-row gap-6 mt-6
+      md:gap-16 md:mt-8
+      lg:gap-16 lg:mt-10
+      text-center 
+      text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl
+      font-[valorant]
+    ">
+    <span class="border-b-[2px] pb-0.5 text-xs text-white border-red-500
+  sm:border-b-[3px] sm:pb-0 sm:text-sm 
+  md:border-b-[3px] md:pb-0 md:text-lg
+  lg:border-b-[4px] lg:pb-0 lg:text-lg
+  xl:text-2xl
+  ">MAPA</span>
+
+    <span class="border-b-[2px] pb-0.5 text-xs text-white border-red-500
+  sm:border-b-[3px] sm:pb-0 sm:text-sm 
+  md:border-b-[3px] md:pb-0 md:text-lg
+  lg:border-b-[4px] lg:pb-0 lg:text-lg
+  xl:text-2xl
+  ">CALL</span>
+
+    <span class="border-b-[2px] pb-0.5 text-xs text-white border-red-500
+  sm:border-b-[3px] sm:pb-0 sm:text-sm 
+  md:border-b-[3px] md:pb-0 md:text-lg
+  lg:border-b-[4px] lg:pb-0 lg:text-lg
+  xl:text-2xl
+  ">BOMB</span>
+  </div>
+
+    <div class="relative">
+    </div>
+    <!-- Botão flutuante -->
+    <button
+      onclick="document.getElementById('about-us').classList.toggle('visible'); document.getElementById('about-us').classList.toggle('invisible')"
+      class="
+        absolute
+        bottom-[-320px] 
+        left-5 
+        z-50 
+  
+        flex 
+        items-center 
+        justify-center 
+  
+        w-6 h-6 
+        sm:w-10 sm:h-10 
+        md:w-8 md:h-8 md:fixed
+        md:left-auto md:right-5 md:bottom-5
+        bg-red-500 
+        rounded-full 
+        shadow-lg 
+        cursor-pointer
+      ">
+      <img src="https://www.eracleaferie.it/wp-content/uploads/signs.png" alt="ícone" class="
+          w-3 h-3 
+          sm:w-5 sm:h-5 
+          md:w-4 md:h-4 
+          transition 
+          duration-700
+        ">
+
+      <!-- Tooltip flutuante -->
+      <div id="about-us" class="
+          absolute 
+          bottom-7 
+          right-auto
+          left-[-7px] 
+          m-2 
+          w-64 
+          sm:w-72 
+          md:w-50
+          md:left-auto md:right-[-7px] md:bottom-10
+
+  
+          bg-gray-900 
+          text-white 
+          border 
+          border-red-700 
+          rounded-lg 
+          shadow-lg 
+  
+          p-4 
+  
+          invisible 
+          transition-opacity 
+          duration-300
+        ">
+        <h3 class="font-bold text-red-500 mb-2 text-sm sm:text-base md:text-lg">
+          SOBRE vALDLE BR:
+        </h3>
+
+        <p class="font-['valorant2'] text-xs sm:text-sm md:text-base">
+          Desafios diários em vários modos de jogo para testar toda a sua habilidade no Valorant!
+        </p>
+
+        <p class="mt-2 font-['valorant2'] text-xs sm:text-sm md:text-base">
+          Construa sua sequência de vitórias jogando todos os dias!
+        </p>
+
+        <p class="mt-2 font-['valorant2'] text-xs sm:text-sm md:text-base">
+          Criado por um fã, inspirado no:
+          <a href="https://www.valdle.gg/" class="text-blue-400 underline">Valdle</a>
+        </p>
+      </div>
+    </button>
   </div>
 
   <div class="p-16"></div>
 
   <!-- Rodapé -->
-  <footer class="w-full pb-4 bg-transparent text-white text-center flex flex-col items-center gap-4 font-[valorant2] z-[49]">
-    <div class="flex gap-6">
+  <footer class="w-full pb-4 bg-transparent text-white text-center flex flex-col items-center justify-center gap-3 font-[valorant2] bottom-0 z-[49]
+  sm:gap-4
+  md:gap-4
+  lg:gap-4
+">
+    <div class="flex flex-row justify-center gap-4 sm:gap-6">
       <!-- Discord -->
       <div class="relative group">
-        <a href="#" class="flex items-center gap-2 p-[5px] rounded-[5px] transition-colors hover:bg-red-900/20 hover:text-red-700">
-          <img src="../rodape/img/discord_v.webp" alt="Discord" class="w-5 h-5"> Discord
+        <a href="#" class="flex items-center justify-center rounded-[5px] transition-colors gap-1 p-1 text-xs
+        hover:bg-red-900/20 hover:text-red-700
+
+        sm:gap-2 sm:p-[5px] sm:text-sm
+        md:text-base
+      ">
+          <img src="../rodape/img/discord_v.webp" alt="Discord" class="
+        w-3 h-3 
+        sm:w-5 sm:h-5
+        ">
+          Discord
         </a>
-        <span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 hidden group-hover:flex flex-col items-center">
-          <span class="bg-black border border-gray-500 text-white text-xs px-2 py-1 rounded shadow-lg whitespace-nowrap">
+        <span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:flex flex-col items-center
+      sm:mb-3
+      ">
+          <span class="bg-black border border-gray-500 text-white text-[10px] px-2 py-1 rounded shadow-lg whitespace-nowrap
+          sm:text-xs
+        ">
             Entre na nossa comunidade
           </span>
         </span>
       </div>
-
-      <!-- Sobre -->
+      <!-- About -->
       <div class="relative group">
-        <a href="#" class="flex items-center gap-2 p-[5px] rounded-[5px] transition-colors hover:bg-red-900/20 hover:text-red-700">
-          <img src="../rodape/img/iconesobre_v.webp" alt="About" class="w-4 h-4"> Sobre
+        <a href="#" class="flex items-center justify-center rounded-[5px] transition-colors gap-1 p-1 text-xs hover:bg-red-900/20 hover:text-red-700
+    sm:gap-2 
+    sm:p-[5px] 
+    sm:text-sm
+    md:text-base
+  ">
+          <img src="../rodape/img/iconesobre_v.webp" alt="About" class="
+      w-3 h-3
+      sm:w-4 sm:h-4
+    ">
+          Sobre
         </a>
-        <span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 hidden group-hover:flex flex-col items-center">
-          <span class="bg-black border border-gray-500 text-white text-xs px-2 py-1 rounded shadow-lg whitespace-nowrap">
+        <span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:flex flex-col items-center
+    sm:mb-3
+  ">
+          <span class="bg-black border border-gray-500 text-white text-[10px] px-2 py-1 rounded shadow-lg whitespace-nowrap
+      sm:text-xs
+    ">
             Saiba mais sobre nós
           </span>
         </span>
       </div>
 
-      <!-- Política de privacidade -->
+      <!-- Privacy Policy -->
       <div class="relative group">
-        <a href="#" class="flex items-center gap-2 p-[5px] rounded-[5px] transition-colors hover:bg-red-900/20 hover:text-red-700">
-          <img src="../rodape/img/iconetermos.webp" alt="Privacy Policy" class="w-5 h-5"> Politica de privacidade
+        <a href="#" class="flex items-center justify-center rounded-[5px] transition-colors gap-1 p-1 text-xs hover:bg-red-900/20 hover:text-red-700
+    sm:gap-2 
+    sm:p-[5px] 
+    sm:text-sm
+    md:text-base
+  ">
+          <img src="../rodape/img/iconetermos.webp" alt="Privacy Policy" class="
+      w-3 h-3
+      sm:w-4 sm:h-4
+    ">
+          Politica de privacidade
         </a>
-        <span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 hidden group-hover:flex flex-col items-center">
-          <span class="bg-black border border-gray-500 text-white text-xs px-2 py-1 rounded shadow-lg whitespace-nowrap">
+        <span class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:flex flex-col items-center
+    sm:mb-3
+  ">
+          <span class="bg-black border border-gray-500 text-white text-[10px] px-2 py-1 rounded shadow-lg whitespace-nowrap
+      sm:text-xs
+    ">
             Leia nossa politica de privacidade
           </span>
         </span>
@@ -197,5 +474,7 @@
     </div>
   </footer>
 
+
 </body>
+
 </html>
