@@ -8,6 +8,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="icon" href="logo.webp" type="image/webp">
   <link rel="icon" type="image/png" href="../Valorant-Brasil-2.png">
+  <script src="../busca.js"></script>
   <style>
     @font-face {
       font-family: 'valorant';
@@ -98,7 +99,7 @@
 
     <!-- Barra de pesquisa -->
     <div class="flex mt-4">
-      <input type="text" placeholder="PROCURAR AGENTE..." class="
+      <input type="text" id="agente" placeholder="PROCURAR AGENTE..." class="
         bg-[#0c0c0c] 
         border border-red-500 
         text-white 
@@ -111,7 +112,8 @@
         focus:outline-none 
         focus:border-[#ff4655]
       ">
-      <button class="
+      <button onclick="buscar_Agente()"
+        class="
         bg-gray-200 
         text-black 
         px-2 py-1 text-xs
@@ -126,12 +128,36 @@
 
   <!-- Linhas de categorias -->
   <div class="flex flex-row gap-6 mt-6 md:gap-16 md:mt-8 lg:gap-16 lg:mt-10 text-center 
-      text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-[valorant]">
-    <span class="border-b-[2px] pb-0.5 text-xs text-white border-red-500 sm:border-b-[3px] sm:text-sm md:border-b-[3px] md:text-lg lg:border-b-[4px] lg:text-lg xl:text-2xl">AGENTE</span>
-    <span class="border-b-[2px] pb-0.5 text-xs text-white border-red-500 sm:border-b-[3px] sm:text-sm md:border-b-[3px] md:text-lg lg:border-b-[4px] lg:text-lg xl:text-2xl">GENERO</span>
-    <span class="border-b-[2px] pb-0.5 text-xs text-white border-red-500 sm:border-b-[3px] sm:text-sm md:border-b-[3px] md:text-lg lg:border-b-[4px] lg:text-lg xl:text-2xl">FUNCAO</span>
-    <span class="border-b-[2px] pb-0.5 text-xs text-white border-red-500 sm:border-b-[3px] sm:text-sm md:border-b-[3px] md:text-lg lg:border-b-[4px] lg:text-lg xl:text-2xl">ESTREIA</span>
-  </div>
+  text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-[valorant]">
+
+<div class="flex flex-col items-center w-full">
+  <span class="border-b-[2px] pb-0.5 mb-2 text-xs text-white border-red-500 sm:border-b-[3px] sm:text-sm md:border-b-[3px] md:text-lg lg:border-b-[4px] lg:text-lg xl:text-2xl">
+    AGENTE
+  </span>
+  <div class="result hidden text-white text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl"></div>
+</div>
+
+<div class="flex flex-col items-center">
+  <span class="border-b-[2px] pb-0.5 mb-2 text-xs text-white border-red-500 sm:border-b-[3px] sm:text-sm md:border-b-[3px] md:text-lg lg:border-b-[4px] lg:text-lg xl:text-2xl">
+    GENERO
+  </span>
+  <div class="result hidden text-white text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl w-auto h-full"></div>
+</div>
+
+<div class="flex flex-col items-center">
+  <span class="border-b-[2px] pb-0.5 mb-2 text-xs text-white border-red-500 sm:border-b-[3px] sm:text-sm md:border-b-[3px] md:text-lg lg:border-b-[4px] lg:text-lg xl:text-2xl">
+    FUNCAO
+  </span>
+  <div class="result hidden text-white text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl"></div>
+</div>
+
+<div class="flex flex-col items-center">
+  <span class="border-b-[2px] pb-0.5 mb-2 text-xs text-white border-red-500 sm:border-b-[3px] sm:text-sm md:border-b-[3px] md:text-lg lg:border-b-[4px] lg:text-lg xl:text-2xl">
+    ESTREIA
+  </span>
+  <div class="result hidden text-white text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl"></div>
+</div>
+</div>
 
   <!-- Botão flutuante -->
   <div class="relative">

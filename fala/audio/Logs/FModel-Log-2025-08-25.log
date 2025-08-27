@@ -1,0 +1,68 @@
+2025-08-25 22:04:41 [INF] FModel.App.OnStartup: Version 4.4.4.0 (528603e1478b37e306a204629086504410e68312)
+2025-08-25 22:04:41 [INF] FModel.App.OnStartup: Windows 10 Home Single Language (64-bit)
+2025-08-25 22:04:41 [INF] FModel.App.OnStartup: .NET 8.0.17
+2025-08-25 22:04:41 [INF] FModel.App.OnStartup: Culture pt-BR
+2025-08-25 22:04:47 [INF] CUE4Parse.Compression.OodleHelper+<DownloadOodleDllAsync>d__14.MoveNext: Successfully downloaded oodle dll at "C:\Users\ADM\Desktop\projeto_valdlebr\fala\audio\.data\oo2core_9_win64.dll"
+2025-08-25 22:04:47 [INF] CUE4Parse.Compression.ZlibHelper+<DownloadDllAsync>d__10.MoveNext: Successfully downloaded zlib-ng dll at "C:\Users\ADM\Desktop\projeto_valdlebr\fala\audio\.data\zlib-ng2.dll"
+2025-08-25 22:04:48 [INF] FModel.ViewModels.CUE4ParseViewModel.<Initialize>b__40_0: GAME_Valorant (DesktopMobile) | Archives: x33 | AES: x1 | Loose Files: x0
+2025-08-25 22:04:48 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk100-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-08-25 22:04:48 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk100-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0372836
+2025-08-25 22:04:48 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk2-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-08-25 22:04:48 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk2-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0673315
+2025-08-25 22:04:48 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk2-WindowsClient.utoc": 4795 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0688630
+2025-08-25 22:04:48 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk104-WindowsClient.utoc": 1197 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0283721
+2025-08-25 22:04:48 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pt_BR_Text-WindowsClient.pak": 1 files, mount point: "ShooterGame/Content/Localization/Game/pt-BR/", order 3, version 11 in 00:00:00.0023956
+2025-08-25 22:04:48 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk100-WindowsClient.utoc": 997 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0400209
+2025-08-25 22:04:48 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "MatureData-WindowsClient.utoc": 46 files, mount point: "ShooterGame/Content/L10N/Mature/", order 3, version 5 in 00:00:00.0009935
+2025-08-25 22:04:48 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk15-WindowsClient.utoc": 1337 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0019149
+2025-08-25 22:04:48 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk10-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-08-25 22:04:48 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk10-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0019694
+2025-08-25 22:04:48 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk15-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-08-25 22:04:48 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk15-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0002333
+2025-08-25 22:04:48 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk4-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-08-25 22:04:48 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk4-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0201365
+2025-08-25 22:04:48 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk199-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-08-25 22:04:48 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk199-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0090971
+2025-08-25 22:04:48 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk0-WindowsClient.utoc": 19751 files, order 3, version 5 in 00:00:00.2048116
+2025-08-25 22:04:49 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk1-WindowsClient.pak": 1 files, mount point: "ShooterGame/Content/UI/Fonts/FinalFonts/LOCFonts/DIN_Next_Arabic/", order 3, version 11 in 00:00:00.0003225
+2025-08-25 22:04:49 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pt_BR_Audio-WindowsClient.pak": 13668 files, mount point: "ShooterGame/Content/WwiseAudio/", order 3, version 11 in 00:00:00.1030242
+2025-08-25 22:04:49 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk102-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-08-25 22:04:49 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk102-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0004916
+2025-08-25 22:04:49 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk4-WindowsClient.utoc": 202 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0839224
+2025-08-25 22:04:49 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk104-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-08-25 22:04:49 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk101-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-08-25 22:04:49 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk101-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0004331
+2025-08-25 22:04:49 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk104-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0276984
+2025-08-25 22:04:49 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk0-WindowsClient.pak": 56126 files (71 encrypted), order 3, version 11 in 00:00:00.3747276
+2025-08-25 22:04:49 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk3-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-08-25 22:04:49 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk3-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0006655
+2025-08-25 22:04:49 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk101-WindowsClient.utoc": 2214 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0108968
+2025-08-25 22:04:49 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk3-WindowsClient.utoc": 4606 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0316490
+2025-08-25 22:04:49 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk199-WindowsClient.utoc": 1299 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0595580
+2025-08-25 22:04:49 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk103-WindowsClient.utoc": 91 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0002879
+2025-08-25 22:04:49 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk103-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-08-25 22:04:49 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk103-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0004616
+2025-08-25 22:04:49 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "MatureData-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-08-25 22:04:49 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "MatureData-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0002585
+2025-08-25 22:04:49 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk102-WindowsClient.utoc": 1019 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0016240
+2025-08-25 22:04:49 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk1-WindowsClient.utoc": 68153 files, order 3, version 5 in 00:00:00.4458004
+2025-08-25 22:04:50 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk10-WindowsClient.utoc": 162412 files, order 3, version 5 in 00:00:01.2529207
+2025-08-25 22:04:51 [INF] FModel.ViewModels.CUE4ParseViewModel.LoadVfs: Project: ShooterGame | Mounted: 30/33 | AES: 1/1 | Files: x337915
+2025-08-25 22:04:52 [INF] FModel.ViewModels.ApiEndpoints.FModelApiEndpoint+<GetNewsAsync>d__9.MoveNext: ["Get"] [OK(200)] 'https://api.fmodel.app/v1/news/4.4.4.0?game=ShooterGame'
+2025-08-25 22:04:52 [INF] CUE4Parse_Conversion.Textures.BC.DetexHelper+<LoadDllAsync>d__10.MoveNext: Successfully loaded Detex DLL from embedded resources to "C:\Users\ADM\Desktop\projeto_valdlebr\fala\audio\.data\Detex.dll"
+2025-08-25 22:04:52 [INF] FModel.ViewModels.CUE4ParseViewModel+<>c__DisplayClass45_0.<InitMappings>b__0: Mappings pulled from 'Valorant.usmap'
+2025-08-25 22:04:55 [INF] FModel.Services.DiscordHandler+<>c.<Initialize>b__6_0: @_sophia00 (730806782137597964) is now ready
+2025-08-25 22:05:32 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aamir_VO/E02/Play_VO_Gumshoe_E02_RoundStartGeneric.uasset'
+2025-08-25 22:05:40 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aamir_VO/E02/Play_VO_Gumshoe_E02_RoundStartGeneric.uasset'
+2025-08-25 22:06:57 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.E02.RoundStart.Generic11 (pt-BR).wav successfully saved
+2025-08-25 22:06:57 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric04 (pt-BR).wav successfully saved
+2025-08-25 22:06:57 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric05 (pt-BR).wav successfully saved
+2025-08-25 22:06:57 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric02 (pt-BR).wav successfully saved
+2025-08-25 22:06:57 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric06 (pt-BR).wav successfully saved
+2025-08-25 22:06:57 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric07 (pt-BR).wav successfully saved
+2025-08-25 22:06:57 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric08 (pt-BR).wav successfully saved
+2025-08-25 22:06:57 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric03 (pt-BR).wav successfully saved
+2025-08-25 22:06:57 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric09 (pt-BR).wav successfully saved
+2025-08-25 22:06:57 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric10 (pt-BR).wav successfully saved
+2025-08-25 22:06:57 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric01 (pt-BR).wav successfully saved
+2025-08-25 22:10:33 [INF] FModel.App.AppExit: ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––

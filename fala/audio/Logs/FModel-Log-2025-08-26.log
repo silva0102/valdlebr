@@ -1,0 +1,599 @@
+2025-08-26 17:21:49 [INF] FModel.App.OnStartup: Version 4.4.4.0 (528603e1478b37e306a204629086504410e68312)
+2025-08-26 17:21:49 [INF] FModel.App.OnStartup: Windows 10 Home Single Language (64-bit)
+2025-08-26 17:21:49 [INF] FModel.App.OnStartup: .NET 8.0.17
+2025-08-26 17:21:49 [INF] FModel.App.OnStartup: Culture pt-BR
+2025-08-26 17:21:51 [INF] FModel.ViewModels.CUE4ParseViewModel.<Initialize>b__40_0: GAME_Valorant (DesktopMobile) | Archives: x33 | AES: x1 | Loose Files: x0
+2025-08-26 17:21:52 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk100-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk100-WindowsClient.utoc": 997 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0449409
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "MatureData-WindowsClient.utoc": 46 files, mount point: "ShooterGame/Content/L10N/Mature/", order 3, version 5 in 00:00:00.0447673
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk100-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0493637
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk4-WindowsClient.utoc": 202 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0004117
+2025-08-26 17:21:52 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk103-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk103-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0015947
+2025-08-26 17:21:52 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk102-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk102-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0004085
+2025-08-26 17:21:52 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk4-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk4-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0002921
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk1-WindowsClient.pak": 1 files, mount point: "ShooterGame/Content/UI/Fonts/FinalFonts/LOCFonts/DIN_Next_Arabic/", order 3, version 11 in 00:00:00.0020686
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk104-WindowsClient.utoc": 1197 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0277275
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk101-WindowsClient.utoc": 2214 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0252922
+2025-08-26 17:21:52 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk199-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk199-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0005122
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk103-WindowsClient.utoc": 91 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0002235
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk0-WindowsClient.utoc": 19751 files, order 3, version 5 in 00:00:00.1265997
+2025-08-26 17:21:52 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk3-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-08-26 17:21:52 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "MatureData-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "MatureData-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0011325
+2025-08-26 17:21:52 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk15-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk15-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0003576
+2025-08-26 17:21:52 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk2-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk2-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0002619
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk3-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0080301
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pt_BR_Text-WindowsClient.pak": 1 files, mount point: "ShooterGame/Content/Localization/Game/pt-BR/", order 3, version 11 in 00:00:00.0216813
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk15-WindowsClient.utoc": 1337 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0248411
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk199-WindowsClient.utoc": 1299 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0323019
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pt_BR_Audio-WindowsClient.pak": 13668 files, mount point: "ShooterGame/Content/WwiseAudio/", order 3, version 11 in 00:00:00.1476131
+2025-08-26 17:21:52 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk104-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk104-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0005303
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk102-WindowsClient.utoc": 1019 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0330833
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk2-WindowsClient.utoc": 4795 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.1214781
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk3-WindowsClient.utoc": 4606 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0536998
+2025-08-26 17:21:52 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk101-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk101-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0004510
+2025-08-26 17:21:52 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk10-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk10-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0001915
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk0-WindowsClient.pak": 56126 files (71 encrypted), order 3, version 11 in 00:00:00.5280432
+2025-08-26 17:21:52 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk1-WindowsClient.utoc": 68153 files, order 3, version 5 in 00:00:00.7354886
+2025-08-26 17:21:53 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk10-WindowsClient.utoc": 162412 files, order 3, version 5 in 00:00:01.0054824
+2025-08-26 17:21:54 [INF] FModel.ViewModels.CUE4ParseViewModel.LoadVfs: Project: ShooterGame | Mounted: 30/33 | AES: 1/1 | Files: x337915
+2025-08-26 17:21:55 [INF] FModel.ViewModels.ApiEndpoints.FModelApiEndpoint+<GetNewsAsync>d__9.MoveNext: ["Get"] [OK(200)] 'https://api.fmodel.app/v1/news/4.4.4.0?game=ShooterGame'
+2025-08-26 17:21:55 [INF] FModel.ViewModels.CUE4ParseViewModel+<>c__DisplayClass45_0.<InitMappings>b__0: Mappings pulled from 'Valorant.usmap'
+2025-08-26 17:21:56 [INF] FModel.Services.DiscordHandler+<>c.<Initialize>b__6_0: @_sophia00 (730806782137597964) is now ready
+2025-08-26 17:22:36 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aamir_VO/E02/Play_VO_Gumshoe_E02_HeadshotKill.uasset'
+2025-08-26 17:22:51 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aamir_VO/E02/Play_VO_Gumshoe_E02_Kill.uasset'
+2025-08-26 17:23:00 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aamir_VO/E02/Play_VO_Gumshoe_E02_LastKill.uasset'
+2025-08-26 17:23:39 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aamir_VO/E02/Play_VO_Gumshoe_E02_LastKill.uasset'
+2025-08-26 17:23:58 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aamir_VO/E02/Play_VO_Gumshoe_E02_MeleeKill.uasset'
+2025-08-26 17:24:08 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aamir_VO/E02/Play_VO_Gumshoe_E02_Modes_Kill_OneKillRemaining.uasset'
+2025-08-26 17:24:13 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aamir_VO/E02/Play_VO_Gumshoe_E02_Modes_Match_RunnerUp.uasset'
+2025-08-26 17:24:24 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aamir_VO/E02/Play_VO_Gumshoe_E02_RoundStartGeneric.uasset'
+2025-08-26 17:26:45 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.E02.RoundStart.Generic11 (pt-BR).wav successfully saved
+2025-08-26 17:26:45 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric04 (pt-BR).wav successfully saved
+2025-08-26 17:26:45 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric05 (pt-BR).wav successfully saved
+2025-08-26 17:26:45 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric02 (pt-BR).wav successfully saved
+2025-08-26 17:26:45 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric06 (pt-BR).wav successfully saved
+2025-08-26 17:26:45 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric07 (pt-BR).wav successfully saved
+2025-08-26 17:26:45 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric08 (pt-BR).wav successfully saved
+2025-08-26 17:26:45 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric03 (pt-BR).wav successfully saved
+2025-08-26 17:26:45 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric09 (pt-BR).wav successfully saved
+2025-08-26 17:26:45 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric10 (pt-BR).wav successfully saved
+2025-08-26 17:26:45 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric01 (pt-BR).wav successfully saved
+2025-08-26 17:27:49 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aamir_VO/E02/Play_VO_Gumshoe_E02_RoundStartGeneric.uasset'
+2025-08-26 17:27:55 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.E02.RoundStart.Generic11 (pt-BR).wav successfully saved
+2025-08-26 17:27:55 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric04 (pt-BR).wem successfully saved
+2025-08-26 17:27:55 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric05 (pt-BR).wem successfully saved
+2025-08-26 17:27:55 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric02 (pt-BR).wem successfully saved
+2025-08-26 17:27:55 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric06 (pt-BR).wem successfully saved
+2025-08-26 17:27:55 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric07 (pt-BR).wem successfully saved
+2025-08-26 17:27:55 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric08 (pt-BR).wem successfully saved
+2025-08-26 17:27:55 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric03 (pt-BR).wem successfully saved
+2025-08-26 17:27:55 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric09 (pt-BR).wem successfully saved
+2025-08-26 17:27:55 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric10 (pt-BR).wem successfully saved
+2025-08-26 17:27:55 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric01 (pt-BR).wem successfully saved
+2025-08-26 17:28:37 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.E02.RoundStart.Generic11 (pt-BR).wav successfully saved
+2025-08-26 17:28:37 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric04 (pt-BR).wem successfully saved
+2025-08-26 17:28:37 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric05 (pt-BR).wem successfully saved
+2025-08-26 17:28:37 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric02 (pt-BR).wem successfully saved
+2025-08-26 17:28:37 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric06 (pt-BR).wem successfully saved
+2025-08-26 17:28:37 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric07 (pt-BR).wem successfully saved
+2025-08-26 17:28:37 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric08 (pt-BR).wem successfully saved
+2025-08-26 17:28:37 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric03 (pt-BR).wem successfully saved
+2025-08-26 17:28:37 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric09 (pt-BR).wem successfully saved
+2025-08-26 17:28:37 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric10 (pt-BR).wem successfully saved
+2025-08-26 17:28:37 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartGeneric01 (pt-BR).wem successfully saved
+2025-08-26 17:29:47 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aamir_VO/E02/Play_VO_Gumshoe_E02_WonComingBack.uasset'
+2025-08-26 17:30:02 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartWonComingBack01 (pt-BR).wav successfully saved
+2025-08-26 17:30:02 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartWonComingBack02 (pt-BR).wav successfully saved
+2025-08-26 17:30:02 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.E02.RoundStart.WonComingBack03 (pt-BR).wav successfully saved
+2025-08-26 17:31:11 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aamir_VO/E02/Play_VO_Gumshoe_E02_WonDoingGreat.uasset'
+2025-08-26 17:31:24 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.E02.RoundStart.WonDoingGreat03 (pt-BR).wav successfully saved
+2025-08-26 17:31:24 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.WonDoingGreat01 (pt-BR).wav successfully saved
+2025-08-26 17:31:24 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.WonDoingGreat02 (pt-BR).wav successfully saved
+2025-08-26 17:31:28 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aamir_VO/E02/Play_VO_Gumshoe_E02_WonGeneric.uasset'
+2025-08-26 17:31:41 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.E02.RoundStart.WonGeneric04 (pt-BR).wav successfully saved
+2025-08-26 17:31:41 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartWonGeneric03 (pt-BR).wav successfully saved
+2025-08-26 17:31:41 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartWonGeneric01 (pt-BR).wav successfully saved
+2025-08-26 17:31:41 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.RoundStartWonGeneric02 (pt-BR).wav successfully saved
+2025-08-26 17:31:54 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aamir_VO/E05/Play_VO_Gumshoe_E05_MatchStart_Attacker.uasset'
+2025-08-26 17:32:04 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.Match.StartAttacker02 (pt-BR).wav successfully saved
+2025-08-26 17:32:04 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.Match.StartAttacker01 (pt-BR).wav successfully saved
+2025-08-26 17:32:11 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aamir_VO/E05/Play_VO_Gumshoe_E05_MatchStart_Defender.uasset'
+2025-08-26 17:32:21 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.Match.StartDefender01 (pt-BR).wav successfully saved
+2025-08-26 17:32:21 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Gumshoe.Match.StartDefender02 (pt-BR).wav successfully saved
+2025-08-26 17:32:26 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aamir_VO/E05/Play_VO_Gumshoe_E05_MatchStartAlly_BountyHunter.uasset'
+2025-08-26 17:32:47 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_Ability_EDestroyed.uasset'
+2025-08-26 17:32:56 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_BubbleDown.uasset'
+2025-08-26 17:33:05 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_BubbleDownGeneric.uasset'
+2025-08-26 17:33:20 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_CKill.uasset'
+2025-08-26 17:33:24 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_ClutchPlay.uasset'
+2025-08-26 17:33:43 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_DeathEffort.uasset'
+2025-08-26 17:33:46 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_DefusedObjective.uasset'
+2025-08-26 17:33:56 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_EnemyVIPLastKill.uasset'
+2025-08-26 17:33:59 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_Flawless.uasset'
+2025-08-26 17:34:06 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_GamePointWin.uasset'
+2025-08-26 17:34:15 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_Kill.uasset'
+2025-08-26 17:34:26 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_LastKill_Aggrobot.uasset'
+2025-08-26 17:34:33 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_LastKill.uasset'
+2025-08-26 17:34:41 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_LastRoundofHalfasAttackers.uasset'
+2025-08-26 17:34:52 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_MatchStart_Attacker.uasset'
+2025-08-26 17:35:18 [INF] FModel.ViewModels.Commands.AudioCommand.Execute: Aggrobot.Match.StartAttacker02 (pt-BR).wav successfully saved
+2025-08-26 17:35:24 [INF] FModel.ViewModels.Commands.AudioCommand.Execute: Aggrobot.Match.StartAttacker01 (pt-BR).wav successfully saved
+2025-08-26 17:35:28 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_MatchStart_Defender.uasset'
+2025-08-26 17:35:37 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Aggrobot.Match.StartDefender02 (pt-BR).wav successfully saved
+2025-08-26 17:35:37 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Aggrobot.Match.StartDefender01 (pt-BR).wav successfully saved
+2025-08-26 17:35:40 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_MatchStart.uasset'
+2025-08-26 17:36:27 [INF] FModel.ViewModels.Commands.AudioCommand.Execute: Aggrobot.Match.Start02 (pt-BR).wav successfully saved
+2025-08-26 17:36:36 [INF] FModel.ViewModels.Commands.AudioCommand.Execute: Aggrobot.Match.Start04 (pt-BR).wav successfully saved
+2025-08-26 17:36:52 [INF] FModel.ViewModels.Commands.AudioCommand.Execute: Aggrobot.Match.Start01 (pt-BR).wav successfully saved
+2025-08-26 17:37:33 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_MatchStartAlly_Cable.uasset'
+2025-08-26 17:37:46 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_MatchStartEnemy_Cable.uasset'
+2025-08-26 17:37:50 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_MatchStartMap_Ascent.uasset'
+2025-08-26 17:38:00 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Aggrobot.Match.Start[Ascent]01 (pt-BR).wav successfully saved
+2025-08-26 17:38:03 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_MatchStartMap_Canyon.uasset'
+2025-08-26 17:38:10 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_MatchStartMap_Jam.uasset'
+2025-08-26 17:38:15 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Aggrobot.Match.Start[Jam]01 (pt-BR).wav successfully saved
+2025-08-26 17:38:17 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_MatchStartMap_Juliett.uasset'
+2025-08-26 17:38:22 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Aggrobot.Match.Start[Juliette]01 (pt-BR).wav successfully saved
+2025-08-26 17:38:26 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_MatchWin.uasset'
+2025-08-26 17:38:45 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_MatchWinMap_Juliett.uasset'
+2025-08-26 17:38:53 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Aggrobot.Match.Win[Juliette]01 (pt-BR).wav successfully saved
+2025-08-26 17:38:55 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_MatchWin.uasset'
+2025-08-26 17:39:18 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_MeleeKill.uasset'
+2025-08-26 17:39:22 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_MeleeLastKill.uasset'
+2025-08-26 17:39:35 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_PainEffortFallDmg.uasset'
+2025-08-26 17:39:49 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_RoundStartGeneric.uasset'
+2025-08-26 17:40:23 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: Aggrobot.RoundStart.Generic04 (pt-BR).wav successfully saved
+2025-08-26 17:40:48 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: Aggrobot.RoundStart.Generic10 (pt-BR).wav successfully saved
+2025-08-26 17:41:02 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: Aggrobot.RoundStart.Generic05 (pt-BR).wav successfully saved
+2025-08-26 17:41:14 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: Aggrobot.RoundStart.Generic03 (pt-BR).wav successfully saved
+2025-08-26 17:41:30 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: Aggrobot.RoundStart.Generic08 (pt-BR).wav successfully saved
+2025-08-26 17:41:38 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: Aggrobot.RoundStart.Generic01 (pt-BR).wav successfully saved
+2025-08-26 17:41:43 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: Aggrobot.RoundStart.Generic09 (pt-BR).wav successfully saved
+2025-08-26 17:41:47 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: Aggrobot.RoundStart.Generic11 (pt-BR).wav successfully saved
+2025-08-26 17:42:01 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: Aggrobot.RoundStart.Generic02 (pt-BR).wav successfully saved
+2025-08-26 17:42:05 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: Aggrobot.RoundStart.Generic07 (pt-BR).wav successfully saved
+2025-08-26 17:42:09 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: Aggrobot.RoundStart.Generic06 (pt-BR).wav successfully saved
+2025-08-26 17:42:23 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_Thrifty.uasset'
+2025-08-26 17:42:28 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_WonComingBack.uasset'
+2025-08-26 17:42:37 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: Aggrobot.RoundStart.WonComingBack02 (pt-BR).wav successfully saved
+2025-08-26 17:42:39 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_WonDoingGreat.uasset'
+2025-08-26 17:43:16 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Aggrobot.RoundStart.WonDoingGreat02 (pt-BR).wav successfully saved
+2025-08-26 17:43:16 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Aggrobot.RoundStart.WonDoingGreat01 (pt-BR).wav successfully saved
+2025-08-26 17:43:16 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Aggrobot.RoundStart.WonDoingGreat03 (pt-BR).wav successfully saved
+2025-08-26 17:43:22 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_E06_WonGeneric.uasset'
+2025-08-26 17:43:35 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Aggrobot.RoundStart.WonGeneric05 (pt-BR).wav successfully saved
+2025-08-26 17:43:35 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Aggrobot.RoundStart.WonGeneric04 (pt-BR).wav successfully saved
+2025-08-26 17:43:35 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Aggrobot.RoundStart.WonGeneric02 (pt-BR).wav successfully saved
+2025-08-26 17:43:35 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Aggrobot.RoundStart.WonGeneric01 (pt-BR).wav successfully saved
+2025-08-26 17:43:35 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Aggrobot.RoundStart.WonGeneric03 (pt-BR).wav successfully saved
+2025-08-26 17:43:45 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Aggrobot_VO/Core/Play_VO_Aggrobot_PickMe.uasset'
+2025-08-26 17:43:52 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Aggrobot.PickMe01 (pt-BR).wav successfully saved
+2025-08-26 17:44:29 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_BountyHunter_VO/E04/Play_VO_BountyHunter_E04_BarelySurvived.uasset'
+2025-08-26 17:44:37 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_BountyHunter_VO/E04/Play_VO_BountyHunter_E04_BubbleDown.uasset'
+2025-08-26 17:44:55 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_BountyHunter_VO/E04/Play_VO_BountyHunter_E04_DeathEffort.uasset'
+2025-08-26 17:44:58 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_BountyHunter_VO/E04/Play_VO_BountyHunter_E04_DefusedObjective.uasset'
+2025-08-26 17:45:08 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_BountyHunter_VO/E04/Play_VO_BountyHunter_E04_DefusedObjective.uasset'
+2025-08-26 17:45:27 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_BountyHunter_VO/E04/Play_VO_BountyHunter_E04_Flawless.uasset'
+2025-08-26 17:45:41 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: BountyHunter.RoundEnd.Flawless02 (pt-BR).wav successfully saved
+2025-08-26 17:45:47 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_BountyHunter_VO/E04/Play_VO_BountyHunter_E04_GamePointWin.uasset'
+2025-08-26 17:45:56 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.RoundStart.GamePointWin02 (pt-BR).wav successfully saved
+2025-08-26 17:45:56 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.RoundStart.GamePointWin01 (pt-BR).wav successfully saved
+2025-08-26 17:46:02 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_BountyHunter_VO/E04/Play_VO_BountyHunter_E04_Kill.uasset'
+2025-08-26 17:46:16 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_BountyHunter_VO/E04/Play_VO_BountyHunter_E04_MatchStart_Attacker.uasset'
+2025-08-26 17:46:26 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.Match.StartAttacker01 (pt-BR).wav successfully saved
+2025-08-26 17:46:26 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.Match.StartAttacker02 (pt-BR).wav successfully saved
+2025-08-26 17:46:29 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_BountyHunter_VO/E04/Play_VO_BountyHunter_E04_MatchStart_Defender.uasset'
+2025-08-26 17:46:41 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.Match.StartDefender01 (pt-BR).wav successfully saved
+2025-08-26 17:46:41 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.Match.StartDefender02 (pt-BR).wav successfully saved
+2025-08-26 17:58:23 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_BountyHunter_VO/E04/Play_VO_BountyHunter_E04_MatchStart_Defender.uasset'
+2025-08-26 17:58:34 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_BountyHunter_VO/E04/Play_VO_BountyHunter_E04_MatchStart.uasset'
+2025-08-26 17:59:02 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.Match.Start02 (pt-BR).wav successfully saved
+2025-08-26 17:59:02 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.Match.Start03 (pt-BR).wav successfully saved
+2025-08-26 17:59:02 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.Match.Start06 (pt-BR).wav successfully saved
+2025-08-26 17:59:02 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.Match.Start05 (pt-BR).wav successfully saved
+2025-08-26 17:59:02 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.Match.Start04 (pt-BR).wav successfully saved
+2025-08-26 17:59:02 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.Match.Start01 (pt-BR).wav successfully saved
+2025-08-26 17:59:10 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_BountyHunter_VO/E04/Play_VO_BountyHunter_E04_MatchWin.uasset'
+2025-08-26 18:02:27 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.Match.Win01 (pt-BR).wav successfully saved
+2025-08-26 18:02:27 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.Match.Win02 (pt-BR).wav successfully saved
+2025-08-26 18:02:27 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.Match.Win03 (pt-BR).wav successfully saved
+2025-08-26 18:02:32 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_BountyHunter_VO/E04/Play_VO_BountyHunter_E04_MeleeKill.uasset'
+2025-08-26 18:03:29 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_BountyHunter_VO/E04/Play_VO_BountyHunter_E04_RoundStartGeneric.uasset'
+2025-08-26 18:04:09 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.RoundStart.Generic09 (pt-BR).wav successfully saved
+2025-08-26 18:04:09 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.RoundStart.Generic03 (pt-BR).wav successfully saved
+2025-08-26 18:04:09 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.RoundStart.Generic01 (pt-BR).wav successfully saved
+2025-08-26 18:04:09 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.RoundStart.Generic02 (pt-BR).wav successfully saved
+2025-08-26 18:04:09 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.RoundStart.Generic07 (pt-BR).wav successfully saved
+2025-08-26 18:04:09 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.RoundStart.Generic06 (pt-BR).wav successfully saved
+2025-08-26 18:04:09 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.RoundStart.Generic08 (pt-BR).wav successfully saved
+2025-08-26 18:04:09 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.RoundStart.Generic04 (pt-BR).wav successfully saved
+2025-08-26 18:04:09 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.RoundStart.Generic10 (pt-BR).wav successfully saved
+2025-08-26 18:04:09 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.RoundStart.Generic05 (pt-BR).wav successfully saved
+2025-08-26 18:04:16 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_BountyHunter_VO/E04/Play_VO_BountyHunter_E04_WonComingBack.uasset'
+2025-08-26 18:04:30 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.RoundStart.WonComingBack03 (pt-BR).wav successfully saved
+2025-08-26 18:04:30 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.RoundStart.WonComingBack01 (pt-BR).wav successfully saved
+2025-08-26 18:04:30 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.RoundStart.WonComingBack02 (pt-BR).wav successfully saved
+2025-08-26 18:04:32 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_BountyHunter_VO/E04/Play_VO_BountyHunter_E04_WonDoingGreat.uasset'
+2025-08-26 18:05:25 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: BountyHunter.RoundStart.WonDoingGreat02 (pt-BR).wav successfully saved
+2025-08-26 18:05:30 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: BountyHunter.RoundStart.WonDoingGreat04 (pt-BR).wav successfully saved
+2025-08-26 18:05:34 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: BountyHunter.RoundStart.WonDoingGreat01 (pt-BR).wav successfully saved
+2025-08-26 18:05:37 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_BountyHunter_VO/E04/Play_VO_BountyHunter_E04_WonGeneric.uasset'
+2025-08-26 18:05:51 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.RoundStart.WonGeneric04 (pt-BR).wav successfully saved
+2025-08-26 18:05:51 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.RoundStart.WonGeneric03 (pt-BR).wav successfully saved
+2025-08-26 18:05:51 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.RoundStart.WonGeneric02 (pt-BR).wav successfully saved
+2025-08-26 18:05:51 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.RoundStart.WonGeneric01 (pt-BR).wav successfully saved
+2025-08-26 18:05:59 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_BountyHunter_VO/ToDoUnreal/Play_VO_BountyHunter_PickMe.uasset'
+2025-08-26 18:06:06 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: BountyHunter.PickMe01 (pt-BR).wav successfully saved
+2025-08-26 18:06:22 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E01/Play_VO_Breach_BeQuiet.uasset'
+2025-08-26 18:06:42 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E01/Play_VO_Breach_FallBack.uasset'
+2025-08-26 18:06:47 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E01/Play_VO_Breach_Flawless.uasset'
+2025-08-26 18:07:26 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E01/Play_VO_Breach_GamePointWin.uasset'
+2025-08-26 18:08:14 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: Breach.RoundStartGamePointWin03 (pt-BR).wav successfully saved
+2025-08-26 18:08:19 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: Breach.RoundStartGamePointWin01 (pt-BR).wav successfully saved
+2025-08-26 18:08:37 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E01/Play_VO_Breach_LastRoundofHalfasAttackers.uasset'
+2025-08-26 18:08:45 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E01/Play_VO_Breach_MatchStart.uasset'
+2025-08-26 18:13:55 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.MatchStart03 (pt-BR).wav successfully saved
+2025-08-26 18:13:55 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.MatchStart07 (pt-BR).wav successfully saved
+2025-08-26 18:13:55 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.MatchStart06 (pt-BR).wav successfully saved
+2025-08-26 18:13:55 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.MatchStart02 (pt-BR).wav successfully saved
+2025-08-26 18:13:55 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.MatchStart04 (pt-BR).wav successfully saved
+2025-08-26 18:13:55 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.MatchStart05 (pt-BR).wav successfully saved
+2025-08-26 18:13:55 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.MatchStart08 (pt-BR).wav successfully saved
+2025-08-26 18:13:55 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.MatchStart01 (pt-BR).wav successfully saved
+2025-08-26 18:17:24 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E01/Play_VO_Breach_MatchWin.uasset'
+2025-08-26 18:17:49 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.MatchWin01 (pt-BR).wav successfully saved
+2025-08-26 18:17:49 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.MatchWin03 (pt-BR).wav successfully saved
+2025-08-26 18:17:49 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.MatchWin04 (pt-BR).wav successfully saved
+2025-08-26 18:17:49 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.MatchWin02 (pt-BR).wav successfully saved
+2025-08-26 18:17:53 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E01/Play_VO_Breach_MatchWinMVP.uasset'
+2025-08-26 18:18:06 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.MatchWinMVP01 (pt-BR).wav successfully saved
+2025-08-26 18:18:06 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.MatchWinMVP02 (pt-BR).wav successfully saved
+2025-08-26 18:18:06 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.MatchWinMVP03 (pt-BR).wav successfully saved
+2025-08-26 18:18:06 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.MatchWinMVP04 (pt-BR).wav successfully saved
+2025-08-26 18:18:17 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E01/Play_VO_Breach_OnMyWay.uasset'
+2025-08-26 18:18:36 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E01/Play_VO_Breach_RoundStartGeneric.uasset'
+2025-08-26 18:18:41 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E01/Play_VO_Breach_RoundStartGeneric.uasset'
+2025-08-26 18:18:45 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E01/Play_VO_Breach_RoundStartGeneric.uasset'
+2025-08-26 18:18:46 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E01/Play_VO_Breach_RoundStartGeneric.uasset'
+2025-08-26 18:18:49 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E01/Play_VO_Breach_Saving.uasset'
+2025-08-26 18:18:52 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E01/Play_VO_Breach_RoundStartGeneric.uasset'
+2025-08-26 18:18:54 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E01/Play_VO_Breach_RoundStartGeneric.uasset'
+2025-08-26 18:19:00 [INF] FModel.ViewModels.Commands.RightClickMenuCommand+<>c__DisplayClass3_0.<Execute>b__0: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E01/Play_VO_Breach_RoundStartGeneric.uasset'
+2025-08-26 18:19:10 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E01/Play_VO_Breach_RushThem.uasset'
+2025-08-26 18:19:21 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E01/Play_VO_Breach_WonComingBack.uasset'
+2025-08-26 18:19:34 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.RoundStartWonComingBack03 (pt-BR).wav successfully saved
+2025-08-26 18:19:34 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.RoundStartWonComingBack01 (pt-BR).wav successfully saved
+2025-08-26 18:19:34 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.RoundStartWonComingBack02 (pt-BR).wav successfully saved
+2025-08-26 18:19:37 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E01/Play_VO_Breach_WonDoingGreat.uasset'
+2025-08-26 18:19:48 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.RoundStartWonDoingGreat03 (pt-BR).wav successfully saved
+2025-08-26 18:19:48 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.RoundStartWonDoingGreat01 (pt-BR).wav successfully saved
+2025-08-26 18:19:48 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.RoundStartWonDoingGreat02 (pt-BR).wav successfully saved
+2025-08-26 18:19:51 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E01/Play_VO_Breach_WonGeneric.uasset'
+2025-08-26 18:20:14 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: Breach.RoundStartWonGeneric04 (pt-BR).wav successfully saved
+2025-08-26 18:20:30 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E01/Play_VO_Breach_MatchStart.uasset'
+2025-08-26 18:20:50 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E01/Play_VO_Breach_PickMe.uasset'
+2025-08-26 18:21:00 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.PickMe04 (pt-BR).wav successfully saved
+2025-08-26 18:21:27 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E01/Play_VO_Breach_RoundStartGeneric.uasset'
+2025-08-26 18:21:49 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E02/Play_VO_Breach_E02_MatchSrt_Chat_BreachSarge.uasset'
+2025-08-26 18:21:52 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E02/Play_VO_Breach_E02_MatchSrt_Chat_GuideBreach.uasset'
+2025-08-26 18:22:02 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E02/Play_VO_Breach_E02_MatchStartAlly_Clay.uasset'
+2025-08-26 18:22:09 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E02/Play_VO_Breach_E02_MatchStartMap_Split.uasset'
+2025-08-26 18:22:21 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.E02.Match.Start[Split]01 (pt-BR).wav successfully saved
+2025-08-26 18:22:23 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E02/Play_VO_Breach_E02_MatchWinMap_Port.uasset'
+2025-08-26 18:22:30 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.E02.Match.Win[Port]01 (pt-BR).wav successfully saved
+2025-08-26 18:22:41 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E02/Play_VO_Breach_E02_RoundStartGeneric.uasset'
+2025-08-26 18:23:15 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.RoundStartGeneric05 (pt-BR).wav successfully saved
+2025-08-26 18:23:15 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.E02.RoundStart.Generic11 (pt-BR).wav successfully saved
+2025-08-26 18:23:15 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.E02.RoundStart.Generic09 (pt-BR).wav successfully saved
+2025-08-26 18:23:15 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.RoundStartGeneric08 (pt-BR).wav successfully saved
+2025-08-26 18:23:15 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.RoundStartGeneric01 (pt-BR).wav successfully saved
+2025-08-26 18:23:15 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.RoundStartGeneric02 (pt-BR).wav successfully saved
+2025-08-26 18:23:15 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.E02.RoundStart.Generic10 (pt-BR).wav successfully saved
+2025-08-26 18:23:15 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.RoundStartGeneric07 (pt-BR).wav successfully saved
+2025-08-26 18:23:15 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.RoundStartGeneric03 (pt-BR).wav successfully saved
+2025-08-26 18:23:15 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.RoundStartGeneric06 (pt-BR).wav successfully saved
+2025-08-26 18:23:15 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.RoundStartGeneric04 (pt-BR).wav successfully saved
+2025-08-26 18:23:38 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E08/Play_VO_Breach_E08_MatchStart_Attacker.uasset'
+2025-08-26 18:23:52 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.Match.StartAttacker03 (pt-BR).wav successfully saved
+2025-08-26 18:23:52 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.Match.StartAttacker02 (pt-BR).wav successfully saved
+2025-08-26 18:23:52 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.Match.StartAttacker01 (pt-BR).wav successfully saved
+2025-08-26 18:23:59 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E08/Play_VO_Breach_E08_MatchStart_Defender.uasset'
+2025-08-26 18:25:45 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.Match.StartDefender01 (pt-BR).wav successfully saved
+2025-08-26 18:25:45 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.Match.StartDefender02 (pt-BR).wav successfully saved
+2025-08-26 18:25:54 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E08/Play_VO_Breach_E08_MatchStartAlly_Cable.uasset'
+2025-08-26 18:25:58 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Breach_VO/E08/Play_VO_Breach_E08_MatchStartMap_Juliett.uasset'
+2025-08-26 18:26:06 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Breach.Match.Start[Juliett]01 (pt-BR).wav successfully saved
+2025-08-26 18:26:45 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cable_VO/Core/Play_VO_Cable_E06_BarelySurvived.uasset'
+2025-08-26 18:27:37 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cable_VO/Core/Play_VO_Cable_E06_Flawless.uasset'
+2025-08-26 18:28:23 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cable_VO/Core/Play_VO_Cable_E06_MatchStart_Attacker.uasset'
+2025-08-26 18:28:31 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cable.Match.StartAttacker01 (pt-BR).wav successfully saved
+2025-08-26 18:28:33 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cable_VO/Core/Play_VO_Cable_E06_MatchStart_Defender.uasset'
+2025-08-26 18:28:40 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cable.Match.StartDefender01 (pt-BR).wav successfully saved
+2025-08-26 18:28:42 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cable_VO/Core/Play_VO_Cable_E06_MatchStart.uasset'
+2025-08-26 18:29:15 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cable.Match.Start03 (pt-BR).wav successfully saved
+2025-08-26 18:29:15 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cable.Match.Start02 (pt-BR).wav successfully saved
+2025-08-26 18:29:15 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cable.Match.Start04 (pt-BR).wav successfully saved
+2025-08-26 18:29:15 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cable.Match.Start06 (pt-BR).wav successfully saved
+2025-08-26 18:29:15 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cable.Match.Start07 (pt-BR).wav successfully saved
+2025-08-26 18:29:15 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cable.Match.Start05 (pt-BR).wav successfully saved
+2025-08-26 18:29:15 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cable.Match.Start01 (pt-BR).wav successfully saved
+2025-08-26 18:29:15 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cable.Match.Start08 (pt-BR).wav successfully saved
+2025-08-26 18:29:25 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cable_VO/Core/Play_VO_Cable_E06_MatchStartMap_Port.uasset'
+2025-08-26 18:29:35 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cable.Match.Start[Port]01 (pt-BR).wav successfully saved
+2025-08-26 18:29:39 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cable_VO/Core/Play_VO_Cable_E06_MatchWin.uasset'
+2025-08-26 18:30:18 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cable_VO/Core/Play_VO_Cable_E06_MeleeKill.uasset'
+2025-08-26 18:30:37 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cable_VO/Core/Play_VO_Cable_E06_RoundStartGeneric.uasset'
+2025-08-26 18:31:08 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cable.RoundStart.Generic02 (pt-BR).wav successfully saved
+2025-08-26 18:31:08 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cable.RoundStart.Generic05 (pt-BR).wav successfully saved
+2025-08-26 18:31:08 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cable.RoundStart.Generic06 (pt-BR).wav successfully saved
+2025-08-26 18:31:08 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cable.RoundStart.Generic04 (pt-BR).wav successfully saved
+2025-08-26 18:31:08 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cable.RoundStart.Generic07 (pt-BR).wav successfully saved
+2025-08-26 18:31:08 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cable.RoundStart.Generic03 (pt-BR).wav successfully saved
+2025-08-26 18:31:08 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cable.RoundStart.Generic01 (pt-BR).wav successfully saved
+2025-08-26 18:31:17 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cable_VO/Core/Play_VO_Cable_MatchS_Chat_GuideCable.uasset'
+2025-08-26 18:31:27 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cable_VO/Core/Play_VO_Cable_PickMe.uasset'
+2025-08-26 18:31:37 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cable.PickMe01 (pt-BR).wav successfully saved
+2025-08-26 18:31:52 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cashew_VO/Core/Play_VO_Cashew_BubbleDown.uasset'
+2025-08-26 18:33:17 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: Cashew.BubbleDown.DefenderDoingGreat01 (pt-BR).wav successfully saved
+2025-08-26 18:33:22 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: Cashew.BubbleDown.DefenderDoingGreat02 (pt-BR).wav successfully saved
+2025-08-26 18:33:31 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: Cashew.BubbleDown.AttackerDoingPoorly02 (pt-BR).wav successfully saved
+2025-08-26 18:33:44 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cashew_VO/Core/Play_VO_Cashew_BubbleDownGeneric.uasset'
+2025-08-26 18:34:03 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: Cashew.BubbleDown.Generic05 (pt-BR).wav successfully saved
+2025-08-26 18:34:32 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cashew_VO/Core/Play_VO_Cashew_Flawless.uasset'
+2025-08-26 18:34:42 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cashew_VO/Core/Play_VO_Cashew_GamePointWin.uasset'
+2025-08-26 18:34:51 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cashew_VO/Core/Play_VO_Cashew_LastRoundofHalfasAttackers.uasset'
+2025-08-26 18:34:57 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cashew_VO/Core/Play_VO_Cashew_MatchStart_Attacker.uasset'
+2025-08-26 18:35:10 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.Match.StartAttacker01 (pt-BR).wav successfully saved
+2025-08-26 18:35:10 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.Match.StartAttacker02 (pt-BR).wav successfully saved
+2025-08-26 18:35:13 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cashew_VO/Core/Play_VO_Cashew_MatchStart_Defender.uasset'
+2025-08-26 18:35:22 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.Match.StartDefender02 (pt-BR).wav successfully saved
+2025-08-26 18:35:22 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.Match.StartDefender01 (pt-BR).wav successfully saved
+2025-08-26 18:35:25 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cashew_VO/Core/Play_VO_Cashew_MatchStart.uasset'
+2025-08-26 18:36:02 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.Match.Start05 (pt-BR).wav successfully saved
+2025-08-26 18:36:02 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.Match.Start02 (pt-BR).wav successfully saved
+2025-08-26 18:36:02 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.Match.Start01 (pt-BR).wav successfully saved
+2025-08-26 18:36:02 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.Match.Start03 (pt-BR).wav successfully saved
+2025-08-26 18:36:02 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.Match.Start04 (pt-BR).wav successfully saved
+2025-08-26 18:36:07 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cashew_VO/Core/Play_VO_Cashew_MatchStartMap_Juliett.uasset'
+2025-08-26 18:36:15 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.Match.Start[Juliett]01 (pt-BR).wav successfully saved
+2025-08-26 18:36:24 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cashew_VO/Core/Play_VO_Cashew_MatchWin.uasset'
+2025-08-26 18:36:43 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.Match.Win01 (pt-BR).wav successfully saved
+2025-08-26 18:36:43 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.Match.Win03 (pt-BR).wav successfully saved
+2025-08-26 18:36:43 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.Match.Win02 (pt-BR).wav successfully saved
+2025-08-26 18:36:43 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.Match.Win04 (pt-BR).wav successfully saved
+2025-08-26 18:36:57 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cashew_VO/Core/Play_VO_Cashew_PainEffortHeavy.uasset'
+2025-08-26 18:37:02 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cashew_VO/Core/Play_VO_Cashew_PickMe.uasset'
+2025-08-26 18:37:08 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.PickMe02 (pt-BR).wav successfully saved
+2025-08-26 18:37:14 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cashew_VO/Core/Play_VO_Cashew_RoundStartGeneric.uasset'
+2025-08-26 18:38:12 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.RoundStart.Generic08 (pt-BR).wav successfully saved
+2025-08-26 18:38:12 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.RoundStart.Generic04 (pt-BR).wav successfully saved
+2025-08-26 18:38:12 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.RoundStart.Generic03 (pt-BR).wav successfully saved
+2025-08-26 18:38:12 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.RoundStart.Generic07 (pt-BR).wav successfully saved
+2025-08-26 18:38:12 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.RoundStart.Generic09 (pt-BR).wav successfully saved
+2025-08-26 18:38:12 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.RoundStart.Generic02 (pt-BR).wav successfully saved
+2025-08-26 18:38:12 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.RoundStart.Generic10 (pt-BR).wav successfully saved
+2025-08-26 18:38:12 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.RoundStart.Generic01 (pt-BR).wav successfully saved
+2025-08-26 18:38:12 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.RoundStart.Generic06 (pt-BR).wav successfully saved
+2025-08-26 18:38:12 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.RoundStart.Generic05 (pt-BR).wav successfully saved
+2025-08-26 18:38:16 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cashew_VO/Core/Play_VO_Cashew_Thrifty.uasset'
+2025-08-26 18:38:22 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cashew_VO/Core/Play_VO_Cashew_TripleKill.uasset'
+2025-08-26 18:38:25 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cashew_VO/Core/Play_VO_Cashew_Thrifty.uasset'
+2025-08-26 18:38:31 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.RoundEnd.Thrifty01 (pt-BR).wav successfully saved
+2025-08-26 18:38:33 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cashew_VO/Core/Play_VO_Cashew_WonComingBack.uasset'
+2025-08-26 18:38:42 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cashew_VO/Core/Play_VO_Cashew_WonDoingGreat.uasset'
+2025-08-26 18:39:01 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Cashew_VO/Core/Play_VO_Cashew_WonGeneric.uasset'
+2025-08-26 18:39:21 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.RoundStart.WonGeneric01 (pt-BR).wav successfully saved
+2025-08-26 18:39:21 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.RoundStart.WonGeneric04 (pt-BR).wav successfully saved
+2025-08-26 18:39:21 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.RoundStart.WonGeneric02 (pt-BR).wav successfully saved
+2025-08-26 18:39:21 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Cashew.RoundStart.WonGeneric03 (pt-BR).wav successfully saved
+2025-08-26 18:39:42 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Clay_VO/E02/Play_VO_Clay_E02_MatchStart.uasset'
+2025-08-26 18:40:26 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Clay.MatchStart05 (pt-BR).wav successfully saved
+2025-08-26 18:40:26 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Clay.E02.Match.Start07 (pt-BR).wav successfully saved
+2025-08-26 18:40:26 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Clay.MatchStart06 (pt-BR).wav successfully saved
+2025-08-26 18:40:26 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Clay.MatchStart03 (pt-BR).wav successfully saved
+2025-08-26 18:40:26 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Clay.MatchStart04 (pt-BR).wav successfully saved
+2025-08-26 18:40:26 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Clay.MatchStart01 (pt-BR).wav successfully saved
+2025-08-26 18:40:26 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Clay.MatchStart02 (pt-BR).wav successfully saved
+2025-08-26 18:40:41 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Clay_VO/E02/Play_VO_Clay_E02_Modes_Match_RunnerUp.uasset'
+2025-08-26 18:40:50 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Clay_VO/E02/Play_VO_Clay_E02_RoundStartGeneric.uasset'
+2025-08-26 18:41:26 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Clay.E02.RoundStart.Generic10 (pt-BR).wav successfully saved
+2025-08-26 18:41:26 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Clay.RoundStartGeneric02 (pt-BR).wav successfully saved
+2025-08-26 18:41:26 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Clay.RoundStartGeneric07 (pt-BR).wav successfully saved
+2025-08-26 18:41:26 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Clay.RoundStartGeneric04 (pt-BR).wav successfully saved
+2025-08-26 18:41:26 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Clay.RoundStartGeneric01 (pt-BR).wav successfully saved
+2025-08-26 18:41:26 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Clay.E02.RoundStart.Generic11 (pt-BR).wav successfully saved
+2025-08-26 18:41:26 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Clay.RoundStartGeneric03 (pt-BR).wav successfully saved
+2025-08-26 18:41:26 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Clay.E02.RoundStart.Generic09 (pt-BR).wav successfully saved
+2025-08-26 18:41:26 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Clay.RoundStartGeneric08 (pt-BR).wav successfully saved
+2025-08-26 18:41:26 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Clay.RoundStartGeneric05 (pt-BR).wav successfully saved
+2025-08-26 18:41:26 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Clay.RoundStartGeneric06 (pt-BR).wav successfully saved
+2025-08-26 18:41:29 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Clay_VO/E02/Play_VO_Clay_E02_WonComingBack.uasset'
+2025-08-26 18:41:49 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Clay.E02.RoundStart.WonComingBack03 (pt-BR).wav successfully saved
+2025-08-26 18:41:49 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Clay.RoundStartWonComingBack02 (pt-BR).wav successfully saved
+2025-08-26 18:41:49 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Clay.RoundStartWonComingBack01 (pt-BR).wav successfully saved
+2025-08-26 18:41:51 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Clay_VO/E02/Play_VO_Clay_E02_WonGeneric.uasset'
+2025-08-26 18:42:11 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: Clay.RoundStartWonGeneric02 (pt-BR).wav successfully saved
+2025-08-26 18:42:18 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: Clay.E02.RoundStart.WonGeneric04 (pt-BR).wav successfully saved
+2025-08-26 18:43:13 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Clay_VO/E04/Play_VO_Clay_E04_MatchStart_Attacker.uasset'
+2025-08-26 18:43:29 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Clay.Match.StartAttacker01 (pt-BR).wav successfully saved
+2025-08-26 18:43:29 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Clay.Match.StartAttacker02 (pt-BR).wav successfully saved
+2025-08-26 18:43:32 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Clay_VO/E04/Play_VO_Clay_E04_MatchStart_Defender.uasset'
+2025-08-26 18:43:38 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Clay.Match.StartDefender01 (pt-BR).wav successfully saved
+2025-08-26 18:43:49 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Clay_VO/E04/Play_VO_Clay_E04_MatchStartEnemy_Rift.uasset'
+2025-08-26 18:43:55 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Clay_VO/E04/Play_VO_Clay_E04_MatchStartMap_Pitt.uasset'
+2025-08-26 18:44:03 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Clay.Match.Start[Pitt]01 (pt-BR).wav successfully saved
+2025-08-26 18:44:06 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Clay_VO/E04/Play_VO_Clay_E04_MatchWinMap_Pitt.uasset'
+2025-08-26 18:44:13 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Clay.Match.Win[Pitt]01 (pt-BR).wav successfully saved
+2025-08-26 18:44:44 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Deadeye_VO/E03/Play_VO_Deadeye_E03_AbilityXReady.uasset'
+2025-08-26 18:45:08 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Deadeye_VO/E03/Play_VO_Deadeye_E03_ClutchPlay.uasset'
+2025-08-26 18:45:53 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Deadeye_VO/E03/Play_VO_Deadeye_E03_Flawless.uasset'
+2025-08-26 18:46:06 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Deadeye_VO/E03/Play_VO_Deadeye_E03_GamePointWin.uasset'
+2025-08-26 18:46:29 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Deadeye_VO/E03/Play_VO_Deadeye_E03_Kill.uasset'
+2025-08-26 18:46:38 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Deadeye_VO/E03/Play_VO_Deadeye_E03_MatchStart_Attacker.uasset'
+2025-08-26 18:46:53 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Deadeye.Match.StartAttacker01 (pt-BR).wav successfully saved
+2025-08-26 18:46:53 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Deadeye.Match.StartAttacker03 (pt-BR).wav successfully saved
+2025-08-26 18:46:53 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Deadeye.Match.StartAttacker02 (pt-BR).wav successfully saved
+2025-08-26 18:46:56 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Deadeye_VO/E03/Play_VO_Deadeye_E03_MatchStart_Defender.uasset'
+2025-08-26 18:48:37 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Deadeye.Match.StartDefender01 (pt-BR).wav successfully saved
+2025-08-26 18:48:37 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Deadeye.Match.StartDefender02 (pt-BR).wav successfully saved
+2025-08-26 18:48:37 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Deadeye.Match.StartDefender03 (pt-BR).wav successfully saved
+2025-08-26 18:48:39 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Deadeye_VO/E03/Play_VO_Deadeye_E03_MatchStart.uasset'
+2025-08-26 18:50:20 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Deadeye.Match.Start03 (pt-BR).wav successfully saved
+2025-08-26 18:50:20 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Deadeye.Match.Start02 (pt-BR).wav successfully saved
+2025-08-26 18:50:20 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Deadeye.Match.Start04 (pt-BR).wav successfully saved
+2025-08-26 18:50:20 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Deadeye.Match.Start05 (pt-BR).wav successfully saved
+2025-08-26 18:50:20 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Deadeye.Match.Start01 (pt-BR).wav successfully saved
+2025-08-26 18:50:26 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Deadeye_VO/E03/Play_VO_Deadeye_E03_MatchStartMap_Canyon.uasset'
+2025-08-26 18:50:33 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Deadeye.Match.Start[Canyon]01 (pt-BR).wav successfully saved
+2025-08-26 18:50:47 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Deadeye_VO/E03/Play_VO_Deadeye_E03_MatchStartMap_Foxtrot.uasset'
+2025-08-26 18:50:57 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Deadeye.Match.Start[Foxtrot]01 (pt-BR).wav successfully saved
+2025-08-26 18:51:02 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Deadeye_VO/E03/Play_VO_Deadeye_E03_MatchWin.uasset'
+2025-08-26 18:52:00 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Deadeye_VO/E03/Play_VO_Deadeye_E03_MatchStartMap_Canyon.uasset'
+2025-08-26 18:52:23 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Deadeye_VO/E03/Play_VO_Deadeye_E03_MatchStartMap_Canyon.uasset'
+2025-08-26 18:52:36 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Deadeye_VO/E03/Play_VO_Deadeye_E03_MatchWinMap_Canyon.uasset'
+2025-08-26 18:53:20 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Deadeye_VO/E03/Play_VO_Deadeye_E03_MatchWinMap_Canyon.uasset'
+2025-08-26 18:53:29 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Deadeye_VO/E03/Play_VO_Deadeye_E03_MatchWinMap_Foxtrot.uasset'
+2025-08-26 18:53:53 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Deadeye_VO/E03/Play_VO_Deadeye_E03_RoundStartGeneric.uasset'
+2025-08-26 18:54:21 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Deadeye.RoundStart.Generic07 (pt-BR).wav successfully saved
+2025-08-26 18:54:21 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Deadeye.RoundStart.Generic01 (pt-BR).wav successfully saved
+2025-08-26 18:54:21 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Deadeye.RoundStart.Generic09 (pt-BR).wav successfully saved
+2025-08-26 18:54:21 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Deadeye.RoundStart.Generic08 (pt-BR).wav successfully saved
+2025-08-26 18:54:21 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Deadeye.RoundStart.Generic11 (pt-BR).wav successfully saved
+2025-08-26 18:54:21 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Deadeye.RoundStart.Generic04 (pt-BR).wav successfully saved
+2025-08-26 18:54:21 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Deadeye.RoundStart.Generic03 (pt-BR).wav successfully saved
+2025-08-26 18:54:21 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Deadeye.RoundStart.Generic02 (pt-BR).wav successfully saved
+2025-08-26 18:54:21 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Deadeye.RoundStart.Generic10 (pt-BR).wav successfully saved
+2025-08-26 18:54:21 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Deadeye.RoundStart.Generic05 (pt-BR).wav successfully saved
+2025-08-26 18:54:21 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Deadeye.RoundStart.Generic06 (pt-BR).wav successfully saved
+2025-08-26 18:55:38 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Deadeye_VO/E03/Play_VO_Deadeye_E03_RoundStartGeneric.uasset'
+2025-08-26 18:55:48 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Deadeye_VO/E03/Play_VO_Deadeye_E03_WonGeneric.uasset'
+2025-08-26 18:56:46 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: Deadeye.RoundStart.WonGeneric03 (pt-BR).wav successfully saved
+2025-08-26 18:56:59 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Deadeye_VO/E03/Play_VO_Deadeye_MatchStartAlly_Mage.uasset'
+2025-08-26 18:57:10 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Deadeye.Match.StartAlly[Mage]01 (pt-BR).wav successfully saved
+2025-08-26 18:57:17 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Deadeye_VO/E03/Play_VO_Deadeye_PickMe.uasset'
+2025-08-26 18:57:23 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Deadeye.PickMe01 (pt-BR).wav successfully saved
+2025-08-26 18:58:15 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Grenadier_VO/E05/Play_VO_Grenadier_E05_AbilityEHitConfirmAgent_1Hit.uasset'
+2025-08-26 18:58:19 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Grenadier_VO/E05/Play_VO_Grenadier_E05_AbilityEHitConfirmAgent_1Hit.uasset'
+2025-08-26 19:00:05 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Guide_VO/E02/Play_VO_Guide_E02_MatchStart.uasset'
+2025-08-26 19:00:30 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Guide.E02.Match.Start02 (pt-BR).wav successfully saved
+2025-08-26 19:00:30 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Guide.E02.Match.Start06 (pt-BR).wav successfully saved
+2025-08-26 19:00:30 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Guide.E02.Match.Start07 (pt-BR).wav successfully saved
+2025-08-26 19:00:30 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Guide.Match.Start04 (pt-BR).wav successfully saved
+2025-08-26 19:00:30 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Guide.Match.Start01 (pt-BR).wav successfully saved
+2025-08-26 19:00:43 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Guide_VO/E02/Play_VO_Guide_E02_RoundStartGeneric.uasset'
+2025-08-26 19:01:04 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Guide.RoundStart.Generic06 (pt-BR).wav successfully saved
+2025-08-26 19:01:04 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Guide.E02.RoundStart.Generic09 (pt-BR).wav successfully saved
+2025-08-26 19:01:04 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Guide.E02.RoundStart.Generic11 (pt-BR).wav successfully saved
+2025-08-26 19:01:04 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Guide.RoundStart.Generic08 (pt-BR).wav successfully saved
+2025-08-26 19:01:04 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Guide.E02.RoundStart.Generic10 (pt-BR).wav successfully saved
+2025-08-26 19:01:04 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Guide.RoundStart.Generic03 (pt-BR).wav successfully saved
+2025-08-26 19:01:04 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Guide.RoundStart.Generic02 (pt-BR).wav successfully saved
+2025-08-26 19:01:04 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Guide.RoundStart.Generic09 (pt-BR).wav successfully saved
+2025-08-26 19:01:04 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Guide.RoundStart.Generic04 (pt-BR).wav successfully saved
+2025-08-26 19:01:04 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Guide.RoundStart.Generic05 (pt-BR).wav successfully saved
+2025-08-26 19:01:08 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Guide_VO/E02/Play_VO_Guide_E02_WonGeneric.uasset'
+2025-08-26 19:01:35 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Guide_VO/E02/Play_VO_Guide_E02_WonGeneric.uasset'
+2025-08-26 19:01:47 [INF] MS.Internal.Commands.CommandHelpers.CriticalExecuteCommandSource: Guide.RoundStart.WonGeneric01 (pt-BR).wav successfully saved
+2025-08-26 19:02:02 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Guide_VO/E06/Play_VO_Guide_E06_MatchS_Chat_GuideMage.uasset'
+2025-08-26 19:02:11 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Guide_VO/E06/Play_VO_Guide_E06_MatchStart_Attacker.uasset'
+2025-08-26 19:02:31 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Guide.Match.StartAttacker02 (pt-BR).wav successfully saved
+2025-08-26 19:02:31 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Guide.Match.StartAttacker01 (pt-BR).wav successfully saved
+2025-08-26 19:02:34 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Guide_VO/E06/Play_VO_Guide_E06_MatchStart_Defender.uasset'
+2025-08-26 19:02:46 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Guide.Match.StartDefender02 (pt-BR).wav successfully saved
+2025-08-26 19:02:46 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Guide.Match.StartDefender01 (pt-BR).wav successfully saved
+2025-08-26 19:03:05 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Guide_VO/InRound/Efforts/Play_VO_Guide_AnnoyedPain.uasset'
+2025-08-26 19:03:24 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Guide_VO/OutOfRound/Play_VO_Guide_MatchStart.uasset'
+2025-08-26 19:03:29 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Guide_VO/OutOfRound/Play_VO_Guide_MatchStart.uasset'
+2025-08-26 19:03:39 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Guide_VO/OutOfRound/Play_VO_Guide_MatchWin.uasset'
+2025-08-26 19:03:52 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Guide.Match.Win01 (pt-BR).wav successfully saved
+2025-08-26 19:03:52 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Guide.Match.Win02 (pt-BR).wav successfully saved
+2025-08-26 19:03:52 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Guide.Match.Win03 (pt-BR).wav successfully saved
+2025-08-26 19:04:02 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Guide_VO/OutOfRound/Play_VO_Guide_RoundStartGeneric.uasset'
+2025-08-26 19:04:04 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Guide_VO/OutOfRound/Play_VO_Guide_RoundStartGeneric.uasset'
+2025-08-26 19:04:05 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Guide_VO/OutOfRound/Play_VO_Guide_RoundStartGeneric.uasset'
+2025-08-26 19:04:06 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Guide_VO/OutOfRound/Play_VO_Guide_WonGeneric.uasset'
+2025-08-26 19:04:39 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Hunter_VO/E02/Play_VO_Hunter_E02_MatchStartMap_Port.uasset'
+2025-08-26 19:04:48 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Hunter_VO/E02/Play_VO_Hunter_E02_MatchWinMap_Port.uasset'
+2025-08-26 19:04:58 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Hunter.E02.Match.Win[Port]01 (pt-BR).wav successfully saved
+2025-08-26 19:05:58 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Hunter_VO/E05/Play_VO_Hunter_E05_MatchStart_Attacker.uasset'
+2025-08-26 19:06:08 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Hunter.Match.StartAttacker02 (pt-BR).wav successfully saved
+2025-08-26 19:06:08 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Hunter.Match.StartAttacker01 (pt-BR).wav successfully saved
+2025-08-26 19:06:50 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Hunter_VO/E05/Play_VO_Hunter_E05_MatchStart_Defender.uasset'
+2025-08-26 19:07:04 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Hunter.Match.StartDefender01 (pt-BR).wav successfully saved
+2025-08-26 19:07:04 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Hunter.Match.StartDefender02 (pt-BR).wav successfully saved
+2025-08-26 19:07:54 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Killjoy_VO/E02/Play_VO_Killjoy_E02_MatchStart.uasset'
+2025-08-26 19:08:14 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Killjoy.E02.Match.Start07 (pt-BR).wav successfully saved
+2025-08-26 19:08:14 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Killjoy.E02.Match.Start06 (pt-BR).wav successfully saved
+2025-08-26 19:08:15 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Killjoy.Match.Start02 (pt-BR).wav successfully saved
+2025-08-26 19:08:15 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Killjoy.Match.Start03 (pt-BR).wav successfully saved
+2025-08-26 19:08:15 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Killjoy.Match.Start04 (pt-BR).wav successfully saved
+2025-08-26 19:08:15 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Killjoy.Match.Start01 (pt-BR).wav successfully saved
+2025-08-26 19:08:15 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Killjoy.Match.Start05 (pt-BR).wav successfully saved
+2025-08-26 19:08:55 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Killjoy_VO/E02/Play_VO_Killjoy_E02_RoundStartGeneric.uasset'
+2025-08-26 19:09:17 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Killjoy.RoundStart.Generic06 (pt-BR).wav successfully saved
+2025-08-26 19:09:17 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Killjoy.RoundStart.Generic03 (pt-BR).wav successfully saved
+2025-08-26 19:09:17 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Killjoy.E02.RoundStart.Generic08 (pt-BR).wav successfully saved
+2025-08-26 19:09:17 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Killjoy.E02.RoundStart.Generic11 (pt-BR).wav successfully saved
+2025-08-26 19:09:17 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Killjoy.E02.RoundStart.Generic10 (pt-BR).wav successfully saved
+2025-08-26 19:09:17 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Killjoy.E02.RoundStart.Generic09 (pt-BR).wav successfully saved
+2025-08-26 19:09:17 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Killjoy.RoundStart.Generic01 (pt-BR).wav successfully saved
+2025-08-26 19:09:17 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Killjoy.RoundStart.Generic02 (pt-BR).wav successfully saved
+2025-08-26 19:09:17 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Killjoy.RoundStart.Generic04 (pt-BR).wav successfully saved
+2025-08-26 19:09:17 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Killjoy.RoundStart.Generic07 (pt-BR).wav successfully saved
+2025-08-26 19:09:17 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Killjoy.RoundStart.Generic05 (pt-BR).wav successfully saved
+2025-08-26 19:09:29 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Killjoy_VO/E02/Play_VO_Killjoy_E02_WonComingBack.uasset'
+2025-08-26 19:09:46 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Killjoy.Round.StartWonComingBack01 (pt-BR).wav successfully saved
+2025-08-26 19:09:46 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Killjoy.E02.RoundStart.WonComingBack03 (pt-BR).wav successfully saved
+2025-08-26 19:09:46 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Killjoy.Round.StartWonComingBack02 (pt-BR).wav successfully saved
+2025-08-26 19:10:21 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Killjoy_VO/E04/Play_VO_Killjoy_E04_MatchStart_Attacker.uasset'
+2025-08-26 19:10:32 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Killjoy.Match.StartAttacker02 (pt-BR).wav successfully saved
+2025-08-26 19:10:32 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Killjoy.Match.StartAttacker01 (pt-BR).wav successfully saved
+2025-08-26 19:10:35 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Killjoy_VO/E04/Play_VO_Killjoy_E04_MatchStart_Defender.uasset'
+2025-08-26 19:10:46 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Killjoy.Match.StartDefender01 (pt-BR).wav successfully saved
+2025-08-26 19:10:46 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Killjoy.Match.StartDefender02 (pt-BR).wav successfully saved
+2025-08-26 19:12:11 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Mage_VO/Core/Play_VO_Mage_E05_MatchStart_Attacker.uasset'
+2025-08-26 19:12:24 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.Match.StartAttacker01 (pt-BR).wav successfully saved
+2025-08-26 19:12:24 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.Match.StartAttacker02 (pt-BR).wav successfully saved
+2025-08-26 19:12:46 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Mage_VO/Core/Play_VO_Mage_E05_MatchStart_Defender.uasset'
+2025-08-26 19:12:59 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.Match.StartDefender01 (pt-BR).wav successfully saved
+2025-08-26 19:12:59 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.Match.StartDefender02 (pt-BR).wav successfully saved
+2025-08-26 19:13:03 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Mage_VO/Core/Play_VO_Mage_E05_MatchStart.uasset'
+2025-08-26 19:13:31 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.Match.Start06 (pt-BR).wav successfully saved
+2025-08-26 19:13:31 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.Match.Start01 (pt-BR).wav successfully saved
+2025-08-26 19:13:31 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.Match.Start02 (pt-BR).wav successfully saved
+2025-08-26 19:13:31 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.Match.Start04 (pt-BR).wav successfully saved
+2025-08-26 19:13:31 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.Match.Start07 (pt-BR).wav successfully saved
+2025-08-26 19:13:31 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.Match.Start03 (pt-BR).wav successfully saved
+2025-08-26 19:13:31 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.Match.Start05 (pt-BR).wav successfully saved
+2025-08-26 19:13:40 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Mage_VO/Core/Play_VO_Mage_E05_MatchWin.uasset'
+2025-08-26 19:13:59 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Mage_VO/Core/Play_VO_Mage_E05_RoundStartGeneric.uasset'
+2025-08-26 19:14:31 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.RoundStart.Generic04 (pt-BR).wav successfully saved
+2025-08-26 19:14:31 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.RoundStart.Generic09 (pt-BR).wav successfully saved
+2025-08-26 19:14:31 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.RoundStart.Generic08 (pt-BR).wav successfully saved
+2025-08-26 19:14:31 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.RoundStart.Generic10 (pt-BR).wav successfully saved
+2025-08-26 19:14:31 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.RoundStart.Generic03 (pt-BR).wav successfully saved
+2025-08-26 19:14:31 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.RoundStart.Generic02 (pt-BR).wav successfully saved
+2025-08-26 19:14:31 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.RoundStart.Generic11 (pt-BR).wav successfully saved
+2025-08-26 19:14:31 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.RoundStart.Generic05 (pt-BR).wav successfully saved
+2025-08-26 19:14:31 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.RoundStart.Generic07 (pt-BR).wav successfully saved
+2025-08-26 19:14:31 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.RoundStart.Generic01 (pt-BR).wav successfully saved
+2025-08-26 19:14:31 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.RoundStart.Generic06 (pt-BR).wav successfully saved
+2025-08-26 19:14:31 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.RoundStart.Generic12 (pt-BR).wav successfully saved
+2025-08-26 19:14:41 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Mage_VO/Core/Play_VO_Mage_E05_WonGeneric.uasset'
+2025-08-26 19:15:00 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.RoundStart.WonGeneric02 (pt-BR).wav successfully saved
+2025-08-26 19:15:00 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.RoundStart.WonGeneric01 (pt-BR).wav successfully saved
+2025-08-26 19:15:00 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.RoundStart.WonGeneric04 (pt-BR).wav successfully saved
+2025-08-26 19:15:00 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.RoundStart.WonGeneric03 (pt-BR).wav successfully saved
+2025-08-26 19:15:07 [INF] FModel.ViewModels.CUE4ParseViewModel.ExtractSelected: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Mage_VO/Exploratory/Play_VO_Mage_PickMe.uasset'
+2025-08-26 19:15:14 [INF] FModel.ViewModels.AudioPlayerViewModel.<SavePlaylist>b__54_0: Mage.PickMe01 (pt-BR).wav successfully saved
+2025-08-26 22:04:37 [INF] FModel.App.AppExit: ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
