@@ -1428,167 +1428,162 @@
                 {
                     "Call": "Torre",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/heaven/heaven-torre_a.jfif"
                 },
                 {
                     "Call": "Link",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/heaven/heaven-link_a.jfif"
                 },
                 {
                     "Call": "Ponto",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/heaven/heaven-ponto_a.jfif"
                 },
                 {
                     "Call": "Esgoto",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/heaven/heaven-a_curto.jfif"
                 },
                 {
                     "Call": "Longo",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/heaven/heaven-longo_a.jfif"
                 },
                 {
                     "Call": "Saguão",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/heaven/heaven-saguao_a.jfif"
                 },
                 {
                     "Call": "Jardim",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/heaven/heaven-jardim_a.jfif"
                 },
                 {
                     "Call": "Janela",
                     "Local": "Meio",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/heaven/heaven-janela_do_meio.jfif"
                 },
                 {
                     "Call": "Portas",
                     "Local": "Meio",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/heaven/heaven-portas_do_meio.jfif"
                 },
                 {
                     "Call": "Pátio",
                     "Local": "Meio",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/heaven/heaven-fundos_b.jfif"
                 },
                 {
                     "Call": "Ponto",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/heaven/heaven-ponto_b.jfif"
                 },
                 {
                     "Call": "Trasseira",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/heaven/heaven-fundos_b.jfif"
                 },
                 {
                     "Call": "Link",
                     "Local": "C",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/heaven/heaven-link_c.jfif"
                 },
                 {
                     "Call": "Janela",
                     "Local": "C",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/heaven/heaven-janela_c.jfif"
                 },
                 {
                     "Call": "Garagem",
                     "Local": "C",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/heaven/heaven-c_curto.jfif"
                 },
                 {
                     "Call": "Ponto",
                     "Local": "C",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/heaven/heaven-ponto_c.jfif"
                 },
                 {
                     "Call": "Nicho",
                     "Local": "C",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/heaven/heaven-nicho_c.jfif"
                 },
                 {
                     "Call": "Longo",
                     "Local": "C",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/heaven/heaven-c_longo.jfif"
                 },
                 {
                     "Call": "Saguão",
                     "Local": "C",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/heaven/heaven-saguao_c.jfif"
                 }
             ],
             "Icebox": [
                 {
-                    "Icone": ""
+                    "Icone": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/icebox/icebox.png"
                 },
                 {
                     "Call": "surgimento",
                     "Local": "Lado atacante",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/icebox/icebox-surgimento_no_lado_atacante.jfif"
                 },
                 {
                     "Call": "surgimento",
                     "Local": "Lado defensor",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/icebox/icebox-surgimento_no_lado_defensor.jfif"
                 },
                 {
                     "Call": "Vigas",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/icebox/icebox-vigas_a.jfif"
                 },
                 {
                     "Call": "Tela",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/icebox/icebox-tela_a.jfif"
                 },
                 {
                     "Call": "Ponto",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/icebox/icebox-ponto_a.jfif"
                 },
                 {
                     "Call": "Canos",
                     "Local": "A",
-                    "Imagem": ""
-                },
-                {
-                    "Call": "Vinho",
-                    "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/icebox/icebox-canos_a.jfif"
                 },
                 {
                     "Call": "Esteira",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/icebox/icebox-esteira_a.jfif"
                 },
                 {
                     "Call": "Azul",
                     "Local": "Meio",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/icebox/icebox-azul_meio.jfif"
                 },
                 {
                     "Call": "Palete",
                     "Local": "Meio",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/icebox/icebox-palete_meio.jfif"
                 },
                 {
                     "Call": "Caldeira",
                     "Local": "Meio",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/icebox/icebox-caldeira_meio.jfif"
                 },
                 {
                     "Call": "Abrigo",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/icebox/icebox-abrigo_b.jfif"
                 },
                 {
                     "Call": "Fundos",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/icebox/icebox-fundos_b.jfif"
                 },
                 {
                     "Call": "Boneco de neve",
@@ -1603,542 +1598,542 @@
                 {
                     "Call": "Cerca",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/icebox/icebox-cerca_b.jfif"
                 },
                 {
                     "Call": "Salão",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/icebox/icebox-salao_b.jfif"
                 },
                 {
                     "Call": "Monte de neve",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/icebox/icebox-monte_de_neve_b.jfif"
                 },
                 {
                     "Call": "Ponto",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/icebox/icebox-ponto_b.jfif"
                 },
                 {
                     "Call": "Laranja",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/icebox/icebox-laranja_b.jfif"
                 },
                 {
                     "Call": "Tubo",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/icebox/icebox-tubo_b.jfif"
                 },
                 {
                     "Call": "Amarelo",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/icebox/icebox-amarelo_b.jfif"
                 },
                 {
                     "Call": "Nicho",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/icebox/icebox-nicho_b.jfif"
                 },
                 {
                     "Call": "Verde",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/icebox/icebox-verde_b.jfif"
                 },
                 {
                     "Call": "Garagem",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/icebox/icebox-garagem_b.jfif"
                 }
             ],
             "Lotus": [
                 {
-                    "Icone": ""
+                    "Icone": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus.png"
                 },
                 {
                     "Call": "Base",
                     "Local": "Lado atacante",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-base_no_lado_atacante.jfif"
                 },
                 {
                     "Call": "Base",
                     "Local": "Lado defensor",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-base_no_lado_defensor.jfif"
                 },
                 {
                     "Call": "Topo",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-topo_a.jfif"
                 },
                 {
                     "Call": "Descida",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-decida_a.jfif"
                 },
                 {
                     "Call": "Escada",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-escada_a.jfif"
                 },
                 {
                     "Call": "Cabana",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-cabana_a.jfif"
                 },
                 {
                     "Call": "Ponto",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-ponto_a.jfif"
                 },
                 {
                     "Call": "Árvore",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-arvore_a.jfif"
                 },
                 {
                     "Call": "Link",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-link_a.jfif"
                 },
                 {
                     "Call": "Principal",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-principal_a.jfif"
                 },
                 {
                     "Call": "Porta",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-porta_a.jfif"
                 },
                 {
                     "Call": "Destroços",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-destrocos_a.jfif"
                 },
                 {
                     "Call": "Raiz",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-raiz_a.jfif"
                 },
                 {
                     "Call": "Saguão",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-saguao_a.jfif"
                 },
                 {
                     "Call": "Pilares",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-pilares_b.jfif"
                 },
                 {
                     "Call": "Principal",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-principal_b.jfif"
                 },
                 {
                     "Call": "Ponto",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-ponto_b.jfif"
                 },
                 {
                     "Call": "Superior",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-superior_b.jfif"
                 },
                 {
                     "Call": "Cascalho",
                     "Local": "C",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-cascalho_c.jfif"
                 },
                 {
                     "Call": "Salão",
                     "Local": "C",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-salao_c.jfif"
                 },
                 {
                     "Call": "Link",
                     "Local": "C",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-link_c.jfif"
                 },
                 {
                     "Call": "Ponto",
                     "Local": "C",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-ponto_c.jfif"
                 },
                 {
                     "Call": "Cachoeira",
                     "Local": "C",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-cachoeira_c.jfif"
                 },
                 {
                     "Call": "Desvio",
                     "Local": "C",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-divisao_c.jfif"
                 },
                 {
                     "Call": "Principal",
                     "Local": "C",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-principal_c.jfif"
                 },
                 {
                     "Call": "Porta",
                     "Local": "C",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-porta_c.jfif"
                 },
                 {
                     "Call": "Monte",
                     "Local": "C",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-monte_c.jfif"
                 },
                 {
                     "Call": "Saguão",
                     "Local": "C",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/lotus/lotus-saguao_c.jfif"
                 }
             ],
             "Pearl": [
                 {
-                    "Icone": ""
+                    "Icone": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/pearl/pearl.png"
                 },
                 {
                     "Call": "surgimento",
                     "Local": "Lado atacante",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/pearl/pearl-surgimento_no_lado_atacante.jfif"
                 },
                 {
                     "Call": "surgimento",
                     "Local": "Lado defensor",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/pearl/pearl-surgimento_no_lado_defensor.jfif"
                 },
                 {
                     "Call": "Arquivos",
                     "Local": "Lado defensor",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/pearl/pearl-arquivos_do_lado_defensor.jfif"
                 },
                 {
                     "Call": "Água",
                     "Local": "Lado defensor",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/pearl/pearl-agua_do_lado_denfensor.jfif"
                 },
                 {
                     "Call": "Segredo",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/pearl/pearl-segredo_a.jfif"
                 },
                 {
                     "Call": "Flores",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/pearl/pearl-flores_a.jfif"
                 },
                 {
                     "Call": "Bunker",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/pearl/pearl-bunker_a.jfif"
                 },
                 {
                     "Call": "Ponto",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/pearl/pearl-ponto_a.jfif"
                 },
                 {
                     "Call": "Link",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/pearl/pearl-link_a.jfif"
                 },
                 {
                     "Call": "Grafite",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/pearl/pearl-grafite_a.jfif"
                 },
                 {
                     "Call": "Principal",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/pearl/pearl-principal_a.jfif"
                 },
                 {
                     "Call": "Restaurante",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/pearl/pearl-restaurante_a.jfif"
                 },
                 {
                     "Call": "Topo",
                     "Local": "Meio",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/pearl/pearl-topo_meio.jfif"
                 },
                 {
                     "Call": "Lojas",
                     "Local": "Meio",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/pearl/pearl-lojas_meio.jfif"
                 },
                 {
                     "Call": "Praça",
                     "Local": "Meio",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/pearl/pearl-praca_meio.jfif"
                 },
                 {
                     "Call": "Passagem",
                     "Local": "Meio",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/pearl/pearl-passagem_meio.jfif"
                 },
                 {
                     "Call": "Salão",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/pearl/pearl-salao_b.jfif"
                 },
                 {
                     "Call": "Túnel",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/pearl/pearl-tunel_b.jfif"
                 },
                 {
                     "Call": "Tela",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/pearl/pearl-tela_b.jfif"
                 },
                 {
                     "Call": "Torre",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/pearl/pearl-torre_b.jfif"
                 },
                 {
                     "Call": "Ponto",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/pearl/pearl-ponto_b.jfif"
                 },
                 {
                     "Call": "Link",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/pearl/pearl-link_b.jfif"
                 },
                 {
                     "Call": "Principal",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/pearl/pearl-pricipal_b.jfif"
                 },
                 {
                     "Call": "Rampa",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/pearl/pearl-rampa_b.jfif"
                 },
                 {
                     "Call": "Clube",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/pearl/pearl-clube_b.jfif"
                 }
             ],
             "Split": [
                 {
-                    "Icone": ""
+                    "Icone": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/split/split.png"
                 },
                 {
                     "Call": "surgimento",
                     "Local": "Lado atacante",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/split/split-surgimento_no_lado_atacante.jfif"
                 },
                 {
                     "Call": "surgimento",
                     "Local": "Lado defensor",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/split/split-surgimento_no_lado_denfensor.jfif"
                 },
                 {
                     "Call": "Telas",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/split/split-telas_a.jfif"
                 },
                 {
                     "Call": "Fundos",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/split/split-fundos_a.jfif"
                 },
                 {
                     "Call": "Torre",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/split/split-torre_a.jfif"
                 },
                 {
                     "Call": "Ponto",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/split/split-ponto_a.jfif"
                 },
                 {
                     "Call": "Vigas",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/split/split-vigas_a.jfif"
                 },
                 {
                     "Call": "Rampas",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/split/split-rampas_a.jfif"
                 },
                 {
                     "Call": "Principal",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/split/split-principal_a.jfif"
                 },
                 {
                     "Call": "Saguão",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/split/split-saguao_a.jfif"
                 },
                 {
                     "Call": "Esgoto",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/split/split-esgoto_a.jfif"
                 },
                 {
                     "Call": "Baixo",
                     "Local": "Meio",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/split/split-baixo_meio.jfif"
                 },
                 {
                     "Call": "Topo",
                     "Local": "Meio",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/split/split-topo_meio.jfif"
                 },
                 {
                     "Call": "Duto",
                     "Local": "Meio",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/split/split-duto_meio.jfif"
                 },
                 {
                     "Call": "Correio",
                     "Local": "Meio",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/split/split-correio_meio.jfif"
                 },
                 {
                     "Call": "Beco",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/split/split-beco_b.jfif"
                 },
                 {
                     "Call": "Escada",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/split/split-escada_b.jfif"
                 },
                 {
                     "Call": "Fundos",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/split/split-fundos_b.jfif"
                 },
                 {
                     "Call": "Ponto",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/split/split-ponto_b.jfif"
                 },
                 {
                     "Call": "Vigas",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/split/split-vigas_b.jfif"
                 },
                 {
                     "Call": "Torre",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/split/split-torre_b.jfif"
                 },
                 {
                     "Call": "Garagem",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/split/split-garagem_b.jfif"
                 },
                 {
                     "Call": "Link",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/split/split-link_b.jfif"
                 },
                 {
                     "Call": "Saguão",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/split/split-saguao_b.jfif"
                 }
             ],
             "Sunset": [
                 {
-                    "Icone": ""
+                    "Icone": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/sunset/sunset.png"
                 },
                 {
                     "Call": "surgimento",
                     "Local": "Lado atacante",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/sunset/sunset-surgimento_no_lado_atacante.jfif"
                 },
                 {
                     "Call": "surgimento",
                     "Local": "Lado defensor",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/sunset/sunset-surgimento_no_lado_defensor.jfif"
                 },
                 {
                     "Call": "Beco",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/sunset/sunset-beco_a.jfif"
                 },
                 {
                     "Call": "Link",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/sunset/sunset-link_a.jfif"
                 },
                 {
                     "Call": "Ponto",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/sunset/sunset-ponto_a.jfif"
                 },
                 {
                     "Call": "Viaduto",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/sunset/sunset-viaduto_a.jfif"
                 },
                 {
                     "Call": "Principal",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/sunset/sunset-principal_a.jfif"
                 },
                 {
                     "Call": "Saguão",
                     "Local": "A",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/sunset/sunset-saguao_a.jfif"
                 },
                 {
                     "Call": "Churros",
                     "Local": "Meio",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/sunset/sunset-churros_meio.jfif"
                 },
                 {
                     "Call": "Ladrilhos",
                     "Local": "Meio",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/sunset/sunset-ladrilho_meio.jfif"
                 },
                 {
                     "Call": "Pátio",
                     "Local": "Meio",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/sunset/sunset-patio_meio.jfif"
                 },
                 {
                     "Call": "Topo",
                     "Local": "Meio",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/sunset/sunset-topo_meio.jfif"
                 },
                 {
                     "Call": "Loja de boba",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/sunset/sunset-loja_de_boba_b.jfif"
                 },
                 {
                     "Call": "Mercado",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/sunset/sunset-mercado_b.jfif"
                 },
                 {
                     "Call": "Ponto",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/sunset/sunset-ponto_b.jfif"
                 },
                 {
                     "Call": "Principal",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/sunset/sunset-principal_b.jfif"
                 },
                 {
                     "Call": "Saguão",
                     "Local": "B",
-                    "Imagem": ""
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/sunset/sunset-saguao_b.jfif"
                 }
             ]
         }

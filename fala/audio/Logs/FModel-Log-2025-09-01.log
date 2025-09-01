@@ -1,0 +1,178 @@
+2025-09-01 17:55:01 [INF] FModel.App.OnStartup: Version 4.4.4.0 (528603e1478b37e306a204629086504410e68312)
+2025-09-01 17:55:01 [INF] FModel.App.OnStartup: Windows 10 Home Single Language (64-bit)
+2025-09-01 17:55:01 [INF] FModel.App.OnStartup: .NET 8.0.17
+2025-09-01 17:55:01 [INF] FModel.App.OnStartup: Culture pt-BR
+2025-09-01 17:55:05 [WRN] FModel.ViewModels.ApiEndpoints.FModelApiEndpoint.CheckForUpdateEvent: A new update is available! Version 4.4.4.0 (d3f93021c66b8861c2f8415cf182c6296864cb18)
+2025-09-01 17:55:07 [INF] FModel.ViewModels.CUE4ParseViewModel.<Initialize>b__40_0: GAME_Valorant (DesktopMobile) | Archives: x33 | AES: x1 | Loose Files: x0
+2025-09-01 17:55:07 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk100-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-09-01 17:55:07 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk3-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-09-01 17:55:07 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk100-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0400891
+2025-09-01 17:55:07 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk3-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0463640
+2025-09-01 17:55:07 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk100-WindowsClient.utoc": 997 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0332446
+2025-09-01 17:55:07 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk0-WindowsClient.utoc": 19751 files, order 3, version 5 in 00:00:00.1200207
+2025-09-01 17:55:07 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pt_BR_Audio-WindowsClient.pak": 13668 files, mount point: "ShooterGame/Content/WwiseAudio/", order 3, version 11 in 00:00:00.0919157
+2025-09-01 17:55:07 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk103-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-09-01 17:55:07 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk103-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0005430
+2025-09-01 17:55:07 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk102-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-09-01 17:55:07 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk102-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0002787
+2025-09-01 17:55:07 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk103-WindowsClient.utoc": 91 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0002867
+2025-09-01 17:55:08 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "MatureData-WindowsClient.utoc": 46 files, mount point: "ShooterGame/Content/L10N/Mature/", order 3, version 5 in 00:00:00.0010584
+2025-09-01 17:55:08 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk4-WindowsClient.utoc": 202 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0004620
+2025-09-01 17:55:08 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk101-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-09-01 17:55:08 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk101-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0012623
+2025-09-01 17:55:08 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk104-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-09-01 17:55:08 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk104-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0004335
+2025-09-01 17:55:08 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk199-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-09-01 17:55:08 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk199-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0005343
+2025-09-01 17:55:08 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pt_BR_Text-WindowsClient.pak": 1 files, mount point: "ShooterGame/Content/Localization/Game/pt-BR/", order 3, version 11 in 00:00:00.0002768
+2025-09-01 17:55:08 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk1-WindowsClient.pak": 1 files, mount point: "ShooterGame/Content/UI/Fonts/FinalFonts/LOCFonts/DIN_Next_Arabic/", order 3, version 11 in 00:00:00.0019462
+2025-09-01 17:55:08 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk0-WindowsClient.pak": 56126 files (71 encrypted), order 3, version 11 in 00:00:00.4979155
+2025-09-01 17:55:08 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk10-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-09-01 17:55:08 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk10-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0006313
+2025-09-01 17:55:08 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "MatureData-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-09-01 17:55:08 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "MatureData-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0005837
+2025-09-01 17:55:08 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk2-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-09-01 17:55:08 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk2-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0005086
+2025-09-01 17:55:08 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk2-WindowsClient.utoc": 4795 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.2560316
+2025-09-01 17:55:08 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk3-WindowsClient.utoc": 4606 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.1918154
+2025-09-01 17:55:08 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk4-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-09-01 17:55:08 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk4-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0006614
+2025-09-01 17:55:08 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk15-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-09-01 17:55:08 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk15-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0007605
+2025-09-01 17:55:08 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk101-WindowsClient.utoc": 2214 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0229559
+2025-09-01 17:55:08 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk15-WindowsClient.utoc": 1337 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0135603
+2025-09-01 17:55:08 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk199-WindowsClient.utoc": 1299 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0214984
+2025-09-01 17:55:08 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk104-WindowsClient.utoc": 1197 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0119509
+2025-09-01 17:55:08 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk102-WindowsClient.utoc": 1019 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0164959
+2025-09-01 17:55:08 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk1-WindowsClient.utoc": 68153 files, order 3, version 5 in 00:00:00.9767593
+2025-09-01 17:55:09 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk10-WindowsClient.utoc": 162412 files, order 3, version 5 in 00:00:01.0758737
+2025-09-01 17:55:10 [INF] FModel.ViewModels.CUE4ParseViewModel.LoadVfs: Project: ShooterGame | Mounted: 30/33 | AES: 1/1 | Files: x337915
+2025-09-01 17:55:11 [INF] FModel.ViewModels.ApiEndpoints.FModelApiEndpoint+<GetNewsAsync>d__9.MoveNext: ["Get"] [OK(200)] 'https://api.fmodel.app/v1/news/4.4.4.0?game=ShooterGame'
+2025-09-01 17:55:11 [INF] FModel.ViewModels.CUE4ParseViewModel+<>c__DisplayClass45_0.<InitMappings>b__0: Mappings pulled from 'Valorant.usmap'
+2025-09-01 17:55:12 [INF] FModel.Services.DiscordHandler+<>c.<Initialize>b__6_0: @_sophia00 (730806782137597964) is now ready
+2025-09-01 17:55:28 [INF] FModel.App.AppExit: ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+2025-09-01 17:55:40 [INF] FModel.App.OnStartup: Version 4.4.4.0 (528603e1478b37e306a204629086504410e68312)
+2025-09-01 17:55:40 [INF] FModel.App.OnStartup: Windows 10 Home Single Language (64-bit)
+2025-09-01 17:55:40 [INF] FModel.App.OnStartup: .NET 8.0.17
+2025-09-01 17:55:40 [INF] FModel.App.OnStartup: Culture pt-BR
+2025-09-01 17:55:42 [WRN] FModel.ViewModels.ApiEndpoints.FModelApiEndpoint.CheckForUpdateEvent: A new update is available! Version 4.4.4.0 (d3f93021c66b8861c2f8415cf182c6296864cb18)
+2025-09-01 17:55:46 [INF] FModel.ViewModels.CUE4ParseViewModel.<Initialize>b__40_0: GAME_Valorant (DesktopMobile) | Archives: x33 | AES: x1 | Loose Files: x0
+2025-09-01 17:55:46 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk103-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-09-01 17:55:46 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk100-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk4-WindowsClient.utoc": 202 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0282772
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk100-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0278446
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk103-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0277366
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "MatureData-WindowsClient.utoc": 46 files, mount point: "ShooterGame/Content/L10N/Mature/", order 3, version 5 in 00:00:00.0283068
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk100-WindowsClient.utoc": 997 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0282810
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk104-WindowsClient.utoc": 1197 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0012243
+2025-09-01 17:55:46 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk102-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk102-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0005769
+2025-09-01 17:55:46 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk4-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk4-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0003057
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk1-WindowsClient.pak": 1 files, mount point: "ShooterGame/Content/UI/Fonts/FinalFonts/LOCFonts/DIN_Next_Arabic/", order 3, version 11 in 00:00:00.0019775
+2025-09-01 17:55:46 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk199-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk199-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0004891
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk103-WindowsClient.utoc": 91 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0005240
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk101-WindowsClient.utoc": 2214 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0033485
+2025-09-01 17:55:46 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk3-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk3-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0006230
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk15-WindowsClient.utoc": 1337 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0132251
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pt_BR_Audio-WindowsClient.pak": 13668 files, mount point: "ShooterGame/Content/WwiseAudio/", order 3, version 11 in 00:00:00.1311118
+2025-09-01 17:55:46 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "MatureData-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "MatureData-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0006268
+2025-09-01 17:55:46 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk15-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk15-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0002506
+2025-09-01 17:55:46 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk2-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk2-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0002921
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk199-WindowsClient.utoc": 1299 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0157681
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk0-WindowsClient.utoc": 19751 files, order 3, version 5 in 00:00:00.2416831
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pt_BR_Text-WindowsClient.pak": 1 files, mount point: "ShooterGame/Content/Localization/Game/pt-BR/", order 3, version 11 in 00:00:00.0002403
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk2-WindowsClient.utoc": 4795 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0143708
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk0-WindowsClient.pak": 56126 files (71 encrypted), order 3, version 11 in 00:00:00.5547695
+2025-09-01 17:55:46 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk104-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk104-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0005078
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk102-WindowsClient.utoc": 1019 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.0155554
+2025-09-01 17:55:46 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk101-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk101-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0005485
+2025-09-01 17:55:46 [WRN] CUE4Parse.UE4.VirtualFileSystem.AbstractVfsReader.ValidateMountPoint: "pakchunk10-WindowsClient.pak" has strange mount point "/", mounting to root
+2025-09-01 17:55:46 [INF] CUE4Parse.UE4.Pak.PakFileReader.Mount: Pak "pakchunk10-WindowsClient.pak": 0 files, order 3, version 11 in 00:00:00.0005880
+2025-09-01 17:55:47 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk3-WindowsClient.utoc": 4606 files, mount point: "ShooterGame/Content/", order 3, version 5 in 00:00:00.1631231
+2025-09-01 17:55:47 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk1-WindowsClient.utoc": 68153 files, order 3, version 5 in 00:00:00.9165751
+2025-09-01 17:55:48 [INF] CUE4Parse.UE4.IO.IoStoreReader.Mount: IoStore "pakchunk10-WindowsClient.utoc": 162412 files, order 3, version 5 in 00:00:01.5719069
+2025-09-01 17:55:49 [INF] FModel.ViewModels.CUE4ParseViewModel.LoadVfs: Project: ShooterGame | Mounted: 30/33 | AES: 1/1 | Files: x337915
+2025-09-01 17:55:50 [INF] FModel.ViewModels.ApiEndpoints.FModelApiEndpoint+<GetNewsAsync>d__9.MoveNext: ["Get"] [OK(200)] 'https://api.fmodel.app/v1/news/4.4.4.0?game=ShooterGame'
+2025-09-01 17:55:50 [INF] FModel.ViewModels.CUE4ParseViewModel+<>c__DisplayClass45_0.<InitMappings>b__0: Mappings pulled from 'Valorant.usmap'
+2025-09-01 17:55:51 [INF] FModel.Services.DiscordHandler+<>c.<Initialize>b__6_0: @_sophia00 (730806782137597964) is now ready
+2025-09-01 18:00:45 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Nox_VO/Core/Play_VO_Nox_MatchStart_Attacker.uasset'
+2025-09-01 18:01:41 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.Match.StartAttacker03 (pt-BR).wav successfully saved
+2025-09-01 18:02:00 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.Match.StartAttacker01 (pt-BR).wav successfully saved
+2025-09-01 18:02:48 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.Match.StartAttacker02 (pt-BR).wav successfully saved
+2025-09-01 18:02:51 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Nox_VO/Core/Play_VO_Nox_MatchStart_Defender.uasset'
+2025-09-01 18:02:58 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.Match.StartDefender02 (pt-BR).wav successfully saved
+2025-09-01 18:02:58 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.Match.StartDefender01 (pt-BR).wav successfully saved
+2025-09-01 18:03:02 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Nox_VO/Core/Play_VO_Nox_MatchStart.uasset'
+2025-09-01 18:03:20 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.Match.Start04 (pt-BR).wav successfully saved
+2025-09-01 18:03:20 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.Match.Start06 (pt-BR).wav successfully saved
+2025-09-01 18:03:20 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.Match.Start07 (pt-BR).wav successfully saved
+2025-09-01 18:03:20 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.Match.Start01 (pt-BR).wav successfully saved
+2025-09-01 18:03:20 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.Match.Start03 (pt-BR).wav successfully saved
+2025-09-01 18:03:20 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.Match.Start02 (pt-BR).wav successfully saved
+2025-09-01 18:03:20 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.Match.Start05 (pt-BR).wav successfully saved
+2025-09-01 18:03:28 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Nox_VO/Core/Play_VO_Nox_MatchStartMap_Bonsai.uasset'
+2025-09-01 18:03:35 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Nox_VO/Core/Play_VO_Nox_MatchStartMap_Infinity.uasset'
+2025-09-01 18:03:44 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Nox_VO/Core/Play_VO_Nox_MatchStartMap_Infinity.uasset'
+2025-09-01 18:04:52 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Nox_VO/Core/Play_VO_Nox_MatchStartMap_Bonsai.uasset'
+2025-09-01 18:04:57 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Nox_VO/Core/Play_VO_Nox_MatchStartMap_Infinity.uasset'
+2025-09-01 18:05:01 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Nox_VO/Core/Play_VO_Nox_MatchStartMap_Jam.uasset'
+2025-09-01 18:05:06 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Nox_VO/Core/Play_VO_Nox_MatchStartMap_Juliet.uasset'
+2025-09-01 18:05:10 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Nox_VO/Core/Play_VO_Nox_MatchStartMap_Pitt.uasset'
+2025-09-01 18:05:15 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Nox_VO/Core/Play_VO_Nox_MatchStartMap_Port.uasset'
+2025-09-01 18:05:23 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Nox_VO/Core/Play_VO_Nox_MatchWin.uasset'
+2025-09-01 18:05:37 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.Match.Win02 (pt-BR).wav successfully saved
+2025-09-01 18:05:37 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.Match.Win04 (pt-BR).wav successfully saved
+2025-09-01 18:05:37 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.Match.Win03 (pt-BR).wav successfully saved
+2025-09-01 18:05:37 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.Match.Win01 (pt-BR).wav successfully saved
+2025-09-01 18:05:40 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Nox_VO/Core/Play_VO_Nox_MatchWinMap_Infinity.uasset'
+2025-09-01 18:05:45 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Nox_VO/Core/Play_VO_Nox_MeleeKill.uasset'
+2025-09-01 18:05:56 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Nox_VO/Core/Play_VO_Nox_PickMe.uasset'
+2025-09-01 18:06:12 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.PickMe01 (pt-BR).wav successfully saved
+2025-09-01 18:06:25 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Nox_VO/Core/Play_VO_Nox_RoundStartGeneric.uasset'
+2025-09-01 18:06:47 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.RoundStart.Generic08 (pt-BR).wav successfully saved
+2025-09-01 18:06:47 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.RoundStart.Generic03 (pt-BR).wav successfully saved
+2025-09-01 18:06:47 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.RoundStart.Generic06 (pt-BR).wav successfully saved
+2025-09-01 18:06:47 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.RoundStart.Generic01 (pt-BR).wav successfully saved
+2025-09-01 18:06:47 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.RoundStart.Generic07 (pt-BR).wav successfully saved
+2025-09-01 18:06:47 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.RoundStart.Generic05 (pt-BR).wav successfully saved
+2025-09-01 18:06:47 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.RoundStart.Generic02 (pt-BR).wem successfully saved
+2025-09-01 18:06:47 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.RoundStart.Generic04 (pt-BR).wem successfully saved
+2025-09-01 18:07:01 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Nox_VO/Core/Play_VO_Nox_WonComingBack.uasset'
+2025-09-01 18:07:21 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.RoundStart.WonComingBack03 (pt-BR).wav successfully saved
+2025-09-01 18:07:23 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Nox_VO/Core/Play_VO_Nox_WonDoingGreat.uasset'
+2025-09-01 18:07:56 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.RoundStart.WonDoingGreat04 (pt-BR).wav successfully saved
+2025-09-01 18:08:05 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.RoundStart.WonDoingGreat03 (pt-BR).wav successfully saved
+2025-09-01 18:08:17 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.RoundStart.WonDoingGreat03 (pt-BR).wav successfully saved
+2025-09-01 18:08:26 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.RoundStart.WonDoingGreat05 (pt-BR).wav successfully saved
+2025-09-01 18:08:38 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Nox_VO/Core/Play_VO_Nox_WonGeneric.uasset'
+2025-09-01 18:09:03 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.RoundStart.WonGeneric01 (pt-BR).wav successfully saved
+2025-09-01 18:09:16 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.RoundStart.WonGeneric05 (pt-BR).wav successfully saved
+2025-09-01 18:09:22 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Nox.RoundStart.WonGeneric01 (pt-BR).wav successfully saved
+2025-09-01 18:11:41 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Pandemic_VO/E02/Play_VO_Pandemic_E02_MatchWinMap_Ascent.uasset'
+2025-09-01 18:12:01 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Pandemic.E02.Match.Win[Ascent]01 (pt-BR).wav successfully saved
+2025-09-01 18:12:09 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Pandemic_VO/E02/Play_VO_Pandemic_E02_RoundStartGeneric.uasset'
+2025-09-01 18:12:15 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Pandemic.RoundStartGeneric04 (pt-BR).wav successfully saved
+2025-09-01 18:12:15 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Pandemic.E02.RoundStart.Generic11 (pt-BR).wav successfully saved
+2025-09-01 18:12:15 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Pandemic.RoundStartGeneric06 (pt-BR).wem successfully saved
+2025-09-01 18:12:15 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Pandemic.RoundStartGeneric08 (pt-BR).wem successfully saved
+2025-09-01 18:12:15 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Pandemic.RoundStartGeneric07 (pt-BR).wem successfully saved
+2025-09-01 18:12:15 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Pandemic.RoundStartGeneric01 (pt-BR).wem successfully saved
+2025-09-01 18:12:15 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Pandemic.RoundStartGeneric02 (pt-BR).wem successfully saved
+2025-09-01 18:12:15 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Pandemic.E02.RoundStart.Generic09 (pt-BR).wem successfully saved
+2025-09-01 18:12:15 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Pandemic.E02.RoundStart.Generic08 (pt-BR).wem successfully saved
+2025-09-01 18:12:15 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Pandemic.E02.RoundStart.Generic10 (pt-BR).wem successfully saved
+2025-09-01 18:12:15 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Pandemic.RoundStartGeneric03 (pt-BR).wem successfully saved
+2025-09-01 18:12:15 [INF] FModel.ViewModels.AudioPlayerViewModel.Save: Pandemic.RoundStartGeneric05 (pt-BR).wem successfully saved
+2025-09-01 18:12:20 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Pandemic_VO/E02/Play_VO_Pandemic_E02_RushThem.uasset'
+2025-09-01 18:12:33 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Pandemic_VO/E02/Play_VO_Pandemic_E02_TakePoint.uasset'
+2025-09-01 18:12:38 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Pandemic_VO/E02/Play_VO_Pandemic_E02_WonComingBack.uasset'
+2025-09-01 18:12:50 [INF] FModel.ViewModels.CUE4ParseViewModel.Extract: User DOUBLE-CLICKED to extract 'ShooterGame/Content/WwiseAudio/Events/VO/Characters/Events_Char_Pandemic_VO/E02/Play_VO_Pandemic_E02_WonDoingGreat.uasset'
+2025-09-01 18:15:58 [INF] FModel.App.AppExit: ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
