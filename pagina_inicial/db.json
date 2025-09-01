@@ -1,0 +1,2146 @@
+{
+    "Funcao": [
+        {
+            "Nome": "Iniciador",
+            "Icone": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png"
+        },
+        {
+            "Nome": "Sentinela",
+            "Icone": "https://media.valorant-api.com/agents/roles/5fc02f99-4091-4486-a531-98459a3e95e9/displayicon.png"
+        },
+        {
+            "Nome": "Controlador",
+            "Icone": "https://media.valorant-api.com/agents/roles/4ee40330-ecdd-4f2f-98a8-eb1243428373/displayicon.png"
+        },
+        {
+            "Nome": "Duelista",
+            "Icone": "https://media.valorant-api.com/agents/roles/dbe8757e-9e92-4ed4-b39f-9dfc589691d4/displayicon.png"
+        }
+    ],
+    "agentes": [
+        {
+            "Nome": "Astra",
+            "Genero": "Feminino",
+            "Funcao": "Controlador",
+            "Lancamento": "2021",
+            "icone": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Pulso Nova",
+                    "icone": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability1/displayicon.png"
+                },
+                {
+                    "Nome": "Nebulosa",
+                    "icone": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ability2/displayicon.png"
+                },
+                {
+                    "Nome": "Poço Gravitacional",
+                    "icone": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Divisão Cósmica",
+                    "icone": "https://media.valorant-api.com/agents/41fb69c1-4189-7b37-f117-bcaf1e96f1bf/abilities/ultimate/displayicon.png"
+                }
+            ]
+        },
+        {
+            "Nome": "Breach",
+            "Genero": "Masculino",
+            "Funcao": "Iniciador",
+            "Lancamento": "2020",
+            "icone": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Estopim",
+                    "icone": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability1/displayicon.png"
+                },
+                {
+                    "Nome": "Falha Tectônica",
+                    "icone": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Pós-Choque",
+                    "icone": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ability2/displayicon.png "
+                },
+                {
+                    "Nome": "Onda Trovejante",
+                    "icone": "https://media.valorant-api.com/agents/5f8d3a7f-467b-97f3-062c-13acf203c006/abilities/ultimate/displayicon.png"
+                }
+            ]
+        },
+        {
+            "Nome": "Brimstone",
+            "Genero": "Masculino",
+            "Funcao": "Controlador",
+            "Lancamento": "2020",
+            "icone": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Incendiário",
+                    "icone": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability1/displayicon.png"
+                },
+                {
+                    "Nome": "Fumaça Celeste",
+                    "icone": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ability2/displayicon.png"
+                },
+                {
+                    "Nome": "Sinalizador Estimulante",
+                    "icone": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Ataque Orbital",
+                    "icone": "https://media.valorant-api.com/agents/9f0d8ba9-4140-b941-57d3-a7ad57c6b417/abilities/ultimate/displayicon.png"
+                }
+            ]
+        },
+        {
+            "Nome": "Chamber",
+            "Genero": "Masculino",
+            "Funcao": "Sentinela",
+            "Lancamento": "2021",
+            "icone": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Caçador de Cabeças",
+                    "icone": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability1/displayicon.png"
+                },
+                {
+                    "Nome": "Rendezvous",
+                    "icone": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability2/displayicon.png"
+                },
+                {
+                    "Nome": "Marca Registrada",
+                    "icone": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Tour de Force",
+                    "icone": "https://media.valorant-api.com/agents/22697a3d-45bf-8dd7-4fec-84a9e28c69d7/abilities/ability1/displayicon.png "
+                }
+            ]
+        },
+        {
+            "Nome": "Clove",
+            "Genero": "Não-Binário",
+            "Funcao": "Controlador",
+            "Lancamento": "2024",
+            "icone": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Desvitalização",
+                    "icone": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability1/displayicon.png"
+                },
+                {
+                    "Nome": "Artimanha",
+                    "icone": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ability2/displayicon.png"
+                },
+                {
+                    "Nome": "Revitalizar",
+                    "icone": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Ainda não morri",
+                    "icone": "https://media.valorant-api.com/agents/1dbf2edd-4729-0984-3115-daa5eed44993/abilities/ultimate/displayicon.png"
+                }
+            ]
+        },
+        {
+            "Nome": "Cypher",
+            "Genero": "Masculino",
+            "Funcao": "Sentinela",
+            "Lancamento": "2020",
+            "icone": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Jaula Cibernética",
+                    "icone": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability1/displayicon.png"
+                },
+                {
+                    "Nome": "Câmera de Vigilância",
+                    "icone": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ability2/displayicon.png"
+                },
+                {
+                    "Nome": "Fio-armadilha",
+                    "icone": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Assalto Neural",
+                    "icone": "https://media.valorant-api.com/agents/117ed9e3-49f3-6512-3ccf-0cada7e3823b/abilities/ultimate/displayicon.png"
+                }
+            ]
+        },
+        {
+            "Nome": "Deadlock",
+            "Genero": "Feminino",
+            "Funcao": "Sentinela",
+            "Lancamento": "2023",
+            "icone": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Sensor Sônico",
+                    "icone": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ability1/displayicon.png"
+                },
+                {
+                    "Nome": "Barreira de contenção",
+                    "icone": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Gravnet",
+                    "icone": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ability2/displayicon.png"
+                },
+                {
+                    "Nome": "Aniquilação",
+                    "icone": "https://media.valorant-api.com/agents/cc8b64c8-4b25-4ff9-6e7f-37b4da43d235/abilities/ultimate/displayicon.png"
+                }
+            ]
+        },
+        {
+            "Nome": "Fade",
+            "Genero": "Feminino",
+            "Funcao": "Iniciador",
+            "Lancamento": "2022",
+            "icone": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Clausura",
+                    "icone": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability1/displayicon.png"
+                },
+                {
+                    "Nome": "Assombrar",
+                    "icone": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ability2/displayicon.png"
+                },
+                {
+                    "Nome": "Espreitador",
+                    "icone": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Véu da noite",
+                    "icone": "https://media.valorant-api.com/agents/dade69b4-4f5a-8528-247b-219e5a1facd6/abilities/ultimate/displayicon.png"
+                }
+            ]
+        },
+        {
+            "Nome": "Gekko",
+            "Genero": "Masculino",
+            "Funcao": "Iniciador",
+            "Lancamento": "2023",
+            "icone": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Wingman",
+                    "icone": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability1/displayicon.png"
+                },
+                {
+                    "Nome": "Dizzy",
+                    "icone": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ability2/displayicon.png"
+                },
+                {
+                    "Nome": "Mosh pit",
+                    "icone": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Thrash",
+                    "icone": "https://media.valorant-api.com/agents/e370fa57-4757-3604-3648-499e1f642d3f/abilities/ultimate/displayicon.png"
+                }
+            ]
+        },
+        {
+            "Nome": "Harbor",
+            "Genero": "Masculino",
+            "Funcao": "Controlador",
+            "Lancamento": "2022",
+            "icone": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Enseada",
+                    "icone": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability1/displayicon.png"
+                },
+                {
+                    "Nome": "Maré Alta",
+                    "icone": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ability2/displayicon.png"
+                },
+                {
+                    "Nome": "Cascata",
+                    "icone": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Retaliação",
+                    "icone": "https://media.valorant-api.com/agents/95b78ed7-4637-86d9-7e41-71ba8c293152/abilities/ultimate/displayicon.png"
+                }
+            ]
+        },
+        {
+            "Nome": "Iso",
+            "Genero": "Masculino",
+            "Funcao": "Duelista",
+            "Lancamento": "2023",
+            "icone": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Centelha debilitante",
+                    "icone": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability1/displayicon.png"
+                },
+                {
+                    "Nome": "Fluxo protetor",
+                    "icone": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ability2/displayicon.png"
+                },
+                {
+                    "Nome": "Contingência",
+                    "icone": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Contrato de abate",
+                    "icone": "https://media.valorant-api.com/agents/0e38b510-41a8-5780-5e8f-568b2a4f2d6c/abilities/ultimate/displayicon.png"
+                }
+            ]
+        },
+        {
+            "Nome": "Jett",
+            "Genero": "Feminino",
+            "Funcao": "Duelista",
+            "Lancamento": "2020",
+            "icone": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Corrente Ascendente",
+                    "icone": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability1/displayicon.png"
+                },
+                {
+                    "Nome": "Brisa de Impulso",
+                    "icone": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ability2/displayicon.png"
+                },
+                {
+                    "Nome": "Erupção das Brumas",
+                    "icone": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Tormenta de Aço",
+                    "icone": "https://media.valorant-api.com/agents/add6443a-41bd-e414-f6ad-e58d267f4e95/abilities/ultimate/displayicon.png"
+                }
+            ]
+        },
+        {
+            "Nome": "KAY/O",
+            "Genero": "Masculino",
+            "Funcao": "Iniciador",
+            "Lancamento": "2021",
+            "icone": "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Granada/clarão",
+                    "icone": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability1/displayicon.png"
+                },
+                {
+                    "Nome": "Ponto/zero",
+                    "icone": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ability2/displayicon.png"
+                },
+                {
+                    "Nome": "Frag/mento",
+                    "icone": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Anular/cmd",
+                    "icone": "https://media.valorant-api.com/agents/601dbbe7-43ce-be57-2a40-4abd24953621/abilities/ultimate/displayicon.png"
+                }
+            ]
+        },
+        {
+            "Nome": "Killjoy",
+            "Genero": "Feminino",
+            "Funcao": "Sentinela",
+            "Lancamento": "2020",
+            "icone": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Robô de alarme",
+                    "icone": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability1/displayicon.png"
+                },
+                {
+                    "Nome": "Torreta",
+                    "icone": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ability2/displayicon.png"
+                },
+                {
+                    "Nome": "Nanoenxame",
+                    "icone": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Confinamento",
+                    "icone": "https://media.valorant-api.com/agents/1e58de9c-4950-5125-93e9-a0aee9f98746/abilities/ultimate/displayicon.png"
+                }
+            ]
+        },
+        {
+            "Nome": "Neon",
+            "Genero": "Feminino",
+            "Funcao": "Duelista",
+            "Lancamento": "2022",
+            "icone": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Ricochete elétrico",
+                    "icone": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ability1/displayicon.png"
+                },
+                {
+                    "Nome": "Equipamento voltaico",
+                    "icone": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ability2/displayicon.png"
+                },
+                {
+                    "Nome": "Via expressa",
+                    "icone": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Sobrecarga",
+                    "icone": "https://media.valorant-api.com/agents/bb2a4828-46eb-8cd1-e765-15848195d751/abilities/ultimate/displayicon.png"
+                }
+            ]
+        },
+        {
+            "Nome": "Omen",
+            "Genero": "Masculino",
+            "Funcao": "Controlador",
+            "Lancamento": "2020",
+            "icone": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Paranoia",
+                    "icone": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability1/displayicon.png"
+                },
+                {
+                    "Nome": "Manto Sombrio",
+                    "icone": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ability2/displayicon.png"
+                },
+                {
+                    "Nome": "Passos Tenebrosos",
+                    "icone": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Salto das Sombras",
+                    "icone": "https://media.valorant-api.com/agents/8e253930-4c05-31dd-1b6c-968525494517/abilities/ultimate/displayicon.png"
+                }
+            ]
+        },
+        {
+            "Nome": "Phoenix",
+            "Genero": "Masculino",
+            "Funcao": "Duelista",
+            "Lancamento": "2020",
+            "icone": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Bola Curva",
+                    "icone": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability2/displayicon.png"
+                },
+                {
+                    "Nome": "Mãos Quentes",
+                    "icone": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ability1/displayicon.png"
+                },
+                {
+                    "Nome": "Labareda",
+                    "icone": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Renascimento",
+                    "icone": "https://media.valorant-api.com/agents/eb93336a-449b-9c1b-0a54-a891f7921d69/abilities/ultimate/displayicon.png"
+                }
+            ]
+        },
+        {
+            "Nome": "Raze",
+            "Genero": "Feminino",
+            "Funcao": "Duelista",
+            "Lancamento": "2020",
+            "icone": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Carga de Explosivos",
+                    "icone": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability1/displayicon.png"
+                },
+                {
+                    "Nome": "Cartuchos de Tinta",
+                    "icone": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ability2/displayicon.png"
+                },
+                {
+                    "Nome": "Bumba",
+                    "icone": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Estraga-Prazeres",
+                    "icone": "https://media.valorant-api.com/agents/f94c3b30-42be-e959-889c-5aa313dba261/abilities/ultimate/displayicon.png"
+                }
+            ]
+        },
+        {
+            "Nome": "Reyna",
+            "Genero": "Feminino",
+            "Funcao": "Duelista",
+            "Lancamento": "2020",
+            "icone": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Devorar",
+                    "icone": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability1/displayicon.png "
+                },
+                {
+                    "Nome": "Dispersar",
+                    "icone": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ability2/displayicon.png"
+                },
+                {
+                    "Nome": "Olhar Voraz",
+                    "icone": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Imperatriz",
+                    "icone": "https://media.valorant-api.com/agents/a3bfb853-43b2-7238-a4f1-ad90e9e46bcc/abilities/ultimate/displayicon.png"
+                }
+            ]
+        },
+        {
+            "Nome": "Sage",
+            "Genero": "Feminino",
+            "Funcao": "Sentinela",
+            "Lancamento": "2020",
+            "icone": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Orbe de Lentidão",
+                    "icone": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability1/displayicon.png"
+                },
+                {
+                    "Nome": "Orbe curativo",
+                    "icone": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ability2/displayicon.png"
+                },
+                {
+                    "Nome": "Orbe de Barreira",
+                    "icone": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Ressurreição",
+                    "icone": "https://media.valorant-api.com/agents/569fdd95-4d10-43ab-ca70-79becc718b46/abilities/ultimate/displayicon.png"
+                }
+            ]
+        },
+        {
+            "Nome": "Skye",
+            "Genero": "Feminino",
+            "Funcao": "Iniciador",
+            "Lancamento": "2020",
+            "icone": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Predador Explosivo",
+                    "icone": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability1/displayicon.png"
+                },
+                {
+                    "Nome": "Luz desbravadora",
+                    "icone": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ability2/displayicon.png"
+                },
+                {
+                    "Nome": "Reflorescer",
+                    "icone": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Rastreadores",
+                    "icone": "https://media.valorant-api.com/agents/6f2a04ca-43e0-be17-7f36-b3908627744d/abilities/ultimate/displayicon.png"
+                }
+            ]
+        },
+        {
+            "Nome": "Sova",
+            "Genero": "Masculino",
+            "Funcao": "Iniciador",
+            "Lancamento": "2020",
+            "icone": "https://media.valorant-api.com/agents/ded3520f-4264-bfed-162d-b080e2abccf9/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Flecha de Choque",
+                    "icone": "https://media.valorant-api.com/agents/ded3520f-4264-bfed-162d-b080e2abccf9/abilities/ability1/displayicon.png"
+                },
+                {
+                    "Nome": "Flecha Rastreadora",
+                    "icone": "https://media.valorant-api.com/agents/ded3520f-4264-bfed-162d-b080e2abccf9/abilities/ability2/displayicon.png"
+                },
+                {
+                    "Nome": "Drone Coruja",
+                    "icone": "https://media.valorant-api.com/agents/ded3520f-4264-bfed-162d-b080e2abccf9/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Fúria do Caçador",
+                    "icone": "https://media.valorant-api.com/agents/ded3520f-4264-bfed-162d-b080e2abccf9/abilities/ultimate/displayicon.png"
+                }
+            ]
+        },
+        {
+            "Nome": "Tejo",
+            "Genero": "Masculino",
+            "Funcao": "Iniciador",
+            "Lancamento": "2025",
+            "icone": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Drone furtivo",
+                    "icone": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Entrega especial",
+                    "icone": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability1/displayicon.png"
+                },
+                {
+                    "Nome": "Rajada guiada",
+                    "icone": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ability2/displayicon.png"
+                },
+                {
+                    "Nome": "Armagedom",
+                    "icone": "https://media.valorant-api.com/agents/b444168c-4e35-8076-db47-ef9bf368f384/abilities/ultimate/displayicon.png"
+                }
+            ]
+        },
+        {
+            "Nome": "Viper",
+            "Genero": "Feminino",
+            "Funcao": "Controlador",
+            "Lancamento": "2020",
+            "icone": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Nuvem venenosa",
+                    "icone": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability1/displayicon.png"
+                },
+                {
+                    "Nome": "Cortina Tóxica",
+                    "icone": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ability2/displayicon.png"
+                },
+                {
+                    "Nome": "Veneno de Cobra",
+                    "icone": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Poço Peçonhento",
+                    "icone": "https://media.valorant-api.com/agents/707eab51-4836-f488-046a-cda6bf494859/abilities/ultimate/displayicon.png"
+                }
+            ]
+        },
+        {
+            "Nome": "Waylay",
+            "Genero": "Feminino",
+            "Funcao": "Duelista",
+            "Lancamento": "2025",
+            "icone": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Saturação",
+                    "icone": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Velocidade da luz",
+                    "icone": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ability1/displayicon.png"
+                },
+                {
+                    "Nome": "Refração",
+                    "icone": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ability2/displayicon.png"
+                },
+                {
+                    "Nome": "Caminhos convergentes",
+                    "icone": "https://media.valorant-api.com/agents/df1cb487-4902-002e-5c17-d28e83e78588/abilities/ultimate/displayicon.png"
+                }
+            ]
+        },
+        {
+            "Nome": "Vyse",
+            "Genero": "Feminino",
+            "Funcao": "Sentinela",
+            "Lancamento": "2025",
+            "icone": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Cerca-viva",
+                    "icone": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ability1/displayicon.png"
+                },
+                {
+                    "Nome": "Rosa arcana",
+                    "icone": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ability2/displayicon.png"
+                },
+                {
+                    "Nome": "Espinho cortante",
+                    "icone": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Jardim de aço",
+                    "icone": "https://media.valorant-api.com/agents/efba5359-4016-a1e5-7626-b1ae76895940/abilities/ultimate/displayicon.png"
+                }
+            ]
+        },
+        {
+            "Nome": "Yoru",
+            "Genero": "Masculino",
+            "Funcao": "Duelista",
+            "Lancamento": "2021",
+            "icone": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/displayicon.png",
+            "Habilidades": [
+                {
+                    "Nome": "Ponto Cego",
+                    "icone": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability1/displayicon.png"
+                },
+                {
+                    "Nome": "Passagem Dimensional",
+                    "icone": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ability2/displayicon.png"
+                },
+                {
+                    "Nome": "Distração",
+                    "icone": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/grenade/displayicon.png"
+                },
+                {
+                    "Nome": "Espionagem Dimensional",
+                    "icone": "https://media.valorant-api.com/agents/7f94d92c-4234-0a36-9646-3a87eb8b5c89/abilities/ultimate/displayicon.png"
+                }
+            ]
+        }
+    ],
+    "Mapas": [
+        {
+            "Abyss": [
+                {
+                    "Icone": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/abyss/abyss.png"
+                },
+                {
+                    "Call": "surgimento",
+                    "Local": "Lado atacante",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/abyss/abyss-surgimento_no_lado_atacante.jfif"
+                },
+                {
+                    "Call": "surgimento",
+                    "Local": "Lado defensor",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/abyss/abyss-surgimento_no_lado_defensor.jfif"
+                },
+                {
+                    "Call": "Beirada",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/abyss/abyss-beirada_a.jfif"
+                },
+                {
+                    "Call": "Segurança",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/abyss/abyss-seguranca_a.jfif"
+                },
+                {
+                    "Call": "Link",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/abyss/abyss-link_a.jfif"
+                },
+                {
+                    "Call": "Ponte",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/abyss/abyss-ponte_a.jfif"
+                },
+                {
+                    "Call": "Ponto",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/abyss/abyss-ponto_a.jfif"
+                },
+                {
+                    "Call": "Torre",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/abyss/abyss-torre_a.jfif"
+                },
+                {
+                    "Call": "Duto",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/abyss/abyss-duto_a.jfif"
+                },
+                {
+                    "Call": "Principal",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/abyss/abyss-principal_a.jfif"
+                },
+                {
+                    "Call": "Lobby",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/abyss/abyss-lobby_a.jfif"
+                },
+                {
+                    "Call": "Baixo",
+                    "Local": "Meio",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/abyss/abyss-baixo_meio.jfif"
+                },
+                {
+                    "Call": "Passarela",
+                    "Local": "Meio",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/abyss/abyss-passarela_meio.jfif"
+                },
+                {
+                    "Call": "Biblioteca",
+                    "Local": "Meio",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/abyss/abyss-biblioteca_meio.jfif"
+                },
+                {
+                    "Call": "Topo",
+                    "Local": "Meio",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/abyss/abyss-topo_meio.jfif"
+                },
+                {
+                    "Call": "Quina",
+                    "Local": "Meio",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/abyss/abyss-quina_meio.jfif"
+                },
+                {
+                    "Call": "Link",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/abyss/abyss-link_b.png"
+                },
+                {
+                    "Call": "Torre",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/abyss/abyss-torre_b.png"
+                },
+                {
+                    "Call": "Ponto",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/abyss/abyss-ponto_b.png"
+                },
+                {
+                    "Call": "Queda",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/abyss/abyss-queda_b.jfif"
+                },
+                {
+                    "Call": "Ninho",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/abyss/abyss-ninho_b.jfif"
+                },
+                {
+                    "Call": "Principal",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/abyss/abyss-principal_b.jfif"
+                },
+                {
+                    "Call": "Lobby",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/abyss/abyss-lobby_b.jfif"
+                }
+            ],
+            "Ascent": [
+                {
+                    "Icone": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/ascent/ascent.png"
+                },
+                {
+                    "Call": "surgimento",
+                    "Local": "Lado atacante",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/ascent/ascent-surgimento_no_lado_atacante.jfif"
+                },
+                {
+                    "Call": "surgimento",
+                    "Local": "Lado defensor",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/ascent/ascent-surgimento_no_lado_defensor.jfif"
+                },
+                {
+                    "Call": "Janela",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/ascent/ascent-janela_a.jfif"
+                },
+                {
+                    "Call": "Vigas",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/ascent/ascent-vigas_a.jfif"
+                },
+                {
+                    "Call": "Jardim",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/ascent/ascent-jardim_a.jfif"
+                },
+                {
+                    "Call": "Ponto",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/ascent/ascent-ponto_a.jfif"
+                },
+                {
+                    "Call": "Árvore",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/ascent/ascent-arvore_a.jfif"
+                },
+                {
+                    "Call": "Vinho",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/ascent/ascent-vinho_a.jfif"
+                },
+                {
+                    "Call": "Saguão",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/ascent/ascent-saguao_a.jfif"
+                },
+                {
+                    "Call": "Topo",
+                    "Local": "Meio",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/ascent/ascent-topo_meio.jfif"
+                },
+                {
+                    "Call": "Passarela",
+                    "Local": "Meio",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/ascent/ascent-passarela_meio.jfif"
+                },
+                {
+                    "Call": "Link",
+                    "Local": "Meio",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/ascent/ascent-link_meio.jfif"
+                },
+                {
+                    "Call": "Pátio",
+                    "Local": "Meio",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/ascent/ascent-patio_meio.jfif"
+                },
+                {
+                    "Call": "Nicho",
+                    "Local": "Meio",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/ascent/ascent-nicho_meio.jfif"
+                },
+                {
+                    "Call": "Baixo",
+                    "Local": "Meio",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/ascent/ascent-baixo_meio.jfif"
+                },
+                {
+                    "Call": "Pizza",
+                    "Local": "Meio",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/ascent/ascent-pizza_meio.jfif"
+                },
+                {
+                    "Call": "Mercado",
+                    "Local": "Meio",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/ascent/ascent-meio.jfif"
+                },
+                {
+                    "Call": "Saguão",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/ascent/ascent-saguao_b.jfif"
+                },
+                {
+                    "Call": "Principal",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/ascent/ascent-principal_b.jfif"
+                },
+                {
+                    "Call": "Ponto",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/ascent/ascent-ponto_b.jfif"
+                },
+                {
+                    "Call": "Casa de barcos",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/ascent/ascent-casa_de_barcos_b.jfif"
+                }
+            ],
+            "Bind": [
+                {
+                    "Icone": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/bind/bind.png"
+                },
+                {
+                    "Call": "surgimento",
+                    "Local": "Lado atacante",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/bind/bind-surgimento_no_lado_atacante.jfif"
+                },
+                {
+                    "Call": "surgimento",
+                    "Local": "Lado defensor",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/bind/bind-surgimento_no_lado_defensor.jfif"
+                },
+                {
+                    "Call": "Torre",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/bind/bind-torre_a.jfif"
+                },
+                {
+                    "Call": "Luzes",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/bind/bind-luzes.jfif"
+                },
+                {
+                    "Call": "Ponto",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/bind/bind-ponto_a.jfif"
+                },
+                {
+                    "Call": "Teleportador",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/bind/bind-teleportador_a.jfif"
+                },
+                {
+                    "Call": "Banheiro",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/bind/bind-banheiro_a.jfif"
+                },
+                {
+                    "Call": "Nicho",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/bind/bind-nicho_a.jfif"
+                },
+                {
+                    "Call": "Curto",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/bind/bind-curto_a.jfif"
+                },
+                {
+                    "Call": "Saida",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/bind/bind-saida_a.jfif"
+                },
+                {
+                    "Call": "Saguão",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/bind/bind-saguao_a.jfif"
+                },
+                {
+                    "Call": "Link",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/bind/bind-link_a.jfif"
+                },
+                {
+                    "Call": "Caverna",
+                    "Local": "Lado atacante",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/bind/bind-caverna_no_lado_atacante.jfif"
+                },
+                {
+                    "Call": "Link",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/bind/bind-link_b.jfif"
+                },
+                {
+                    "Call": "Fonte",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/bind/bind-fonte_b.jfif"
+                },
+                {
+                    "Call": "Curto",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/bind/bind-curto_b.jfif"
+                },
+                {
+                    "Call": "Longo",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/bind/bind-longo_b.jfif"
+                },
+                {
+                    "Call": "Teleportador",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/bind/bind-teleportador_b.jfif"
+                },
+                {
+                    "Call": "Janela",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/bind/bind-janela_b.jfif"
+                },
+                {
+                    "Call": "Saida",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/bind/bind-saida_b.jfif"
+                },
+                {
+                    "Call": "Jardim",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/bind/bind-jardim_b.jfif"
+                },
+                {
+                    "Call": "Esquina",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/bind/bind-esquina_b.jfif"
+                },
+                {
+                    "Call": "Ponto",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/bind/bind-ponto_b.jfif"
+                },
+                {
+                    "Call": "Salão",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/bind/bind-salao_b.jfif"
+                }
+            ],
+            "Breeze": [
+                {
+                    "Icone": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze.png"
+                },
+                {
+                    "Call": "surgimento",
+                    "Local": "Lado atacante",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-surgimento_no_lado_atacante.jfif"
+                },
+                {
+                    "Call": "surgimento",
+                    "Local": "Lado defensor",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-surgimento_no_lado_devensor.jfif"
+                },
+                {
+                    "Call": "Saguão",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-saguao_a.jfif"
+                },
+                {
+                    "Call": "Pirâmides",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-piramides_a.jfif"
+                },
+                {
+                    "Call": "Ponto",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-ponto_a.jfif"
+                },
+                {
+                    "Call": "Loja",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-loja_a.jfif"
+                },
+                {
+                    "Call": "Salão",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-ponto_a.jfif"
+                },
+                {
+                    "Call": "Botão",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-botao_a.jfif"
+                },
+                {
+                    "Call": "Portas de metal",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-portas_de_metal_a.jfif"
+                },
+                {
+                    "Call": "Ponte",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-ponte_a.jfif"
+                },
+                {
+                    "Call": "Corda",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-corda_a.jfif"
+                },
+                {
+                    "Call": "Portas de madeira",
+                    "Local": "Meio",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-portas_de_madeira_meio.jfif"
+                },
+                {
+                    "Call": "Baixo",
+                    "Local": "Meio",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-baixo_meio.jfif"
+                },
+                {
+                    "Call": "Rampa",
+                    "Local": "Meio",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-rampa_meio.jfif"
+                },
+                {
+                    "Call": "Pilar",
+                    "Local": "Meio",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-pilar_meio.jfif"
+                },
+                {
+                    "Call": "Topo",
+                    "Local": "Meio",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-topo_meio.jfif"
+                },
+                {
+                    "Call": "Ninho",
+                    "Local": "Meio",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-ninho_meio.jfif"
+                },
+                {
+                    "Call": "Canhão",
+                    "Local": "Meio",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-canhao_meio.jfif"
+                },
+                {
+                    "Call": "Cobra",
+                    "Local": "Lado atacante",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-cobra_do_lado_atacante.jfif"
+                },
+                {
+                    "Call": "Arcos",
+                    "Local": "Lado defensor",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-arco_do_lado_defensor.jfif"
+                },
+                {
+                    "Call": "Parede",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-parede_b.jfif"
+                },
+                {
+                    "Call": "Ponto",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-ponto_b.jfif"
+                },
+                {
+                    "Call": "Fundos",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-fundo_b.jfif"
+                },
+                {
+                    "Call": "Túnel",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-tunel_b.jfif"
+                },
+                {
+                    "Call": "Principal",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-principal_b.jfif"
+                },
+                {
+                    "Call": "Esquina",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-esqina_b.jfif"
+                },
+                {
+                    "Call": "Janela",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/breeze/breeze-janela_b.jfif"
+                }
+            ],
+            "Corrode": [
+                {
+                    "Icone": ""
+                },
+                {
+                    "Call": "surgimento",
+                    "Local": "Lado atacante",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/corrode/corrode-surgimento_no_lado_atacante.jfif"
+                },
+                {
+                    "Call": "surgimento",
+                    "Local": "Lado defensor",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/corrode/corrode-surgimento_no_lado_defensor.jfif"
+                },
+                {
+                    "Call": "Guindaste",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/corrode/corrode-guindaste_a.jfif"
+                },
+                {
+                    "Call": "Passagem",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/corrode/corrode-passagem_a.jfif"
+                },
+                {
+                    "Call": "Ponto",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/corrode/corrode-ponte_a.jfif"
+                },
+                {
+                    "Call": "Pátio",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/corrode/corrode-patio_a.jfif"
+                },
+                {
+                    "Call": "Portinha",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/corrode/corrode-portinha_a.jfif"
+                },
+                {
+                    "Call": "Principal",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/corrode/corrode-principal_a.jfif"
+                },
+                {
+                    "Call": "Link",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/corrode/corrode-link_a.jfif"
+                },
+                {
+                    "Call": "Acesso",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/corrode/corrode-acesso_a.jfif"
+                },
+                {
+                    "Call": "Flor",
+                    "Local": "Meio",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/corrode/corrode-flor_meio.jfif"
+                },
+                {
+                    "Call": "Escadas",
+                    "Local": "Meio",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/corrode/corrode-escadas_meio.jfif"
+                },
+                {
+                    "Call": "Patamar",
+                    "Local": "Meio",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/corrode/corrode-patamar_meio.jfif"
+                },
+                {
+                    "Call": "Janela",
+                    "Local": "Meio",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/corrode/corrode-janela_meio.jfif"
+                },
+                {
+                    "Call": "Arco",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/corrode/corrode-arco_b.jfif"
+                },
+                {
+                    "Call": "Passagem",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/corrode/corrode-passagem_b.jfif"
+                },
+                {
+                    "Call": "Torre",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/corrode/corrode-torre_b.jfif"
+                },
+                {
+                    "Call": "Ponto",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/corrode/corrode-ponto_b.jfif"
+                },
+                {
+                    "Call": "Principal",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/corrode/corrode-principal_b.jfif"
+                },
+                {
+                    "Call": "Acesso",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/corrode/corrode-acesso_b.jfif"
+                }
+            ],
+            "Fracture": [
+                {
+                    "Icone": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/fracture/fracture.png"
+                },
+                {
+                    "Call": "surgimento",
+                    "Local": "Lado atacante",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "surgimento",
+                    "Local": "Lado defensor",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/fracture/fracture-surgimento_do_lado_defensor.jfif"
+                },
+                {
+                    "Call": "Ponte",
+                    "Local": "Lado atacante",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/fracture/fracture-ponte_do_lado_atacante.jfif"
+                },
+                {
+                    "Call": "Portão",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/fracture/fracture-portao_a.jfif"
+                },
+                {
+                    "Call": "Antena",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/fracture/fracture-antena_a.jfif"
+                },
+                {
+                    "Call": "Descida",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/fracture/fracture-descida_a.jfif"
+                },
+                {
+                    "Call": "Link",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/fracture/fracture-link_a.jfif"
+                },
+                {
+                    "Call": "Ponto",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/fracture/fracture-ponto_a.jfif"
+                },
+                {
+                    "Call": "Corda",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/fracture/fracture-corda_a.jfif"
+                },
+                {
+                    "Call": "Principal",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/fracture/fracture-principal_a.jfif"
+                },
+                {
+                    "Call": "Salão",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/fracture/fracture-salao_a.jfif"
+                },
+                {
+                    "Call": "Porta",
+                    "Local": "A",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/fracture/fracture-porta_a.jfif"
+                },
+                {
+                    "Call": "Árvore",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/fracture/fracture-arvore_b.jfif"
+                },
+                {
+                    "Call": "Túnel",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/fracture/fracture-tunel_b.jfif"
+                },
+                {
+                    "Call": "Principal",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/fracture/fracture-principal_b.jfif"
+                },
+                {
+                    "Call": "Refeitório",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/fracture/fracture-refeitorio_b.jfif"
+                },
+                {
+                    "Call": "Gerador",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/fracture/fracture-gerador_b.jfif"
+                },
+                {
+                    "Call": "Ponto",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/fracture/fracture-ponto_b.jfif"
+                },
+                {
+                    "Call": "Torre",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/fracture/fracture-torre_b.jfif"
+                },
+                {
+                    "Call": "Fliperama",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/fracture/fracture-fliperama_b.jfif"
+                },
+                {
+                    "Call": "Link",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/fracture/fracture-link_b.jfif"
+                },
+                {
+                    "Call": "Banco",
+                    "Local": "B",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/fracture/fracture-banco_b.jfif"
+                }
+            ],
+            "Haven": [
+                {
+                    "Icone": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/heaven/heaven.png"
+                },
+                {
+                    "Call": "surgimento",
+                    "Local": "Lado atacante",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/heaven/heaven-surgimento_no_lado_atacante.jfif"
+                },
+                {
+                    "Call": "surgimento",
+                    "Local": "Lado defensor",
+                    "Imagem": "https://raw.githubusercontent.com/silva0102/valdlebr/refs/heads/main/mapa/img/heaven/heaven-surgimento_no_lado_defensor.jfif"
+                },
+                {
+                    "Call": "Torre",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Link",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Ponto",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Esgoto",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Longo",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Saguão",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Jardim",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Janela",
+                    "Local": "Meio",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Portas",
+                    "Local": "Meio",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Pátio",
+                    "Local": "Meio",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Ponto",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Trasseira",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Link",
+                    "Local": "C",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Janela",
+                    "Local": "C",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Garagem",
+                    "Local": "C",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Ponto",
+                    "Local": "C",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Nicho",
+                    "Local": "C",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Longo",
+                    "Local": "C",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Saguão",
+                    "Local": "C",
+                    "Imagem": ""
+                }
+            ],
+            "Icebox": [
+                {
+                    "Icone": ""
+                },
+                {
+                    "Call": "surgimento",
+                    "Local": "Lado atacante",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "surgimento",
+                    "Local": "Lado defensor",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Vigas",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Tela",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Ponto",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Canos",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Vinho",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Esteira",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Azul",
+                    "Local": "Meio",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Palete",
+                    "Local": "Meio",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Caldeira",
+                    "Local": "Meio",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Abrigo",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Fundos",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Boneco de neve",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Cozinha",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Cerca",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Salão",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Monte de neve",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Ponto",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Laranja",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Tubo",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Amarelo",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Nicho",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Verde",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Garagem",
+                    "Local": "B",
+                    "Imagem": ""
+                }
+            ],
+            "Lotus": [
+                {
+                    "Icone": ""
+                },
+                {
+                    "Call": "Base",
+                    "Local": "Lado atacante",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Base",
+                    "Local": "Lado defensor",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Topo",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Descida",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Escada",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Cabana",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Ponto",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Árvore",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Link",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Principal",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Porta",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Destroços",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Raiz",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Saguão",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Pilares",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Principal",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Ponto",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Superior",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Cascalho",
+                    "Local": "C",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Salão",
+                    "Local": "C",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Link",
+                    "Local": "C",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Ponto",
+                    "Local": "C",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Cachoeira",
+                    "Local": "C",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Desvio",
+                    "Local": "C",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Principal",
+                    "Local": "C",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Porta",
+                    "Local": "C",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Monte",
+                    "Local": "C",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Saguão",
+                    "Local": "C",
+                    "Imagem": ""
+                }
+            ],
+            "Pearl": [
+                {
+                    "Icone": ""
+                },
+                {
+                    "Call": "surgimento",
+                    "Local": "Lado atacante",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "surgimento",
+                    "Local": "Lado defensor",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Arquivos",
+                    "Local": "Lado defensor",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Água",
+                    "Local": "Lado defensor",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Segredo",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Flores",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Bunker",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Ponto",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Link",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Grafite",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Principal",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Restaurante",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Topo",
+                    "Local": "Meio",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Lojas",
+                    "Local": "Meio",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Praça",
+                    "Local": "Meio",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Passagem",
+                    "Local": "Meio",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Salão",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Túnel",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Tela",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Torre",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Ponto",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Link",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Principal",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Rampa",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Clube",
+                    "Local": "B",
+                    "Imagem": ""
+                }
+            ],
+            "Split": [
+                {
+                    "Icone": ""
+                },
+                {
+                    "Call": "surgimento",
+                    "Local": "Lado atacante",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "surgimento",
+                    "Local": "Lado defensor",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Telas",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Fundos",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Torre",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Ponto",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Vigas",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Rampas",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Principal",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Saguão",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Esgoto",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Baixo",
+                    "Local": "Meio",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Topo",
+                    "Local": "Meio",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Duto",
+                    "Local": "Meio",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Correio",
+                    "Local": "Meio",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Beco",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Escada",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Fundos",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Ponto",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Vigas",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Torre",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Garagem",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Link",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Saguão",
+                    "Local": "B",
+                    "Imagem": ""
+                }
+            ],
+            "Sunset": [
+                {
+                    "Icone": ""
+                },
+                {
+                    "Call": "surgimento",
+                    "Local": "Lado atacante",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "surgimento",
+                    "Local": "Lado defensor",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Beco",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Link",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Ponto",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Viaduto",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Principal",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Saguão",
+                    "Local": "A",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Churros",
+                    "Local": "Meio",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Ladrilhos",
+                    "Local": "Meio",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Pátio",
+                    "Local": "Meio",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Topo",
+                    "Local": "Meio",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Loja de boba",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Mercado",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Ponto",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Principal",
+                    "Local": "B",
+                    "Imagem": ""
+                },
+                {
+                    "Call": "Saguão",
+                    "Local": "B",
+                    "Imagem": ""
+                }
+            ]
+        }
+    ]
+}
